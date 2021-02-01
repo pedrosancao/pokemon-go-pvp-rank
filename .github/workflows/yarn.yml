@@ -14,11 +14,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+
     - name: Cache node packages
       id: packages-cache
       uses: actions/cache@v2
       with:
-        path: vendor
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
           ${{ runner.os }}-yarn-
@@ -30,9 +34,8 @@ jobs:
         cmd: install
 
     - name: Run test suite
-      uses: borales/actions-yarn@v2.0.0
-      with:
-        cmd: test
+      id: test
+      run: ./node_modules/.bin/jest
 
     - name: Codecov
       uses: codecov/codecov-action@v1.0.15
