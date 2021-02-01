@@ -29,9 +29,7 @@ jobs:
 
     - name: Install dependencies
       if: steps.packages-cache.outputs.cache-hit != 'true'
-      uses: borales/actions-yarn@v2.0.0
-      with:
-        cmd: install
+      run: yarn install
 
     - name: Run test suite
       id: test
