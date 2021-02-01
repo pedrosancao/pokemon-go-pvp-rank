@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Pokémon Go PVP ranking calculator",
   "type": "module",
+  "engines": {
+    "node": ">=13.2.0"
+  },
   "main": "src/main.js",
   "scripts": {
     "start": "nodemon",
