@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES6"
+  },
+  "exclude": ["coverage", "node_modules", "src/__tests__"]
+}

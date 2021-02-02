@@ -1,4 +1,62 @@
-import levelConstants, { indexToLevel, levelToIndex } from './level-constants.mjs';
+import levelConstants, { indexToLevel, levelToIndex } from './level-constants';
+import { PokedexEntry } from './pokedex';
+
+interface StatProducts {
+  attackProduct: number;
+  defenseProduct: number;
+  healthProduct: number;
+  product: number;
+  cp: number;
+}
+
+interface RankOccurence extends StatProducts {
+  attackStat: number;
+  defenseStat: number;
+  healthStat: number;
+  level: number;
+  rank: number;
+}
+
+interface RankOccurence extends StatProducts {
+  attackStat: number;
+  defenseStat: number;
+  healthStat: number;
+  level: number;
+  rank: number;
+}
+
+interface Rank {
+  rank: RankOccurence[];
+  occurence: RankOccurence;
+}
+
+interface BuildRankRequest {
+  pokedexEntry: PokedexEntry;
+  maxCP: number;
+  maxLevel?: number;
+  minimumStatValue?: number;
+}
+
+interface CalculateRankRequest extends BuildRankRequest {
+  refAttackStat: number;
+  refDefenseStat: number;
+  refHealthStat: number;
+}
+
+interface CalculateProductsRequest {
+  pokedexEntry: PokedexEntry;
+  attackStat: number;
+  defenseStat: number;
+  healthStat: number;
+  levelConstant: number;
+}
+
+interface CalculateCpRequest {
+  attack: number;
+  defense: number;
+  health: number;
+  levelConstant: number;
+}
 
 export default function calculateRank({
   pokedexEntry,
@@ -6,9 +64,9 @@ export default function calculateRank({
   refDefenseStat,
   refHealthStat,
   maxCP,
-  maxLevel,
-  minimumStatValue,
-}) {
+  maxLevel = 40,
+  minimumStatValue = 0,
+}: CalculateRankRequest): Rank {
   const rank = buildRank({
     pokedexEntry,
     maxCP,
@@ -26,9 +84,9 @@ export default function calculateRank({
 export function buildRank({
   pokedexEntry,
   maxCP,
-  maxLevel,
-  minimumStatValue,
-}) {
+  maxLevel = 40,
+  minimumStatValue = 0,
+}: BuildRankRequest): RankOccurence[] {
   const rankEntries = [];
   for (let attackStat = 15; attackStat >= minimumStatValue; attackStat--) {
     for (let defenseStat = 15; defenseStat >= minimumStatValue; defenseStat--) {
@@ -68,7 +126,7 @@ export function calculateProducts({
   defenseStat,
   healthStat,
   levelConstant,
-}) {
+}: CalculateProductsRequest): StatProducts {
   const {
     baseAttack,
     baseDefense,
@@ -98,7 +156,8 @@ function calculateCp({
   defense,
   health,
   levelConstant,
-}) {
+}: CalculateCpRequest): number {
   let value = attack * Math.sqrt(defense * health) * Math.pow(levelConstant, 2);
   return value < 100 ? 10 : Math.floor(value / 10);
 }
+

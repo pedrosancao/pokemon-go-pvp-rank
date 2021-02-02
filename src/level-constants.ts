@@ -1,4 +1,12 @@
-const levelContants = [
+export interface IndexRequest {
+  index: number;
+}
+
+export interface LevelRequest {
+  level: number;
+}
+
+const levelContants: number[] = [
   0.0939999968, // 1
   0.1351374321, // 1.5
   0.1663978696, // 2
@@ -110,13 +118,13 @@ const levelContants = [
   0.865299999713897, // 55
 ];
 
-export function levelToIndex({ level }) {
+export function levelToIndex({ level }: LevelRequest): number {
   return (level - 1) * 2;
 }
-export function indexToLevel({ index }) {
+export function indexToLevel({ index }: IndexRequest): number {
   return index / 2 + 1;
 }
-export function getConstant({ level }) {
+export function getConstant({ level }: LevelRequest): number {
   const index = levelToIndex({ level });
   if (levelContants[index]) {
     return levelContants[index];

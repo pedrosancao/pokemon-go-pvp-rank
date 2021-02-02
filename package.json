@@ -2,13 +2,9 @@
   "name": "pokemon-go-pvp-rank",
   "version": "0.1.0",
   "description": "Pokémon Go PVP ranking calculator",
-  "type": "module",
-  "engines": {
-    "node": ">=13.2.0"
-  },
-  "main": "src/main.js",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon",
+    "start": "ts-node-dev --respawn src/index.ts",
     "test": "jest"
   },
   "keywords": [
@@ -17,19 +13,33 @@
   "author": "Pedro Sanção <pedrosancao@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.20",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
-    "nodemon": "^2.0.7"
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
   },
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-typescript"
+    ]
   },
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "coverage",
     "transform": {
-      "^.+\\.m?js$": "babel-jest"
+      "^.+\\.ts$": "babel-jest"
     }
   }
 }

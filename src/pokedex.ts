@@ -1,4 +1,17 @@
-const pokedex = [
+export interface PokedexEntry {
+  number: string;
+  name: string;
+  baseAttack: number;
+  baseDefense: number;
+  baseHealth: number;
+  family: string;
+}
+
+export interface PokedexSearchRequest {
+  name: string;
+}
+
+const pokedex: PokedexEntry[] = [
   {
     number: '001',
     name: 'Bulbasaur',
@@ -1008,7 +1021,7 @@ const pokedex = [
     family: 'krabby'
   },
   {
-    number: 100,
+    number: '100',
     name: 'Voltorb',
     baseAttack: 109,
     baseDefense: 111,
@@ -1016,7 +1029,7 @@ const pokedex = [
     family: 'voltorb'
   },
   {
-    number: 101,
+    number: '101',
     name: 'Electrode',
     baseAttack: 173,
     baseDefense: 173,
@@ -1024,7 +1037,7 @@ const pokedex = [
     family: 'voltorb'
   },
   {
-    number: 102,
+    number: '102',
     name: 'Exeggcute',
     baseAttack: 107,
     baseDefense: 125,
@@ -1032,7 +1045,7 @@ const pokedex = [
     family: 'exeggcute'
   },
   {
-    number: 103,
+    number: '103',
     name: 'Exeggutor',
     baseAttack: 233,
     baseDefense: 149,
@@ -1040,7 +1053,7 @@ const pokedex = [
     family: 'exeggcute'
   },
   {
-    number: 103,
+    number: '103',
     name: 'Exeggutor Alola',
     baseAttack: 230,
     baseDefense: 153,
@@ -1048,7 +1061,7 @@ const pokedex = [
     family: 'exeggcute'
   },
   {
-    number: 104,
+    number: '104',
     name: 'Cubone',
     baseAttack: 90,
     baseDefense: 144,
@@ -1056,7 +1069,7 @@ const pokedex = [
     family: 'cubone'
   },
   {
-    number: 105,
+    number: '105',
     name: 'Marowak',
     baseAttack: 144,
     baseDefense: 186,
@@ -1064,7 +1077,7 @@ const pokedex = [
     family: 'cubone'
   },
   {
-    number: 105,
+    number: '105',
     name: 'Marowak Alola',
     baseAttack: 144,
     baseDefense: 186,
@@ -1072,7 +1085,7 @@ const pokedex = [
     family: 'cubone'
   },
   {
-    number: 106,
+    number: '106',
     name: 'Hitmonlee',
     baseAttack: 224,
     baseDefense: 181,
@@ -1080,7 +1093,7 @@ const pokedex = [
     family: 'tyrogue'
   },
   {
-    number: 107,
+    number: '107',
     name: 'Hitmonchan',
     baseAttack: 193,
     baseDefense: 197,
@@ -1088,7 +1101,7 @@ const pokedex = [
     family: 'tyrogue'
   },
   {
-    number: 108,
+    number: '108',
     name: 'Lickitung',
     baseAttack: 108,
     baseDefense: 137,
@@ -1096,7 +1109,7 @@ const pokedex = [
     family: 'lickitung'
   },
   {
-    number: 109,
+    number: '109',
     name: 'Koffing',
     baseAttack: 119,
     baseDefense: 141,
@@ -1104,7 +1117,7 @@ const pokedex = [
     family: 'koffing'
   },
   {
-    number: 110,
+    number: '110',
     name: 'Weezing',
     baseAttack: 174,
     baseDefense: 197,
@@ -1112,7 +1125,7 @@ const pokedex = [
     family: 'koffing'
   },
   {
-    number: 110,
+    number: '110',
     name: 'Weezing Galar',
     baseAttack: 174,
     baseDefense: 197,
@@ -1120,7 +1133,7 @@ const pokedex = [
     family: 'koffing'
   },
   {
-    number: 111,
+    number: '111',
     name: 'Rhyhorn',
     baseAttack: 140,
     baseDefense: 127,
@@ -1128,7 +1141,7 @@ const pokedex = [
     family: 'rhyhorn'
   },
   {
-    number: 112,
+    number: '112',
     name: 'Rhydon',
     baseAttack: 222,
     baseDefense: 171,
@@ -1136,7 +1149,7 @@ const pokedex = [
     family: 'rhyhorn'
   },
   {
-    number: 113,
+    number: '113',
     name: 'Chansey',
     baseAttack: 60,
     baseDefense: 128,
@@ -1144,7 +1157,7 @@ const pokedex = [
     family: 'chansey'
   },
   {
-    number: 114,
+    number: '114',
     name: 'Tangela',
     baseAttack: 183,
     baseDefense: 169,
@@ -1152,7 +1165,7 @@ const pokedex = [
     family: 'tangela'
   },
   {
-    number: 115,
+    number: '115',
     name: 'Kangaskhan',
     baseAttack: 181,
     baseDefense: 165,
@@ -1160,7 +1173,7 @@ const pokedex = [
     family: 'kangaskhan'
   },
   {
-    number: 116,
+    number: '116',
     name: 'Horsea',
     baseAttack: 129,
     baseDefense: 103,
@@ -1168,7 +1181,7 @@ const pokedex = [
     family: 'horsea'
   },
   {
-    number: 117,
+    number: '117',
     name: 'Seadra',
     baseAttack: 187,
     baseDefense: 156,
@@ -1176,7 +1189,7 @@ const pokedex = [
     family: 'horsea'
   },
   {
-    number: 118,
+    number: '118',
     name: 'Goldeen',
     baseAttack: 123,
     baseDefense: 110,
@@ -1184,7 +1197,7 @@ const pokedex = [
     family: 'goldeen'
   },
   {
-    number: 119,
+    number: '119',
     name: 'Seaking',
     baseAttack: 175,
     baseDefense: 147,
@@ -1192,7 +1205,7 @@ const pokedex = [
     family: 'goldeen'
   },
   {
-    number: 120,
+    number: '120',
     name: 'Staryu',
     baseAttack: 137,
     baseDefense: 112,
@@ -1200,7 +1213,7 @@ const pokedex = [
     family: 'staryu'
   },
   {
-    number: 121,
+    number: '121',
     name: 'Starmie',
     baseAttack: 210,
     baseDefense: 184,
@@ -1208,7 +1221,7 @@ const pokedex = [
     family: 'staryu'
   },
   {
-    number: 122,
+    number: '122',
     name: 'Mr Mime',
     baseAttack: 192,
     baseDefense: 205,
@@ -1216,7 +1229,7 @@ const pokedex = [
     family: 'mr_mime'
   },
   {
-    number: 122,
+    number: '122',
     name: 'Mr Mime Galar',
     baseAttack: 183,
     baseDefense: 169,
@@ -1224,7 +1237,7 @@ const pokedex = [
     family: 'mr_mime'
   },
   {
-    number: 123,
+    number: '123',
     name: 'Scyther',
     baseAttack: 218,
     baseDefense: 170,
@@ -1232,7 +1245,7 @@ const pokedex = [
     family: 'scyther'
   },
   {
-    number: 124,
+    number: '124',
     name: 'Jynx',
     baseAttack: 223,
     baseDefense: 151,
@@ -1240,7 +1253,7 @@ const pokedex = [
     family: 'jynx'
   },
   {
-    number: 125,
+    number: '125',
     name: 'Electabuzz',
     baseAttack: 198,
     baseDefense: 158,
@@ -1248,7 +1261,7 @@ const pokedex = [
     family: 'electabuzz'
   },
   {
-    number: 126,
+    number: '126',
     name: 'Magmar',
     baseAttack: 206,
     baseDefense: 154,
@@ -1256,7 +1269,7 @@ const pokedex = [
     family: 'magmar'
   },
   {
-    number: 127,
+    number: '127',
     name: 'Pinsir',
     baseAttack: 238,
     baseDefense: 182,
@@ -1264,7 +1277,7 @@ const pokedex = [
     family: 'pinsir'
   },
   {
-    number: 128,
+    number: '128',
     name: 'Tauros',
     baseAttack: 198,
     baseDefense: 183,
@@ -1272,7 +1285,7 @@ const pokedex = [
     family: 'tauros'
   },
   {
-    number: 129,
+    number: '129',
     name: 'Magikarp',
     baseAttack: 29,
     baseDefense: 85,
@@ -1280,7 +1293,7 @@ const pokedex = [
     family: 'magikarp'
   },
   {
-    number: 130,
+    number: '130',
     name: 'Gyarados',
     baseAttack: 237,
     baseDefense: 186,
@@ -1288,7 +1301,7 @@ const pokedex = [
     family: 'magikarp'
   },
   {
-    number: 131,
+    number: '131',
     name: 'Lapras',
     baseAttack: 165,
     baseDefense: 174,
@@ -1296,7 +1309,7 @@ const pokedex = [
     family: 'lapras'
   },
   {
-    number: 132,
+    number: '132',
     name: 'Ditto',
     baseAttack: 91,
     baseDefense: 91,
@@ -1304,7 +1317,7 @@ const pokedex = [
     family: 'ditto'
   },
   {
-    number: 133,
+    number: '133',
     name: 'Eevee',
     baseAttack: 104,
     baseDefense: 114,
@@ -1312,7 +1325,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 134,
+    number: '134',
     name: 'Vaporeon',
     baseAttack: 205,
     baseDefense: 161,
@@ -1320,7 +1333,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 135,
+    number: '135',
     name: 'Jolteon',
     baseAttack: 232,
     baseDefense: 182,
@@ -1328,7 +1341,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 136,
+    number: '136',
     name: 'Flareon',
     baseAttack: 246,
     baseDefense: 179,
@@ -1336,7 +1349,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 137,
+    number: '137',
     name: 'Porygon',
     baseAttack: 153,
     baseDefense: 136,
@@ -1344,7 +1357,7 @@ const pokedex = [
     family: 'porygon'
   },
   {
-    number: 138,
+    number: '138',
     name: 'Omanyte',
     baseAttack: 155,
     baseDefense: 153,
@@ -1352,7 +1365,7 @@ const pokedex = [
     family: 'omanyte'
   },
   {
-    number: 139,
+    number: '139',
     name: 'Omastar',
     baseAttack: 207,
     baseDefense: 201,
@@ -1360,7 +1373,7 @@ const pokedex = [
     family: 'omanyte'
   },
   {
-    number: 140,
+    number: '140',
     name: 'Kabuto',
     baseAttack: 148,
     baseDefense: 140,
@@ -1368,7 +1381,7 @@ const pokedex = [
     family: 'kabuto'
   },
   {
-    number: 141,
+    number: '141',
     name: 'Kabutops',
     baseAttack: 220,
     baseDefense: 186,
@@ -1376,7 +1389,7 @@ const pokedex = [
     family: 'kabuto'
   },
   {
-    number: 142,
+    number: '142',
     name: 'Aerodactyl',
     baseAttack: 221,
     baseDefense: 159,
@@ -1384,7 +1397,7 @@ const pokedex = [
     family: 'aerodactyl'
   },
   {
-    number: 143,
+    number: '143',
     name: 'Snorlax',
     baseAttack: 190,
     baseDefense: 169,
@@ -1392,7 +1405,7 @@ const pokedex = [
     family: 'snorlax'
   },
   {
-    number: 144,
+    number: '144',
     name: 'Articuno',
     baseAttack: 192,
     baseDefense: 236,
@@ -1400,7 +1413,7 @@ const pokedex = [
     family: 'articuno'
   },
   {
-    number: 145,
+    number: '145',
     name: 'Zapdos',
     baseAttack: 253,
     baseDefense: 185,
@@ -1408,7 +1421,7 @@ const pokedex = [
     family: 'zapdos'
   },
   {
-    number: 146,
+    number: '146',
     name: 'Moltres',
     baseAttack: 251,
     baseDefense: 181,
@@ -1416,7 +1429,7 @@ const pokedex = [
     family: 'moltres'
   },
   {
-    number: 147,
+    number: '147',
     name: 'Dratini',
     baseAttack: 119,
     baseDefense: 91,
@@ -1424,7 +1437,7 @@ const pokedex = [
     family: 'dratini'
   },
   {
-    number: 148,
+    number: '148',
     name: 'Dragonair',
     baseAttack: 163,
     baseDefense: 135,
@@ -1432,7 +1445,7 @@ const pokedex = [
     family: 'dratini'
   },
   {
-    number: 149,
+    number: '149',
     name: 'Dragonite',
     baseAttack: 263,
     baseDefense: 198,
@@ -1440,7 +1453,7 @@ const pokedex = [
     family: 'dratini'
   },
   {
-    number: 150,
+    number: '150',
     name: 'Mewtwo',
     baseAttack: 300,
     baseDefense: 182,
@@ -1448,7 +1461,7 @@ const pokedex = [
     family: 'mewtwo'
   },
   {
-    number: 150,
+    number: '150',
     name: 'Mewtwo Armored',
     baseAttack: 182,
     baseDefense: 278,
@@ -1456,7 +1469,7 @@ const pokedex = [
     family: 'mewtwo'
   },
   {
-    number: 151,
+    number: '151',
     name: 'Mew',
     baseAttack: 210,
     baseDefense: 210,
@@ -1464,7 +1477,7 @@ const pokedex = [
     family: 'mew'
   },
   {
-    number: 152,
+    number: '152',
     name: 'Chikorita',
     baseAttack: 92,
     baseDefense: 122,
@@ -1472,7 +1485,7 @@ const pokedex = [
     family: 'chikorita'
   },
   {
-    number: 153,
+    number: '153',
     name: 'Bayleef',
     baseAttack: 122,
     baseDefense: 155,
@@ -1480,7 +1493,7 @@ const pokedex = [
     family: 'chikorita'
   },
   {
-    number: 154,
+    number: '154',
     name: 'Meganium',
     baseAttack: 168,
     baseDefense: 202,
@@ -1488,7 +1501,7 @@ const pokedex = [
     family: 'chikorita'
   },
   {
-    number: 155,
+    number: '155',
     name: 'Cyndaquil',
     baseAttack: 116,
     baseDefense: 93,
@@ -1496,7 +1509,7 @@ const pokedex = [
     family: 'cyndaquil'
   },
   {
-    number: 156,
+    number: '156',
     name: 'Quilava',
     baseAttack: 158,
     baseDefense: 126,
@@ -1504,7 +1517,7 @@ const pokedex = [
     family: 'cyndaquil'
   },
   {
-    number: 157,
+    number: '157',
     name: 'Typhlosion',
     baseAttack: 223,
     baseDefense: 173,
@@ -1512,7 +1525,7 @@ const pokedex = [
     family: 'cyndaquil'
   },
   {
-    number: 158,
+    number: '158',
     name: 'Totodile',
     baseAttack: 117,
     baseDefense: 109,
@@ -1520,7 +1533,7 @@ const pokedex = [
     family: 'totodile'
   },
   {
-    number: 159,
+    number: '159',
     name: 'Croconaw',
     baseAttack: 150,
     baseDefense: 142,
@@ -1528,7 +1541,7 @@ const pokedex = [
     family: 'totodile'
   },
   {
-    number: 160,
+    number: '160',
     name: 'Feraligatr',
     baseAttack: 205,
     baseDefense: 188,
@@ -1536,7 +1549,7 @@ const pokedex = [
     family: 'totodile'
   },
   {
-    number: 161,
+    number: '161',
     name: 'Sentret',
     baseAttack: 79,
     baseDefense: 73,
@@ -1544,7 +1557,7 @@ const pokedex = [
     family: 'sentret'
   },
   {
-    number: 162,
+    number: '162',
     name: 'Furret',
     baseAttack: 148,
     baseDefense: 125,
@@ -1552,7 +1565,7 @@ const pokedex = [
     family: 'sentret'
   },
   {
-    number: 163,
+    number: '163',
     name: 'Hoothoot',
     baseAttack: 67,
     baseDefense: 88,
@@ -1560,7 +1573,7 @@ const pokedex = [
     family: 'hoothoot'
   },
   {
-    number: 164,
+    number: '164',
     name: 'Noctowl',
     baseAttack: 145,
     baseDefense: 156,
@@ -1568,7 +1581,7 @@ const pokedex = [
     family: 'hoothoot'
   },
   {
-    number: 165,
+    number: '165',
     name: 'Ledyba',
     baseAttack: 72,
     baseDefense: 118,
@@ -1576,7 +1589,7 @@ const pokedex = [
     family: 'ledyba'
   },
   {
-    number: 166,
+    number: '166',
     name: 'Ledian',
     baseAttack: 107,
     baseDefense: 179,
@@ -1584,7 +1597,7 @@ const pokedex = [
     family: 'ledyba'
   },
   {
-    number: 167,
+    number: '167',
     name: 'Spinarak',
     baseAttack: 105,
     baseDefense: 73,
@@ -1592,7 +1605,7 @@ const pokedex = [
     family: 'spinarak'
   },
   {
-    number: 168,
+    number: '168',
     name: 'Ariados',
     baseAttack: 161,
     baseDefense: 124,
@@ -1600,7 +1613,7 @@ const pokedex = [
     family: 'spinarak'
   },
   {
-    number: 169,
+    number: '169',
     name: 'Crobat',
     baseAttack: 194,
     baseDefense: 178,
@@ -1608,7 +1621,7 @@ const pokedex = [
     family: 'zubat'
   },
   {
-    number: 170,
+    number: '170',
     name: 'Chinchou',
     baseAttack: 106,
     baseDefense: 97,
@@ -1616,7 +1629,7 @@ const pokedex = [
     family: 'chinchou'
   },
   {
-    number: 171,
+    number: '171',
     name: 'Lanturn',
     baseAttack: 146,
     baseDefense: 137,
@@ -1624,7 +1637,7 @@ const pokedex = [
     family: 'chinchou'
   },
   {
-    number: 172,
+    number: '172',
     name: 'Pichu',
     baseAttack: 77,
     baseDefense: 53,
@@ -1632,7 +1645,7 @@ const pokedex = [
     family: 'pikachu'
   },
   {
-    number: 173,
+    number: '173',
     name: 'Cleffa',
     baseAttack: 75,
     baseDefense: 79,
@@ -1640,7 +1653,7 @@ const pokedex = [
     family: 'clefairy'
   },
   {
-    number: 174,
+    number: '174',
     name: 'Igglybuff',
     baseAttack: 69,
     baseDefense: 32,
@@ -1648,7 +1661,7 @@ const pokedex = [
     family: 'jigglypuff'
   },
   {
-    number: 175,
+    number: '175',
     name: 'Togepi',
     baseAttack: 67,
     baseDefense: 116,
@@ -1656,7 +1669,7 @@ const pokedex = [
     family: 'togepi'
   },
   {
-    number: 176,
+    number: '176',
     name: 'Togetic',
     baseAttack: 139,
     baseDefense: 181,
@@ -1664,7 +1677,7 @@ const pokedex = [
     family: 'togepi'
   },
   {
-    number: 177,
+    number: '177',
     name: 'Natu',
     baseAttack: 134,
     baseDefense: 89,
@@ -1672,7 +1685,7 @@ const pokedex = [
     family: 'natu'
   },
   {
-    number: 178,
+    number: '178',
     name: 'Xatu',
     baseAttack: 192,
     baseDefense: 146,
@@ -1680,7 +1693,7 @@ const pokedex = [
     family: 'natu'
   },
   {
-    number: 179,
+    number: '179',
     name: 'Mareep',
     baseAttack: 114,
     baseDefense: 79,
@@ -1688,7 +1701,7 @@ const pokedex = [
     family: 'mareep'
   },
   {
-    number: 180,
+    number: '180',
     name: 'Flaaffy',
     baseAttack: 145,
     baseDefense: 109,
@@ -1696,7 +1709,7 @@ const pokedex = [
     family: 'mareep'
   },
   {
-    number: 181,
+    number: '181',
     name: 'Ampharos',
     baseAttack: 211,
     baseDefense: 169,
@@ -1704,7 +1717,7 @@ const pokedex = [
     family: 'mareep'
   },
   {
-    number: 182,
+    number: '182',
     name: 'Bellossom',
     baseAttack: 169,
     baseDefense: 186,
@@ -1712,7 +1725,7 @@ const pokedex = [
     family: 'oddish'
   },
   {
-    number: 183,
+    number: '183',
     name: 'Marill',
     baseAttack: 37,
     baseDefense: 93,
@@ -1720,7 +1733,7 @@ const pokedex = [
     family: 'marill'
   },
   {
-    number: 184,
+    number: '184',
     name: 'Azumarill',
     baseAttack: 112,
     baseDefense: 152,
@@ -1728,7 +1741,7 @@ const pokedex = [
     family: 'marill'
   },
   {
-    number: 185,
+    number: '185',
     name: 'Sudowoodo',
     baseAttack: 167,
     baseDefense: 176,
@@ -1736,7 +1749,7 @@ const pokedex = [
     family: 'sudowoodo'
   },
   {
-    number: 186,
+    number: '186',
     name: 'Politoed',
     baseAttack: 174,
     baseDefense: 179,
@@ -1744,7 +1757,7 @@ const pokedex = [
     family: 'poliwag'
   },
   {
-    number: 187,
+    number: '187',
     name: 'Hoppip',
     baseAttack: 67,
     baseDefense: 94,
@@ -1752,7 +1765,7 @@ const pokedex = [
     family: 'hoppip'
   },
   {
-    number: 188,
+    number: '188',
     name: 'Skiploom',
     baseAttack: 91,
     baseDefense: 120,
@@ -1760,7 +1773,7 @@ const pokedex = [
     family: 'hoppip'
   },
   {
-    number: 189,
+    number: '189',
     name: 'Jumpluff',
     baseAttack: 118,
     baseDefense: 183,
@@ -1768,7 +1781,7 @@ const pokedex = [
     family: 'hoppip'
   },
   {
-    number: 190,
+    number: '190',
     name: 'Aipom',
     baseAttack: 136,
     baseDefense: 112,
@@ -1776,7 +1789,7 @@ const pokedex = [
     family: 'aipom'
   },
   {
-    number: 191,
+    number: '191',
     name: 'Sunkern',
     baseAttack: 55,
     baseDefense: 55,
@@ -1784,7 +1797,7 @@ const pokedex = [
     family: 'sunkern'
   },
   {
-    number: 192,
+    number: '192',
     name: 'Sunflora',
     baseAttack: 185,
     baseDefense: 135,
@@ -1792,7 +1805,7 @@ const pokedex = [
     family: 'sunkern'
   },
   {
-    number: 193,
+    number: '193',
     name: 'Yanma',
     baseAttack: 154,
     baseDefense: 94,
@@ -1800,7 +1813,7 @@ const pokedex = [
     family: 'yanma'
   },
   {
-    number: 194,
+    number: '194',
     name: 'Wooper',
     baseAttack: 75,
     baseDefense: 66,
@@ -1808,7 +1821,7 @@ const pokedex = [
     family: 'wooper'
   },
   {
-    number: 195,
+    number: '195',
     name: 'Quagsire',
     baseAttack: 152,
     baseDefense: 143,
@@ -1816,7 +1829,7 @@ const pokedex = [
     family: 'wooper'
   },
   {
-    number: 196,
+    number: '196',
     name: 'Espeon',
     baseAttack: 261,
     baseDefense: 175,
@@ -1824,7 +1837,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 197,
+    number: '197',
     name: 'Umbreon',
     baseAttack: 126,
     baseDefense: 240,
@@ -1832,7 +1845,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 198,
+    number: '198',
     name: 'Murkrow',
     baseAttack: 175,
     baseDefense: 87,
@@ -1840,7 +1853,7 @@ const pokedex = [
     family: 'murkrow'
   },
   {
-    number: 199,
+    number: '199',
     name: 'Slowking',
     baseAttack: 177,
     baseDefense: 180,
@@ -1848,7 +1861,7 @@ const pokedex = [
     family: 'slowpoke'
   },
   {
-    number: 200,
+    number: '200',
     name: 'Misdreavus',
     baseAttack: 167,
     baseDefense: 154,
@@ -1856,7 +1869,7 @@ const pokedex = [
     family: 'misdreavus'
   },
   {
-    number: 201,
+    number: '201',
     name: 'Unown',
     baseAttack: 136,
     baseDefense: 91,
@@ -1864,7 +1877,7 @@ const pokedex = [
     family: 'unown'
   },
   {
-    number: 202,
+    number: '202',
     name: 'Wobbuffet',
     baseAttack: 60,
     baseDefense: 106,
@@ -1872,7 +1885,7 @@ const pokedex = [
     family: 'wobbuffet'
   },
   {
-    number: 203,
+    number: '203',
     name: 'Girafarig',
     baseAttack: 182,
     baseDefense: 133,
@@ -1880,7 +1893,7 @@ const pokedex = [
     family: 'girafarig'
   },
   {
-    number: 204,
+    number: '204',
     name: 'Pineco',
     baseAttack: 108,
     baseDefense: 122,
@@ -1888,7 +1901,7 @@ const pokedex = [
     family: 'pineco'
   },
   {
-    number: 205,
+    number: '205',
     name: 'Forretress',
     baseAttack: 161,
     baseDefense: 205,
@@ -1896,7 +1909,7 @@ const pokedex = [
     family: 'pineco'
   },
   {
-    number: 206,
+    number: '206',
     name: 'Dunsparce',
     baseAttack: 131,
     baseDefense: 128,
@@ -1904,7 +1917,7 @@ const pokedex = [
     family: 'dunsparce'
   },
   {
-    number: 207,
+    number: '207',
     name: 'Gligar',
     baseAttack: 143,
     baseDefense: 184,
@@ -1912,7 +1925,7 @@ const pokedex = [
     family: 'gligar'
   },
   {
-    number: 208,
+    number: '208',
     name: 'Steelix',
     baseAttack: 148,
     baseDefense: 272,
@@ -1920,7 +1933,7 @@ const pokedex = [
     family: 'onix'
   },
   {
-    number: 209,
+    number: '209',
     name: 'Snubbull',
     baseAttack: 137,
     baseDefense: 85,
@@ -1928,7 +1941,7 @@ const pokedex = [
     family: 'snubbull'
   },
   {
-    number: 210,
+    number: '210',
     name: 'Granbull',
     baseAttack: 212,
     baseDefense: 131,
@@ -1936,7 +1949,7 @@ const pokedex = [
     family: 'snubbull'
   },
   {
-    number: 211,
+    number: '211',
     name: 'Qwilfish',
     baseAttack: 184,
     baseDefense: 138,
@@ -1944,7 +1957,7 @@ const pokedex = [
     family: 'qwilfish'
   },
   {
-    number: 212,
+    number: '212',
     name: 'Scizor',
     baseAttack: 236,
     baseDefense: 181,
@@ -1952,7 +1965,7 @@ const pokedex = [
     family: 'scyther'
   },
   {
-    number: 213,
+    number: '213',
     name: 'Shuckle',
     baseAttack: 17,
     baseDefense: 396,
@@ -1960,7 +1973,7 @@ const pokedex = [
     family: 'shuckle'
   },
   {
-    number: 214,
+    number: '214',
     name: 'Heracross',
     baseAttack: 234,
     baseDefense: 179,
@@ -1968,7 +1981,7 @@ const pokedex = [
     family: 'heracross'
   },
   {
-    number: 215,
+    number: '215',
     name: 'Sneasel',
     baseAttack: 189,
     baseDefense: 146,
@@ -1976,7 +1989,7 @@ const pokedex = [
     family: 'sneasel'
   },
   {
-    number: 216,
+    number: '216',
     name: 'Teddiursa',
     baseAttack: 142,
     baseDefense: 93,
@@ -1984,7 +1997,7 @@ const pokedex = [
     family: 'teddiursa'
   },
   {
-    number: 217,
+    number: '217',
     name: 'Ursaring',
     baseAttack: 236,
     baseDefense: 144,
@@ -1992,7 +2005,7 @@ const pokedex = [
     family: 'teddiursa'
   },
   {
-    number: 218,
+    number: '218',
     name: 'Slugma',
     baseAttack: 118,
     baseDefense: 71,
@@ -2000,7 +2013,7 @@ const pokedex = [
     family: 'slugma'
   },
   {
-    number: 219,
+    number: '219',
     name: 'Magcargo',
     baseAttack: 139,
     baseDefense: 191,
@@ -2008,7 +2021,7 @@ const pokedex = [
     family: 'slugma'
   },
   {
-    number: 220,
+    number: '220',
     name: 'Swinub',
     baseAttack: 90,
     baseDefense: 69,
@@ -2016,7 +2029,7 @@ const pokedex = [
     family: 'swinub'
   },
   {
-    number: 221,
+    number: '221',
     name: 'Piloswine',
     baseAttack: 181,
     baseDefense: 138,
@@ -2024,7 +2037,7 @@ const pokedex = [
     family: 'swinub'
   },
   {
-    number: 222,
+    number: '222',
     name: 'Corsola',
     baseAttack: 118,
     baseDefense: 156,
@@ -2032,7 +2045,7 @@ const pokedex = [
     family: 'corsola'
   },
   {
-    number: 223,
+    number: '223',
     name: 'Remoraid',
     baseAttack: 127,
     baseDefense: 69,
@@ -2040,7 +2053,7 @@ const pokedex = [
     family: 'remoraid'
   },
   {
-    number: 224,
+    number: '224',
     name: 'Octillery',
     baseAttack: 197,
     baseDefense: 141,
@@ -2048,7 +2061,7 @@ const pokedex = [
     family: 'remoraid'
   },
   {
-    number: 225,
+    number: '225',
     name: 'Delibird',
     baseAttack: 128,
     baseDefense: 90,
@@ -2056,7 +2069,7 @@ const pokedex = [
     family: 'delibird'
   },
   {
-    number: 226,
+    number: '226',
     name: 'Mantine',
     baseAttack: 148,
     baseDefense: 226,
@@ -2064,7 +2077,7 @@ const pokedex = [
     family: 'mantine'
   },
   {
-    number: 227,
+    number: '227',
     name: 'Skarmory',
     baseAttack: 148,
     baseDefense: 226,
@@ -2072,7 +2085,7 @@ const pokedex = [
     family: 'skarmory'
   },
   {
-    number: 228,
+    number: '228',
     name: 'Houndour',
     baseAttack: 152,
     baseDefense: 83,
@@ -2080,7 +2093,7 @@ const pokedex = [
     family: 'houndour'
   },
   {
-    number: 229,
+    number: '229',
     name: 'Houndoom',
     baseAttack: 224,
     baseDefense: 144,
@@ -2088,7 +2101,7 @@ const pokedex = [
     family: 'houndour'
   },
   {
-    number: 229,
+    number: '229',
     name: 'Houndoom Mega',
     baseAttack: 289,
     baseDefense: 194,
@@ -2096,7 +2109,7 @@ const pokedex = [
     family: 'houndour'
   },
   {
-    number: 230,
+    number: '230',
     name: 'Kingdra',
     baseAttack: 194,
     baseDefense: 194,
@@ -2104,7 +2117,7 @@ const pokedex = [
     family: 'horsea'
   },
   {
-    number: 231,
+    number: '231',
     name: 'Phanpy',
     baseAttack: 107,
     baseDefense: 98,
@@ -2112,7 +2125,7 @@ const pokedex = [
     family: 'phanpy'
   },
   {
-    number: 232,
+    number: '232',
     name: 'Donphan',
     baseAttack: 214,
     baseDefense: 185,
@@ -2120,7 +2133,7 @@ const pokedex = [
     family: 'phanpy'
   },
   {
-    number: 233,
+    number: '233',
     name: 'Porygon2',
     baseAttack: 198,
     baseDefense: 180,
@@ -2128,7 +2141,7 @@ const pokedex = [
     family: 'porygon'
   },
   {
-    number: 234,
+    number: '234',
     name: 'Stantler',
     baseAttack: 192,
     baseDefense: 131,
@@ -2136,7 +2149,7 @@ const pokedex = [
     family: 'stantler'
   },
   {
-    number: 235,
+    number: '235',
     name: 'Smeargle',
     baseAttack: 40,
     baseDefense: 83,
@@ -2144,7 +2157,7 @@ const pokedex = [
     family: 'smeargle'
   },
   {
-    number: 236,
+    number: '236',
     name: 'Tyrogue',
     baseAttack: 64,
     baseDefense: 64,
@@ -2152,7 +2165,7 @@ const pokedex = [
     family: 'tyrogue'
   },
   {
-    number: 237,
+    number: '237',
     name: 'Hitmontop',
     baseAttack: 173,
     baseDefense: 207,
@@ -2160,7 +2173,7 @@ const pokedex = [
     family: 'tyrogue'
   },
   {
-    number: 238,
+    number: '238',
     name: 'Smoochum',
     baseAttack: 153,
     baseDefense: 91,
@@ -2168,7 +2181,7 @@ const pokedex = [
     family: 'jynx'
   },
   {
-    number: 239,
+    number: '239',
     name: 'Elekid',
     baseAttack: 135,
     baseDefense: 101,
@@ -2176,7 +2189,7 @@ const pokedex = [
     family: 'electabuzz'
   },
   {
-    number: 240,
+    number: '240',
     name: 'Magby',
     baseAttack: 151,
     baseDefense: 99,
@@ -2184,7 +2197,7 @@ const pokedex = [
     family: 'magmar'
   },
   {
-    number: 241,
+    number: '241',
     name: 'Miltank',
     baseAttack: 157,
     baseDefense: 193,
@@ -2192,7 +2205,7 @@ const pokedex = [
     family: 'miltank'
   },
   {
-    number: 242,
+    number: '242',
     name: 'Blissey',
     baseAttack: 129,
     baseDefense: 169,
@@ -2200,7 +2213,7 @@ const pokedex = [
     family: 'chansey'
   },
   {
-    number: 243,
+    number: '243',
     name: 'Raikou',
     baseAttack: 241,
     baseDefense: 195,
@@ -2208,7 +2221,7 @@ const pokedex = [
     family: 'raikou'
   },
   {
-    number: 244,
+    number: '244',
     name: 'Entei',
     baseAttack: 235,
     baseDefense: 171,
@@ -2216,7 +2229,7 @@ const pokedex = [
     family: 'entei'
   },
   {
-    number: 245,
+    number: '245',
     name: 'Suicune',
     baseAttack: 180,
     baseDefense: 235,
@@ -2224,7 +2237,7 @@ const pokedex = [
     family: 'suicune'
   },
   {
-    number: 246,
+    number: '246',
     name: 'Larvitar',
     baseAttack: 115,
     baseDefense: 93,
@@ -2232,7 +2245,7 @@ const pokedex = [
     family: 'larvitar'
   },
   {
-    number: 247,
+    number: '247',
     name: 'Pupitar',
     baseAttack: 155,
     baseDefense: 133,
@@ -2240,7 +2253,7 @@ const pokedex = [
     family: 'larvitar'
   },
   {
-    number: 248,
+    number: '248',
     name: 'Tyranitar',
     baseAttack: 251,
     baseDefense: 207,
@@ -2248,7 +2261,7 @@ const pokedex = [
     family: 'larvitar'
   },
   {
-    number: 249,
+    number: '249',
     name: 'Lugia',
     baseAttack: 193,
     baseDefense: 310,
@@ -2256,7 +2269,7 @@ const pokedex = [
     family: 'lugia'
   },
   {
-    number: 250,
+    number: '250',
     name: 'Ho-Oh',
     baseAttack: 239,
     baseDefense: 244,
@@ -2264,7 +2277,7 @@ const pokedex = [
     family: 'ho_oh'
   },
   {
-    number: 251,
+    number: '251',
     name: 'Celebi',
     baseAttack: 210,
     baseDefense: 210,
@@ -2272,7 +2285,7 @@ const pokedex = [
     family: 'celebi'
   },
   {
-    number: 252,
+    number: '252',
     name: 'Treecko',
     baseAttack: 124,
     baseDefense: 94,
@@ -2280,7 +2293,7 @@ const pokedex = [
     family: 'treecko'
   },
   {
-    number: 253,
+    number: '253',
     name: 'Grovyle',
     baseAttack: 172,
     baseDefense: 120,
@@ -2288,7 +2301,7 @@ const pokedex = [
     family: 'treecko'
   },
   {
-    number: 254,
+    number: '254',
     name: 'Sceptile',
     baseAttack: 223,
     baseDefense: 169,
@@ -2296,7 +2309,7 @@ const pokedex = [
     family: 'treecko'
   },
   {
-    number: 255,
+    number: '255',
     name: 'Torchic',
     baseAttack: 130,
     baseDefense: 87,
@@ -2304,7 +2317,7 @@ const pokedex = [
     family: 'torchic'
   },
   {
-    number: 256,
+    number: '256',
     name: 'Combusken',
     baseAttack: 163,
     baseDefense: 115,
@@ -2312,7 +2325,7 @@ const pokedex = [
     family: 'torchic'
   },
   {
-    number: 257,
+    number: '257',
     name: 'Blaziken',
     baseAttack: 240,
     baseDefense: 141,
@@ -2320,7 +2333,7 @@ const pokedex = [
     family: 'torchic'
   },
   {
-    number: 258,
+    number: '258',
     name: 'Mudkip',
     baseAttack: 126,
     baseDefense: 93,
@@ -2328,7 +2341,7 @@ const pokedex = [
     family: 'mudkip'
   },
   {
-    number: 259,
+    number: '259',
     name: 'Marshtomp',
     baseAttack: 156,
     baseDefense: 133,
@@ -2336,7 +2349,7 @@ const pokedex = [
     family: 'mudkip'
   },
   {
-    number: 260,
+    number: '260',
     name: 'Swampert',
     baseAttack: 208,
     baseDefense: 175,
@@ -2344,7 +2357,7 @@ const pokedex = [
     family: 'mudkip'
   },
   {
-    number: 261,
+    number: '261',
     name: 'Poochyena',
     baseAttack: 96,
     baseDefense: 61,
@@ -2352,7 +2365,7 @@ const pokedex = [
     family: 'poochyena'
   },
   {
-    number: 262,
+    number: '262',
     name: 'Mightyena',
     baseAttack: 171,
     baseDefense: 132,
@@ -2360,7 +2373,7 @@ const pokedex = [
     family: 'poochyena'
   },
   {
-    number: 263,
+    number: '263',
     name: 'Zigzagoon',
     baseAttack: 58,
     baseDefense: 80,
@@ -2368,7 +2381,7 @@ const pokedex = [
     family: 'zigzagoon'
   },
   {
-    number: 263,
+    number: '263',
     name: 'Zigzagoon Galar',
     baseAttack: 58,
     baseDefense: 80,
@@ -2376,7 +2389,7 @@ const pokedex = [
     family: 'zigzagoon'
   },
   {
-    number: 264,
+    number: '264',
     name: 'Linoone',
     baseAttack: 142,
     baseDefense: 128,
@@ -2384,7 +2397,7 @@ const pokedex = [
     family: 'zigzagoon'
   },
   {
-    number: 264,
+    number: '264',
     name: 'Linoone Galar',
     baseAttack: 142,
     baseDefense: 128,
@@ -2392,7 +2405,7 @@ const pokedex = [
     family: 'zigzagoon'
   },
   {
-    number: 265,
+    number: '265',
     name: 'Wurmple',
     baseAttack: 75,
     baseDefense: 59,
@@ -2400,7 +2413,7 @@ const pokedex = [
     family: 'wurmple'
   },
   {
-    number: 266,
+    number: '266',
     name: 'Silcoon',
     baseAttack: 60,
     baseDefense: 77,
@@ -2408,7 +2421,7 @@ const pokedex = [
     family: 'wurmple'
   },
   {
-    number: 267,
+    number: '267',
     name: 'Beautifly',
     baseAttack: 189,
     baseDefense: 98,
@@ -2416,7 +2429,7 @@ const pokedex = [
     family: 'wurmple'
   },
   {
-    number: 268,
+    number: '268',
     name: 'Cascoon',
     baseAttack: 60,
     baseDefense: 77,
@@ -2424,7 +2437,7 @@ const pokedex = [
     family: 'wurmple'
   },
   {
-    number: 269,
+    number: '269',
     name: 'Dustox',
     baseAttack: 98,
     baseDefense: 162,
@@ -2432,7 +2445,7 @@ const pokedex = [
     family: 'wurmple'
   },
   {
-    number: 270,
+    number: '270',
     name: 'Lotad',
     baseAttack: 71,
     baseDefense: 77,
@@ -2440,7 +2453,7 @@ const pokedex = [
     family: 'lotad'
   },
   {
-    number: 271,
+    number: '271',
     name: 'Lombre',
     baseAttack: 112,
     baseDefense: 119,
@@ -2448,7 +2461,7 @@ const pokedex = [
     family: 'lotad'
   },
   {
-    number: 272,
+    number: '272',
     name: 'Ludicolo',
     baseAttack: 173,
     baseDefense: 176,
@@ -2456,7 +2469,7 @@ const pokedex = [
     family: 'lotad'
   },
   {
-    number: 273,
+    number: '273',
     name: 'Seedot',
     baseAttack: 71,
     baseDefense: 77,
@@ -2464,7 +2477,7 @@ const pokedex = [
     family: 'seedot'
   },
   {
-    number: 274,
+    number: '274',
     name: 'Nuzleaf',
     baseAttack: 134,
     baseDefense: 78,
@@ -2472,7 +2485,7 @@ const pokedex = [
     family: 'seedot'
   },
   {
-    number: 275,
+    number: '275',
     name: 'Shiftry',
     baseAttack: 200,
     baseDefense: 121,
@@ -2480,7 +2493,7 @@ const pokedex = [
     family: 'seedot'
   },
   {
-    number: 276,
+    number: '276',
     name: 'Taillow',
     baseAttack: 106,
     baseDefense: 61,
@@ -2488,7 +2501,7 @@ const pokedex = [
     family: 'taillow'
   },
   {
-    number: 277,
+    number: '277',
     name: 'Swellow',
     baseAttack: 185,
     baseDefense: 124,
@@ -2496,7 +2509,7 @@ const pokedex = [
     family: 'taillow'
   },
   {
-    number: 278,
+    number: '278',
     name: 'Wingull',
     baseAttack: 106,
     baseDefense: 61,
@@ -2504,7 +2517,7 @@ const pokedex = [
     family: 'wingull'
   },
   {
-    number: 279,
+    number: '279',
     name: 'Pelipper',
     baseAttack: 175,
     baseDefense: 174,
@@ -2512,7 +2525,7 @@ const pokedex = [
     family: 'wingull'
   },
   {
-    number: 280,
+    number: '280',
     name: 'Ralts',
     baseAttack: 79,
     baseDefense: 59,
@@ -2520,7 +2533,7 @@ const pokedex = [
     family: 'ralts'
   },
   {
-    number: 281,
+    number: '281',
     name: 'Kirlia',
     baseAttack: 117,
     baseDefense: 90,
@@ -2528,7 +2541,7 @@ const pokedex = [
     family: 'ralts'
   },
   {
-    number: 282,
+    number: '282',
     name: 'Gardevoir',
     baseAttack: 237,
     baseDefense: 195,
@@ -2536,7 +2549,7 @@ const pokedex = [
     family: 'ralts'
   },
   {
-    number: 283,
+    number: '283',
     name: 'Surskit',
     baseAttack: 93,
     baseDefense: 87,
@@ -2544,7 +2557,7 @@ const pokedex = [
     family: 'surskit'
   },
   {
-    number: 284,
+    number: '284',
     name: 'Masquerain',
     baseAttack: 192,
     baseDefense: 150,
@@ -2552,7 +2565,7 @@ const pokedex = [
     family: 'surskit'
   },
   {
-    number: 285,
+    number: '285',
     name: 'Shroomish',
     baseAttack: 74,
     baseDefense: 110,
@@ -2560,7 +2573,7 @@ const pokedex = [
     family: 'shroomish'
   },
   {
-    number: 286,
+    number: '286',
     name: 'Breloom',
     baseAttack: 241,
     baseDefense: 144,
@@ -2568,7 +2581,7 @@ const pokedex = [
     family: 'shroomish'
   },
   {
-    number: 287,
+    number: '287',
     name: 'Slakoth',
     baseAttack: 104,
     baseDefense: 92,
@@ -2576,7 +2589,7 @@ const pokedex = [
     family: 'slakoth'
   },
   {
-    number: 288,
+    number: '288',
     name: 'Vigoroth',
     baseAttack: 159,
     baseDefense: 145,
@@ -2584,7 +2597,7 @@ const pokedex = [
     family: 'slakoth'
   },
   {
-    number: 289,
+    number: '289',
     name: 'Slaking',
     baseAttack: 290,
     baseDefense: 166,
@@ -2592,7 +2605,7 @@ const pokedex = [
     family: 'slakoth'
   },
   {
-    number: 290,
+    number: '290',
     name: 'Nincada',
     baseAttack: 80,
     baseDefense: 126,
@@ -2600,7 +2613,7 @@ const pokedex = [
     family: 'nincada'
   },
   {
-    number: 291,
+    number: '291',
     name: 'Ninjask',
     baseAttack: 199,
     baseDefense: 112,
@@ -2608,7 +2621,7 @@ const pokedex = [
     family: 'nincada'
   },
   {
-    number: 292,
+    number: '292',
     name: 'Shedinja',
     baseAttack: 153,
     baseDefense: 73,
@@ -2616,7 +2629,7 @@ const pokedex = [
     family: 'nincada'
   },
   {
-    number: 293,
+    number: '293',
     name: 'Whismur',
     baseAttack: 92,
     baseDefense: 42,
@@ -2624,7 +2637,7 @@ const pokedex = [
     family: 'whismur'
   },
   {
-    number: 294,
+    number: '294',
     name: 'Loudred',
     baseAttack: 134,
     baseDefense: 81,
@@ -2632,7 +2645,7 @@ const pokedex = [
     family: 'whismur'
   },
   {
-    number: 295,
+    number: '295',
     name: 'Exploud',
     baseAttack: 179,
     baseDefense: 137,
@@ -2640,7 +2653,7 @@ const pokedex = [
     family: 'whismur'
   },
   {
-    number: 296,
+    number: '296',
     name: 'Makuhita',
     baseAttack: 99,
     baseDefense: 54,
@@ -2648,7 +2661,7 @@ const pokedex = [
     family: 'makuhita'
   },
   {
-    number: 297,
+    number: '297',
     name: 'Hariyama',
     baseAttack: 209,
     baseDefense: 114,
@@ -2656,7 +2669,7 @@ const pokedex = [
     family: 'makuhita'
   },
   {
-    number: 298,
+    number: '298',
     name: 'Azurill',
     baseAttack: 36,
     baseDefense: 71,
@@ -2664,7 +2677,7 @@ const pokedex = [
     family: 'marill'
   },
   {
-    number: 299,
+    number: '299',
     name: 'Nosepass',
     baseAttack: 82,
     baseDefense: 215,
@@ -2672,7 +2685,7 @@ const pokedex = [
     family: 'nosepass'
   },
   {
-    number: 300,
+    number: '300',
     name: 'Skitty',
     baseAttack: 84,
     baseDefense: 79,
@@ -2680,7 +2693,7 @@ const pokedex = [
     family: 'skitty'
   },
   {
-    number: 301,
+    number: '301',
     name: 'Delcatty',
     baseAttack: 132,
     baseDefense: 127,
@@ -2688,7 +2701,7 @@ const pokedex = [
     family: 'skitty'
   },
   {
-    number: 302,
+    number: '302',
     name: 'Sableye',
     baseAttack: 141,
     baseDefense: 136,
@@ -2696,7 +2709,7 @@ const pokedex = [
     family: 'sableye'
   },
   {
-    number: 303,
+    number: '303',
     name: 'Mawile',
     baseAttack: 155,
     baseDefense: 141,
@@ -2704,7 +2717,7 @@ const pokedex = [
     family: 'mawile'
   },
   {
-    number: 304,
+    number: '304',
     name: 'Aron',
     baseAttack: 121,
     baseDefense: 141,
@@ -2712,7 +2725,7 @@ const pokedex = [
     family: 'aron'
   },
   {
-    number: 305,
+    number: '305',
     name: 'Lairon',
     baseAttack: 158,
     baseDefense: 198,
@@ -2720,7 +2733,7 @@ const pokedex = [
     family: 'aron'
   },
   {
-    number: 306,
+    number: '306',
     name: 'Aggron',
     baseAttack: 198,
     baseDefense: 257,
@@ -2728,7 +2741,7 @@ const pokedex = [
     family: 'aron'
   },
   {
-    number: 307,
+    number: '307',
     name: 'Meditite',
     baseAttack: 78,
     baseDefense: 107,
@@ -2736,7 +2749,7 @@ const pokedex = [
     family: 'meditite'
   },
   {
-    number: 308,
+    number: '308',
     name: 'Medicham',
     baseAttack: 121,
     baseDefense: 152,
@@ -2744,7 +2757,7 @@ const pokedex = [
     family: 'meditite'
   },
   {
-    number: 309,
+    number: '309',
     name: 'Electrike',
     baseAttack: 123,
     baseDefense: 78,
@@ -2752,7 +2765,7 @@ const pokedex = [
     family: 'electrike'
   },
   {
-    number: 310,
+    number: '310',
     name: 'Manectric',
     baseAttack: 215,
     baseDefense: 127,
@@ -2760,7 +2773,7 @@ const pokedex = [
     family: 'electrike'
   },
   {
-    number: 311,
+    number: '311',
     name: 'Plusle',
     baseAttack: 167,
     baseDefense: 129,
@@ -2768,7 +2781,7 @@ const pokedex = [
     family: 'plusle'
   },
   {
-    number: 312,
+    number: '312',
     name: 'Minun',
     baseAttack: 147,
     baseDefense: 150,
@@ -2776,7 +2789,7 @@ const pokedex = [
     family: 'minun'
   },
   {
-    number: 313,
+    number: '313',
     name: 'Volbeat',
     baseAttack: 143,
     baseDefense: 166,
@@ -2784,7 +2797,7 @@ const pokedex = [
     family: 'volbeat'
   },
   {
-    number: 314,
+    number: '314',
     name: 'Illumise',
     baseAttack: 143,
     baseDefense: 166,
@@ -2792,7 +2805,7 @@ const pokedex = [
     family: 'illumise'
   },
   {
-    number: 315,
+    number: '315',
     name: 'Roselia',
     baseAttack: 186,
     baseDefense: 131,
@@ -2800,7 +2813,7 @@ const pokedex = [
     family: 'roselia'
   },
   {
-    number: 316,
+    number: '316',
     name: 'Gulpin',
     baseAttack: 80,
     baseDefense: 99,
@@ -2808,7 +2821,7 @@ const pokedex = [
     family: 'gulpin'
   },
   {
-    number: 317,
+    number: '317',
     name: 'Swalot',
     baseAttack: 140,
     baseDefense: 159,
@@ -2816,7 +2829,7 @@ const pokedex = [
     family: 'gulpin'
   },
   {
-    number: 318,
+    number: '318',
     name: 'Carvanha',
     baseAttack: 171,
     baseDefense: 39,
@@ -2824,7 +2837,7 @@ const pokedex = [
     family: 'carvanha'
   },
   {
-    number: 319,
+    number: '319',
     name: 'Sharpedo',
     baseAttack: 243,
     baseDefense: 83,
@@ -2832,7 +2845,7 @@ const pokedex = [
     family: 'carvanha'
   },
   {
-    number: 320,
+    number: '320',
     name: 'Wailmer',
     baseAttack: 136,
     baseDefense: 68,
@@ -2840,7 +2853,7 @@ const pokedex = [
     family: 'wailmer'
   },
   {
-    number: 321,
+    number: '321',
     name: 'Wailord',
     baseAttack: 175,
     baseDefense: 87,
@@ -2848,7 +2861,7 @@ const pokedex = [
     family: 'wailmer'
   },
   {
-    number: 322,
+    number: '322',
     name: 'Numel',
     baseAttack: 119,
     baseDefense: 79,
@@ -2856,7 +2869,7 @@ const pokedex = [
     family: 'numel'
   },
   {
-    number: 323,
+    number: '323',
     name: 'Camerupt',
     baseAttack: 194,
     baseDefense: 136,
@@ -2864,7 +2877,7 @@ const pokedex = [
     family: 'numel'
   },
   {
-    number: 324,
+    number: '324',
     name: 'Torkoal',
     baseAttack: 151,
     baseDefense: 203,
@@ -2872,7 +2885,7 @@ const pokedex = [
     family: 'torkoal'
   },
   {
-    number: 325,
+    number: '325',
     name: 'Spoink',
     baseAttack: 125,
     baseDefense: 122,
@@ -2880,7 +2893,7 @@ const pokedex = [
     family: 'spoink'
   },
   {
-    number: 326,
+    number: '326',
     name: 'Grumpig',
     baseAttack: 171,
     baseDefense: 188,
@@ -2888,7 +2901,7 @@ const pokedex = [
     family: 'spoink'
   },
   {
-    number: 327,
+    number: '327',
     name: 'Spinda',
     baseAttack: 116,
     baseDefense: 116,
@@ -2896,7 +2909,7 @@ const pokedex = [
     family: 'spinda'
   },
   {
-    number: 328,
+    number: '328',
     name: 'Trapinch',
     baseAttack: 162,
     baseDefense: 78,
@@ -2904,7 +2917,7 @@ const pokedex = [
     family: 'trapinch'
   },
   {
-    number: 329,
+    number: '329',
     name: 'Vibrava',
     baseAttack: 134,
     baseDefense: 99,
@@ -2912,7 +2925,7 @@ const pokedex = [
     family: 'trapinch'
   },
   {
-    number: 330,
+    number: '330',
     name: 'Flygon',
     baseAttack: 205,
     baseDefense: 168,
@@ -2920,7 +2933,7 @@ const pokedex = [
     family: 'trapinch'
   },
   {
-    number: 331,
+    number: '331',
     name: 'Cacnea',
     baseAttack: 156,
     baseDefense: 74,
@@ -2928,7 +2941,7 @@ const pokedex = [
     family: 'cacnea'
   },
   {
-    number: 332,
+    number: '332',
     name: 'Cacturne',
     baseAttack: 221,
     baseDefense: 115,
@@ -2936,7 +2949,7 @@ const pokedex = [
     family: 'cacnea'
   },
   {
-    number: 333,
+    number: '333',
     name: 'Swablu',
     baseAttack: 76,
     baseDefense: 132,
@@ -2944,7 +2957,7 @@ const pokedex = [
     family: 'swablu'
   },
   {
-    number: 334,
+    number: '334',
     name: 'Altaria',
     baseAttack: 141,
     baseDefense: 201,
@@ -2952,7 +2965,7 @@ const pokedex = [
     family: 'swablu'
   },
   {
-    number: 335,
+    number: '335',
     name: 'Zangoose',
     baseAttack: 222,
     baseDefense: 124,
@@ -2960,7 +2973,7 @@ const pokedex = [
     family: 'zangoose'
   },
   {
-    number: 336,
+    number: '336',
     name: 'Seviper',
     baseAttack: 196,
     baseDefense: 118,
@@ -2968,7 +2981,7 @@ const pokedex = [
     family: 'seviper'
   },
   {
-    number: 337,
+    number: '337',
     name: 'Lunatone',
     baseAttack: 178,
     baseDefense: 153,
@@ -2976,7 +2989,7 @@ const pokedex = [
     family: 'lunatone'
   },
   {
-    number: 338,
+    number: '338',
     name: 'Solrock',
     baseAttack: 178,
     baseDefense: 153,
@@ -2984,7 +2997,7 @@ const pokedex = [
     family: 'solrock'
   },
   {
-    number: 339,
+    number: '339',
     name: 'Barboach',
     baseAttack: 93,
     baseDefense: 82,
@@ -2992,7 +3005,7 @@ const pokedex = [
     family: 'barboach'
   },
   {
-    number: 340,
+    number: '340',
     name: 'Whiscash',
     baseAttack: 151,
     baseDefense: 141,
@@ -3000,7 +3013,7 @@ const pokedex = [
     family: 'barboach'
   },
   {
-    number: 341,
+    number: '341',
     name: 'Corphish',
     baseAttack: 141,
     baseDefense: 99,
@@ -3008,7 +3021,7 @@ const pokedex = [
     family: 'corphish'
   },
   {
-    number: 342,
+    number: '342',
     name: 'Crawdaunt',
     baseAttack: 224,
     baseDefense: 142,
@@ -3016,7 +3029,7 @@ const pokedex = [
     family: 'corphish'
   },
   {
-    number: 343,
+    number: '343',
     name: 'Baltoy',
     baseAttack: 77,
     baseDefense: 124,
@@ -3024,7 +3037,7 @@ const pokedex = [
     family: 'baltoy'
   },
   {
-    number: 344,
+    number: '344',
     name: 'Claydol',
     baseAttack: 140,
     baseDefense: 229,
@@ -3032,7 +3045,7 @@ const pokedex = [
     family: 'baltoy'
   },
   {
-    number: 345,
+    number: '345',
     name: 'Lileep',
     baseAttack: 105,
     baseDefense: 150,
@@ -3040,7 +3053,7 @@ const pokedex = [
     family: 'lileep'
   },
   {
-    number: 346,
+    number: '346',
     name: 'Cradily',
     baseAttack: 152,
     baseDefense: 194,
@@ -3048,7 +3061,7 @@ const pokedex = [
     family: 'lileep'
   },
   {
-    number: 347,
+    number: '347',
     name: 'Anorith',
     baseAttack: 176,
     baseDefense: 100,
@@ -3056,7 +3069,7 @@ const pokedex = [
     family: 'anorith'
   },
   {
-    number: 348,
+    number: '348',
     name: 'Armaldo',
     baseAttack: 222,
     baseDefense: 174,
@@ -3064,7 +3077,7 @@ const pokedex = [
     family: 'anorith'
   },
   {
-    number: 349,
+    number: '349',
     name: 'Feebas',
     baseAttack: 29,
     baseDefense: 85,
@@ -3072,7 +3085,7 @@ const pokedex = [
     family: 'feebas'
   },
   {
-    number: 350,
+    number: '350',
     name: 'Milotic',
     baseAttack: 192,
     baseDefense: 219,
@@ -3080,7 +3093,7 @@ const pokedex = [
     family: 'feebas'
   },
   {
-    number: 351,
+    number: '351',
     name: 'Castform',
     baseAttack: 139,
     baseDefense: 139,
@@ -3088,7 +3101,7 @@ const pokedex = [
     family: 'castform'
   },
   {
-    number: 352,
+    number: '352',
     name: 'Kecleon',
     baseAttack: 161,
     baseDefense: 189,
@@ -3096,7 +3109,7 @@ const pokedex = [
     family: 'kecleon'
   },
   {
-    number: 353,
+    number: '353',
     name: 'Shuppet',
     baseAttack: 138,
     baseDefense: 65,
@@ -3104,7 +3117,7 @@ const pokedex = [
     family: 'shuppet'
   },
   {
-    number: 354,
+    number: '354',
     name: 'Banette',
     baseAttack: 218,
     baseDefense: 126,
@@ -3112,7 +3125,7 @@ const pokedex = [
     family: 'shuppet'
   },
   {
-    number: 355,
+    number: '355',
     name: 'Duskull',
     baseAttack: 70,
     baseDefense: 162,
@@ -3120,7 +3133,7 @@ const pokedex = [
     family: 'duskull'
   },
   {
-    number: 356,
+    number: '356',
     name: 'Dusclops',
     baseAttack: 124,
     baseDefense: 234,
@@ -3128,7 +3141,7 @@ const pokedex = [
     family: 'duskull'
   },
   {
-    number: 357,
+    number: '357',
     name: 'Tropius',
     baseAttack: 136,
     baseDefense: 163,
@@ -3136,7 +3149,7 @@ const pokedex = [
     family: 'tropius'
   },
   {
-    number: 358,
+    number: '358',
     name: 'Chimecho',
     baseAttack: 175,
     baseDefense: 170,
@@ -3144,7 +3157,7 @@ const pokedex = [
     family: 'chimecho'
   },
   {
-    number: 359,
+    number: '359',
     name: 'Absol',
     baseAttack: 246,
     baseDefense: 120,
@@ -3152,7 +3165,7 @@ const pokedex = [
     family: 'absol'
   },
   {
-    number: 360,
+    number: '360',
     name: 'Wynaut',
     baseAttack: 41,
     baseDefense: 86,
@@ -3160,7 +3173,7 @@ const pokedex = [
     family: 'wobbuffet'
   },
   {
-    number: 361,
+    number: '361',
     name: 'Snorunt',
     baseAttack: 95,
     baseDefense: 95,
@@ -3168,7 +3181,7 @@ const pokedex = [
     family: 'snorunt'
   },
   {
-    number: 362,
+    number: '362',
     name: 'Glalie',
     baseAttack: 162,
     baseDefense: 162,
@@ -3176,7 +3189,7 @@ const pokedex = [
     family: 'snorunt'
   },
   {
-    number: 363,
+    number: '363',
     name: 'Spheal',
     baseAttack: 95,
     baseDefense: 90,
@@ -3184,7 +3197,7 @@ const pokedex = [
     family: 'spheal'
   },
   {
-    number: 364,
+    number: '364',
     name: 'Sealeo',
     baseAttack: 137,
     baseDefense: 132,
@@ -3192,7 +3205,7 @@ const pokedex = [
     family: 'spheal'
   },
   {
-    number: 365,
+    number: '365',
     name: 'Walrein',
     baseAttack: 182,
     baseDefense: 176,
@@ -3200,7 +3213,7 @@ const pokedex = [
     family: 'spheal'
   },
   {
-    number: 366,
+    number: '366',
     name: 'Clamperl',
     baseAttack: 133,
     baseDefense: 135,
@@ -3208,7 +3221,7 @@ const pokedex = [
     family: 'clamperl'
   },
   {
-    number: 367,
+    number: '367',
     name: 'Huntail',
     baseAttack: 197,
     baseDefense: 179,
@@ -3216,7 +3229,7 @@ const pokedex = [
     family: 'clamperl'
   },
   {
-    number: 368,
+    number: '368',
     name: 'Gorebyss',
     baseAttack: 211,
     baseDefense: 179,
@@ -3224,7 +3237,7 @@ const pokedex = [
     family: 'clamperl'
   },
   {
-    number: 369,
+    number: '369',
     name: 'Relicanth',
     baseAttack: 162,
     baseDefense: 203,
@@ -3232,7 +3245,7 @@ const pokedex = [
     family: 'relicanth'
   },
   {
-    number: 370,
+    number: '370',
     name: 'Luvdisc',
     baseAttack: 81,
     baseDefense: 128,
@@ -3240,7 +3253,7 @@ const pokedex = [
     family: 'luvdisc'
   },
   {
-    number: 371,
+    number: '371',
     name: 'Bagon',
     baseAttack: 134,
     baseDefense: 93,
@@ -3248,7 +3261,7 @@ const pokedex = [
     family: 'bagon'
   },
   {
-    number: 372,
+    number: '372',
     name: 'Shelgon',
     baseAttack: 172,
     baseDefense: 155,
@@ -3256,7 +3269,7 @@ const pokedex = [
     family: 'bagon'
   },
   {
-    number: 373,
+    number: '373',
     name: 'Salamence',
     baseAttack: 277,
     baseDefense: 168,
@@ -3264,7 +3277,7 @@ const pokedex = [
     family: 'bagon'
   },
   {
-    number: 374,
+    number: '374',
     name: 'Beldum',
     baseAttack: 96,
     baseDefense: 132,
@@ -3272,7 +3285,7 @@ const pokedex = [
     family: 'beldum'
   },
   {
-    number: 375,
+    number: '375',
     name: 'Metang',
     baseAttack: 138,
     baseDefense: 176,
@@ -3280,7 +3293,7 @@ const pokedex = [
     family: 'beldum'
   },
   {
-    number: 376,
+    number: '376',
     name: 'Metagross',
     baseAttack: 257,
     baseDefense: 228,
@@ -3288,7 +3301,7 @@ const pokedex = [
     family: 'beldum'
   },
   {
-    number: 377,
+    number: '377',
     name: 'Regirock',
     baseAttack: 179,
     baseDefense: 309,
@@ -3296,7 +3309,7 @@ const pokedex = [
     family: 'regirock'
   },
   {
-    number: 378,
+    number: '378',
     name: 'Regice',
     baseAttack: 179,
     baseDefense: 309,
@@ -3304,7 +3317,7 @@ const pokedex = [
     family: 'regice'
   },
   {
-    number: 379,
+    number: '379',
     name: 'Registeel',
     baseAttack: 143,
     baseDefense: 285,
@@ -3312,7 +3325,7 @@ const pokedex = [
     family: 'registeel'
   },
   {
-    number: 380,
+    number: '380',
     name: 'Latias',
     baseAttack: 228,
     baseDefense: 246,
@@ -3320,7 +3333,7 @@ const pokedex = [
     family: 'latias'
   },
   {
-    number: 381,
+    number: '381',
     name: 'Latios',
     baseAttack: 268,
     baseDefense: 212,
@@ -3328,7 +3341,7 @@ const pokedex = [
     family: 'latios'
   },
   {
-    number: 382,
+    number: '382',
     name: 'Kyogre',
     baseAttack: 270,
     baseDefense: 228,
@@ -3336,7 +3349,7 @@ const pokedex = [
     family: 'kyogre'
   },
   {
-    number: 383,
+    number: '383',
     name: 'Groudon',
     baseAttack: 270,
     baseDefense: 228,
@@ -3344,7 +3357,7 @@ const pokedex = [
     family: 'groudon'
   },
   {
-    number: 384,
+    number: '384',
     name: 'Rayquaza',
     baseAttack: 284,
     baseDefense: 170,
@@ -3352,7 +3365,7 @@ const pokedex = [
     family: 'rayquaza'
   },
   {
-    number: 385,
+    number: '385',
     name: 'Jirachi',
     baseAttack: 210,
     baseDefense: 210,
@@ -3360,7 +3373,7 @@ const pokedex = [
     family: 'jirachi'
   },
   {
-    number: 386,
+    number: '386',
     name: 'Deoxys',
     baseAttack: 345,
     baseDefense: 115,
@@ -3368,7 +3381,7 @@ const pokedex = [
     family: 'deoxys'
   },
   {
-    number: 386,
+    number: '386',
     name: 'Deoxys Attack',
     baseAttack: 414,
     baseDefense: 46,
@@ -3376,7 +3389,7 @@ const pokedex = [
     family: 'deoxys'
   },
   {
-    number: 386,
+    number: '386',
     name: 'Deoxys Defense',
     baseAttack: 144,
     baseDefense: 330,
@@ -3384,7 +3397,7 @@ const pokedex = [
     family: 'deoxys'
   },
   {
-    number: 386,
+    number: '386',
     name: 'Deoxys Normal',
     baseAttack: 345,
     baseDefense: 115,
@@ -3392,7 +3405,7 @@ const pokedex = [
     family: 'deoxys'
   },
   {
-    number: 386,
+    number: '386',
     name: 'Deoxys Speed',
     baseAttack: 230,
     baseDefense: 218,
@@ -3400,7 +3413,7 @@ const pokedex = [
     family: 'deoxys'
   },
   {
-    number: 387,
+    number: '387',
     name: 'Turtwig',
     baseAttack: 119,
     baseDefense: 110,
@@ -3408,7 +3421,7 @@ const pokedex = [
     family: 'turtwig'
   },
   {
-    number: 388,
+    number: '388',
     name: 'Grotle',
     baseAttack: 157,
     baseDefense: 143,
@@ -3416,7 +3429,7 @@ const pokedex = [
     family: 'turtwig'
   },
   {
-    number: 389,
+    number: '389',
     name: 'Torterra',
     baseAttack: 202,
     baseDefense: 188,
@@ -3424,7 +3437,7 @@ const pokedex = [
     family: 'turtwig'
   },
   {
-    number: 390,
+    number: '390',
     name: 'Chimchar',
     baseAttack: 113,
     baseDefense: 86,
@@ -3432,7 +3445,7 @@ const pokedex = [
     family: 'chimchar'
   },
   {
-    number: 391,
+    number: '391',
     name: 'Monferno',
     baseAttack: 158,
     baseDefense: 105,
@@ -3440,7 +3453,7 @@ const pokedex = [
     family: 'chimchar'
   },
   {
-    number: 392,
+    number: '392',
     name: 'Infernape',
     baseAttack: 222,
     baseDefense: 151,
@@ -3448,7 +3461,7 @@ const pokedex = [
     family: 'chimchar'
   },
   {
-    number: 393,
+    number: '393',
     name: 'Piplup',
     baseAttack: 112,
     baseDefense: 102,
@@ -3456,7 +3469,7 @@ const pokedex = [
     family: 'piplup'
   },
   {
-    number: 394,
+    number: '394',
     name: 'Prinplup',
     baseAttack: 150,
     baseDefense: 139,
@@ -3464,7 +3477,7 @@ const pokedex = [
     family: 'piplup'
   },
   {
-    number: 395,
+    number: '395',
     name: 'Empoleon',
     baseAttack: 210,
     baseDefense: 186,
@@ -3472,7 +3485,7 @@ const pokedex = [
     family: 'piplup'
   },
   {
-    number: 396,
+    number: '396',
     name: 'Starly',
     baseAttack: 101,
     baseDefense: 58,
@@ -3480,7 +3493,7 @@ const pokedex = [
     family: 'starly'
   },
   {
-    number: 397,
+    number: '397',
     name: 'Staravia',
     baseAttack: 142,
     baseDefense: 94,
@@ -3488,7 +3501,7 @@ const pokedex = [
     family: 'starly'
   },
   {
-    number: 398,
+    number: '398',
     name: 'Staraptor',
     baseAttack: 234,
     baseDefense: 140,
@@ -3496,7 +3509,7 @@ const pokedex = [
     family: 'starly'
   },
   {
-    number: 399,
+    number: '399',
     name: 'Bidoof',
     baseAttack: 80,
     baseDefense: 73,
@@ -3504,7 +3517,7 @@ const pokedex = [
     family: 'bidoof'
   },
   {
-    number: 400,
+    number: '400',
     name: 'Bibarel',
     baseAttack: 162,
     baseDefense: 119,
@@ -3512,7 +3525,7 @@ const pokedex = [
     family: 'bidoof'
   },
   {
-    number: 401,
+    number: '401',
     name: 'Kricketot',
     baseAttack: 45,
     baseDefense: 74,
@@ -3520,7 +3533,7 @@ const pokedex = [
     family: 'kricketot'
   },
   {
-    number: 402,
+    number: '402',
     name: 'Kricketune',
     baseAttack: 160,
     baseDefense: 100,
@@ -3528,7 +3541,7 @@ const pokedex = [
     family: 'kricketot'
   },
   {
-    number: 403,
+    number: '403',
     name: 'Shinx',
     baseAttack: 117,
     baseDefense: 64,
@@ -3536,7 +3549,7 @@ const pokedex = [
     family: 'shinx'
   },
   {
-    number: 404,
+    number: '404',
     name: 'Luxio',
     baseAttack: 159,
     baseDefense: 95,
@@ -3544,7 +3557,7 @@ const pokedex = [
     family: 'shinx'
   },
   {
-    number: 405,
+    number: '405',
     name: 'Luxray',
     baseAttack: 232,
     baseDefense: 156,
@@ -3552,7 +3565,7 @@ const pokedex = [
     family: 'shinx'
   },
   {
-    number: 406,
+    number: '406',
     name: 'Budew',
     baseAttack: 91,
     baseDefense: 109,
@@ -3560,7 +3573,7 @@ const pokedex = [
     family: 'roselia'
   },
   {
-    number: 407,
+    number: '407',
     name: 'Roserade',
     baseAttack: 243,
     baseDefense: 185,
@@ -3568,7 +3581,7 @@ const pokedex = [
     family: 'roselia'
   },
   {
-    number: 408,
+    number: '408',
     name: 'Cranidos',
     baseAttack: 218,
     baseDefense: 71,
@@ -3576,7 +3589,7 @@ const pokedex = [
     family: 'cranidos'
   },
   {
-    number: 409,
+    number: '409',
     name: 'Rampardos',
     baseAttack: 295,
     baseDefense: 109,
@@ -3584,7 +3597,7 @@ const pokedex = [
     family: 'cranidos'
   },
   {
-    number: 410,
+    number: '410',
     name: 'Shieldon',
     baseAttack: 76,
     baseDefense: 195,
@@ -3592,7 +3605,7 @@ const pokedex = [
     family: 'shieldon'
   },
   {
-    number: 411,
+    number: '411',
     name: 'Bastiodon',
     baseAttack: 94,
     baseDefense: 286,
@@ -3600,7 +3613,7 @@ const pokedex = [
     family: 'shieldon'
   },
   {
-    number: 412,
+    number: '412',
     name: 'Burmy',
     baseAttack: 53,
     baseDefense: 83,
@@ -3608,7 +3621,7 @@ const pokedex = [
     family: 'burmy'
   },
   {
-    number: 413,
+    number: '413',
     name: 'Wormadam',
     baseAttack: 141,
     baseDefense: 180,
@@ -3616,7 +3629,7 @@ const pokedex = [
     family: 'burmy'
   },
   {
-    number: 414,
+    number: '414',
     name: 'Mothim',
     baseAttack: 185,
     baseDefense: 98,
@@ -3624,7 +3637,7 @@ const pokedex = [
     family: 'burmy'
   },
   {
-    number: 415,
+    number: '415',
     name: 'Combee',
     baseAttack: 59,
     baseDefense: 83,
@@ -3632,7 +3645,7 @@ const pokedex = [
     family: 'combee'
   },
   {
-    number: 416,
+    number: '416',
     name: 'Vespiquen',
     baseAttack: 149,
     baseDefense: 190,
@@ -3640,7 +3653,7 @@ const pokedex = [
     family: 'combee'
   },
   {
-    number: 417,
+    number: '417',
     name: 'Pachirisu',
     baseAttack: 94,
     baseDefense: 172,
@@ -3648,7 +3661,7 @@ const pokedex = [
     family: 'pachirisu'
   },
   {
-    number: 418,
+    number: '418',
     name: 'Buizel',
     baseAttack: 132,
     baseDefense: 67,
@@ -3656,7 +3669,7 @@ const pokedex = [
     family: 'buizel'
   },
   {
-    number: 419,
+    number: '419',
     name: 'Floatzel',
     baseAttack: 221,
     baseDefense: 114,
@@ -3664,7 +3677,7 @@ const pokedex = [
     family: 'buizel'
   },
   {
-    number: 420,
+    number: '420',
     name: 'Cherubi',
     baseAttack: 108,
     baseDefense: 92,
@@ -3672,7 +3685,7 @@ const pokedex = [
     family: 'cherubi'
   },
   {
-    number: 421,
+    number: '421',
     name: 'Cherrim',
     baseAttack: 170,
     baseDefense: 153,
@@ -3680,7 +3693,7 @@ const pokedex = [
     family: 'cherubi'
   },
   {
-    number: 422,
+    number: '422',
     name: 'Shellos',
     baseAttack: 103,
     baseDefense: 105,
@@ -3688,7 +3701,7 @@ const pokedex = [
     family: 'shellos'
   },
   {
-    number: 423,
+    number: '423',
     name: 'Gastrodon',
     baseAttack: 169,
     baseDefense: 143,
@@ -3696,7 +3709,7 @@ const pokedex = [
     family: 'shellos'
   },
   {
-    number: 424,
+    number: '424',
     name: 'Ambipom',
     baseAttack: 205,
     baseDefense: 143,
@@ -3704,7 +3717,7 @@ const pokedex = [
     family: 'aipom'
   },
   {
-    number: 425,
+    number: '425',
     name: 'Drifloon',
     baseAttack: 117,
     baseDefense: 80,
@@ -3712,7 +3725,7 @@ const pokedex = [
     family: 'drifloon'
   },
   {
-    number: 426,
+    number: '426',
     name: 'Drifblim',
     baseAttack: 180,
     baseDefense: 102,
@@ -3720,7 +3733,7 @@ const pokedex = [
     family: 'drifloon'
   },
   {
-    number: 427,
+    number: '427',
     name: 'Buneary',
     baseAttack: 130,
     baseDefense: 105,
@@ -3728,7 +3741,7 @@ const pokedex = [
     family: 'buneary'
   },
   {
-    number: 428,
+    number: '428',
     name: 'Lopunny',
     baseAttack: 156,
     baseDefense: 194,
@@ -3736,7 +3749,7 @@ const pokedex = [
     family: 'buneary'
   },
   {
-    number: 429,
+    number: '429',
     name: 'Mismagius',
     baseAttack: 211,
     baseDefense: 187,
@@ -3744,7 +3757,7 @@ const pokedex = [
     family: 'misdreavus'
   },
   {
-    number: 430,
+    number: '430',
     name: 'Honchkrow',
     baseAttack: 243,
     baseDefense: 103,
@@ -3752,7 +3765,7 @@ const pokedex = [
     family: 'murkrow'
   },
   {
-    number: 431,
+    number: '431',
     name: 'Glameow',
     baseAttack: 109,
     baseDefense: 82,
@@ -3760,7 +3773,7 @@ const pokedex = [
     family: 'glameow'
   },
   {
-    number: 432,
+    number: '432',
     name: 'Purugly',
     baseAttack: 172,
     baseDefense: 133,
@@ -3768,7 +3781,7 @@ const pokedex = [
     family: 'glameow'
   },
   {
-    number: 433,
+    number: '433',
     name: 'Chingling',
     baseAttack: 114,
     baseDefense: 94,
@@ -3776,7 +3789,7 @@ const pokedex = [
     family: 'chimecho'
   },
   {
-    number: 434,
+    number: '434',
     name: 'Stunky',
     baseAttack: 121,
     baseDefense: 90,
@@ -3784,7 +3797,7 @@ const pokedex = [
     family: 'stunky'
   },
   {
-    number: 435,
+    number: '435',
     name: 'Skuntank',
     baseAttack: 184,
     baseDefense: 132,
@@ -3792,7 +3805,7 @@ const pokedex = [
     family: 'stunky'
   },
   {
-    number: 436,
+    number: '436',
     name: 'Bronzor',
     baseAttack: 43,
     baseDefense: 154,
@@ -3800,7 +3813,7 @@ const pokedex = [
     family: 'bronzor'
   },
   {
-    number: 437,
+    number: '437',
     name: 'Bronzong',
     baseAttack: 161,
     baseDefense: 213,
@@ -3808,7 +3821,7 @@ const pokedex = [
     family: 'bronzor'
   },
   {
-    number: 438,
+    number: '438',
     name: 'Bonsly',
     baseAttack: 124,
     baseDefense: 133,
@@ -3816,7 +3829,7 @@ const pokedex = [
     family: 'sudowoodo'
   },
   {
-    number: 439,
+    number: '439',
     name: 'Mime Jr',
     baseAttack: 125,
     baseDefense: 142,
@@ -3824,7 +3837,7 @@ const pokedex = [
     family: 'mr_mime'
   },
   {
-    number: 440,
+    number: '440',
     name: 'Happiny',
     baseAttack: 25,
     baseDefense: 77,
@@ -3832,7 +3845,7 @@ const pokedex = [
     family: 'chansey'
   },
   {
-    number: 441,
+    number: '441',
     name: 'Chatot',
     baseAttack: 183,
     baseDefense: 91,
@@ -3840,7 +3853,7 @@ const pokedex = [
     family: 'chatot'
   },
   {
-    number: 442,
+    number: '442',
     name: 'Spiritomb',
     baseAttack: 169,
     baseDefense: 199,
@@ -3848,7 +3861,7 @@ const pokedex = [
     family: 'spiritomb'
   },
   {
-    number: 443,
+    number: '443',
     name: 'Gible',
     baseAttack: 124,
     baseDefense: 84,
@@ -3856,7 +3869,7 @@ const pokedex = [
     family: 'gible'
   },
   {
-    number: 444,
+    number: '444',
     name: 'Gabite',
     baseAttack: 172,
     baseDefense: 125,
@@ -3864,7 +3877,7 @@ const pokedex = [
     family: 'gible'
   },
   {
-    number: 445,
+    number: '445',
     name: 'Garchomp',
     baseAttack: 261,
     baseDefense: 193,
@@ -3872,7 +3885,7 @@ const pokedex = [
     family: 'gible'
   },
   {
-    number: 446,
+    number: '446',
     name: 'Munchlax',
     baseAttack: 137,
     baseDefense: 117,
@@ -3880,7 +3893,7 @@ const pokedex = [
     family: 'snorlax'
   },
   {
-    number: 447,
+    number: '447',
     name: 'Riolu',
     baseAttack: 127,
     baseDefense: 78,
@@ -3888,7 +3901,7 @@ const pokedex = [
     family: 'lucario'
   },
   {
-    number: 448,
+    number: '448',
     name: 'Lucario',
     baseAttack: 236,
     baseDefense: 144,
@@ -3896,7 +3909,7 @@ const pokedex = [
     family: 'lucario'
   },
   {
-    number: 449,
+    number: '449',
     name: 'Hippopotas',
     baseAttack: 124,
     baseDefense: 118,
@@ -3904,7 +3917,7 @@ const pokedex = [
     family: 'hippopotas'
   },
   {
-    number: 450,
+    number: '450',
     name: 'Hippowdon',
     baseAttack: 201,
     baseDefense: 191,
@@ -3912,7 +3925,7 @@ const pokedex = [
     family: 'hippopotas'
   },
   {
-    number: 451,
+    number: '451',
     name: 'Skorupi',
     baseAttack: 93,
     baseDefense: 151,
@@ -3920,7 +3933,7 @@ const pokedex = [
     family: 'skorupi'
   },
   {
-    number: 452,
+    number: '452',
     name: 'Drapion',
     baseAttack: 180,
     baseDefense: 202,
@@ -3928,7 +3941,7 @@ const pokedex = [
     family: 'skorupi'
   },
   {
-    number: 453,
+    number: '453',
     name: 'Croagunk',
     baseAttack: 116,
     baseDefense: 76,
@@ -3936,7 +3949,7 @@ const pokedex = [
     family: 'croagunk'
   },
   {
-    number: 454,
+    number: '454',
     name: 'Toxicroak',
     baseAttack: 211,
     baseDefense: 133,
@@ -3944,7 +3957,7 @@ const pokedex = [
     family: 'croagunk'
   },
   {
-    number: 455,
+    number: '455',
     name: 'Carnivine',
     baseAttack: 187,
     baseDefense: 136,
@@ -3952,7 +3965,7 @@ const pokedex = [
     family: 'carnivine'
   },
   {
-    number: 456,
+    number: '456',
     name: 'Finneon',
     baseAttack: 96,
     baseDefense: 116,
@@ -3960,7 +3973,7 @@ const pokedex = [
     family: 'finneon'
   },
   {
-    number: 457,
+    number: '457',
     name: 'Lumineon',
     baseAttack: 142,
     baseDefense: 170,
@@ -3968,7 +3981,7 @@ const pokedex = [
     family: 'finneon'
   },
   {
-    number: 458,
+    number: '458',
     name: 'Mantyke',
     baseAttack: 105,
     baseDefense: 179,
@@ -3976,7 +3989,7 @@ const pokedex = [
     family: 'mantine'
   },
   {
-    number: 459,
+    number: '459',
     name: 'Snover',
     baseAttack: 115,
     baseDefense: 105,
@@ -3984,7 +3997,7 @@ const pokedex = [
     family: 'snover'
   },
   {
-    number: 460,
+    number: '460',
     name: 'Abomasnow',
     baseAttack: 178,
     baseDefense: 158,
@@ -3992,7 +4005,7 @@ const pokedex = [
     family: 'snover'
   },
   {
-    number: 460,
+    number: '460',
     name: 'Abomasnow Mega',
     baseAttack: 240,
     baseDefense: 191,
@@ -4000,7 +4013,7 @@ const pokedex = [
     family: 'snover'
   },
   {
-    number: 461,
+    number: '461',
     name: 'Weavile',
     baseAttack: 243,
     baseDefense: 171,
@@ -4008,7 +4021,7 @@ const pokedex = [
     family: 'sneasel'
   },
   {
-    number: 462,
+    number: '462',
     name: 'Magnezone',
     baseAttack: 238,
     baseDefense: 205,
@@ -4016,7 +4029,7 @@ const pokedex = [
     family: 'magnemite'
   },
   {
-    number: 463,
+    number: '463',
     name: 'Lickilicky',
     baseAttack: 161,
     baseDefense: 181,
@@ -4024,7 +4037,7 @@ const pokedex = [
     family: 'lickitung'
   },
   {
-    number: 464,
+    number: '464',
     name: 'Rhyperior',
     baseAttack: 241,
     baseDefense: 190,
@@ -4032,7 +4045,7 @@ const pokedex = [
     family: 'rhyhorn'
   },
   {
-    number: 465,
+    number: '465',
     name: 'Tangrowth',
     baseAttack: 207,
     baseDefense: 184,
@@ -4040,7 +4053,7 @@ const pokedex = [
     family: 'tangela'
   },
   {
-    number: 466,
+    number: '466',
     name: 'Electivire',
     baseAttack: 249,
     baseDefense: 163,
@@ -4048,7 +4061,7 @@ const pokedex = [
     family: 'electabuzz'
   },
   {
-    number: 467,
+    number: '467',
     name: 'Magmortar',
     baseAttack: 247,
     baseDefense: 172,
@@ -4056,7 +4069,7 @@ const pokedex = [
     family: 'magmar'
   },
   {
-    number: 468,
+    number: '468',
     name: 'Togekiss',
     baseAttack: 225,
     baseDefense: 217,
@@ -4064,7 +4077,7 @@ const pokedex = [
     family: 'togepi'
   },
   {
-    number: 469,
+    number: '469',
     name: 'Yanmega',
     baseAttack: 231,
     baseDefense: 156,
@@ -4072,7 +4085,7 @@ const pokedex = [
     family: 'yanma'
   },
   {
-    number: 470,
+    number: '470',
     name: 'Leafeon',
     baseAttack: 216,
     baseDefense: 219,
@@ -4080,7 +4093,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 471,
+    number: '471',
     name: 'Glaceon',
     baseAttack: 238,
     baseDefense: 205,
@@ -4088,7 +4101,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 472,
+    number: '472',
     name: 'Gliscor',
     baseAttack: 185,
     baseDefense: 222,
@@ -4096,7 +4109,7 @@ const pokedex = [
     family: 'gligar'
   },
   {
-    number: 473,
+    number: '473',
     name: 'Mamoswine',
     baseAttack: 247,
     baseDefense: 146,
@@ -4104,7 +4117,7 @@ const pokedex = [
     family: 'swinub'
   },
   {
-    number: 474,
+    number: '474',
     name: 'Porygon Z',
     baseAttack: 264,
     baseDefense: 150,
@@ -4112,7 +4125,7 @@ const pokedex = [
     family: 'porygon'
   },
   {
-    number: 475,
+    number: '475',
     name: 'Gallade',
     baseAttack: 237,
     baseDefense: 195,
@@ -4120,7 +4133,7 @@ const pokedex = [
     family: 'ralts'
   },
   {
-    number: 476,
+    number: '476',
     name: 'Probopass',
     baseAttack: 135,
     baseDefense: 275,
@@ -4128,7 +4141,7 @@ const pokedex = [
     family: 'nosepass'
   },
   {
-    number: 477,
+    number: '477',
     name: 'Dusknoir',
     baseAttack: 180,
     baseDefense: 254,
@@ -4136,7 +4149,7 @@ const pokedex = [
     family: 'duskull'
   },
   {
-    number: 478,
+    number: '478',
     name: 'Froslass',
     baseAttack: 171,
     baseDefense: 150,
@@ -4144,7 +4157,7 @@ const pokedex = [
     family: 'snorunt'
   },
   {
-    number: 479,
+    number: '479',
     name: 'Rotom',
     baseAttack: 185,
     baseDefense: 159,
@@ -4152,7 +4165,7 @@ const pokedex = [
     family: 'rotom'
   },
   {
-    number: 480,
+    number: '480',
     name: 'Uxie',
     baseAttack: 156,
     baseDefense: 270,
@@ -4160,7 +4173,7 @@ const pokedex = [
     family: 'uxie'
   },
   {
-    number: 481,
+    number: '481',
     name: 'Mesprit',
     baseAttack: 212,
     baseDefense: 212,
@@ -4168,7 +4181,7 @@ const pokedex = [
     family: 'mesprit'
   },
   {
-    number: 482,
+    number: '482',
     name: 'Azelf',
     baseAttack: 270,
     baseDefense: 151,
@@ -4176,7 +4189,7 @@ const pokedex = [
     family: 'azelf'
   },
   {
-    number: 483,
+    number: '483',
     name: 'Dialga',
     baseAttack: 275,
     baseDefense: 211,
@@ -4184,7 +4197,7 @@ const pokedex = [
     family: 'dialga'
   },
   {
-    number: 484,
+    number: '484',
     name: 'Palkia',
     baseAttack: 280,
     baseDefense: 215,
@@ -4192,7 +4205,7 @@ const pokedex = [
     family: 'palkia'
   },
   {
-    number: 485,
+    number: '485',
     name: 'Heatran',
     baseAttack: 251,
     baseDefense: 213,
@@ -4200,7 +4213,7 @@ const pokedex = [
     family: 'heatran'
   },
   {
-    number: 486,
+    number: '486',
     name: 'Regigigas',
     baseAttack: 287,
     baseDefense: 210,
@@ -4208,7 +4221,7 @@ const pokedex = [
     family: 'regigigas'
   },
   {
-    number: 487,
+    number: '487',
     name: 'Giratina',
     baseAttack: 187,
     baseDefense: 225,
@@ -4216,7 +4229,7 @@ const pokedex = [
     family: 'giratina'
   },
   {
-    number: 487,
+    number: '487',
     name: 'Giratina Origin',
     baseAttack: 225,
     baseDefense: 187,
@@ -4224,7 +4237,7 @@ const pokedex = [
     family: 'giratina'
   },
   {
-    number: 488,
+    number: '488',
     name: 'Cresselia',
     baseAttack: 152,
     baseDefense: 258,
@@ -4232,7 +4245,7 @@ const pokedex = [
     family: 'cresselia'
   },
   {
-    number: 489,
+    number: '489',
     name: 'Phione',
     baseAttack: 162,
     baseDefense: 162,
@@ -4240,7 +4253,7 @@ const pokedex = [
     family: 'phione'
   },
   {
-    number: 490,
+    number: '490',
     name: 'Manaphy',
     baseAttack: 210,
     baseDefense: 210,
@@ -4248,7 +4261,7 @@ const pokedex = [
     family: 'manaphy'
   },
   {
-    number: 491,
+    number: '491',
     name: 'Darkrai',
     baseAttack: 285,
     baseDefense: 198,
@@ -4256,7 +4269,7 @@ const pokedex = [
     family: 'darkrai'
   },
   {
-    number: 492,
+    number: '492',
     name: 'Shaymin',
     baseAttack: 210,
     baseDefense: 210,
@@ -4264,7 +4277,7 @@ const pokedex = [
     family: 'shaymin'
   },
   {
-    number: 493,
+    number: '493',
     name: 'Arceus',
     baseAttack: 238,
     baseDefense: 238,
@@ -4272,7 +4285,7 @@ const pokedex = [
     family: 'arceus'
   },
   {
-    number: 494,
+    number: '494',
     name: 'Victini',
     baseAttack: 210,
     baseDefense: 210,
@@ -4280,7 +4293,7 @@ const pokedex = [
     family: 'victini'
   },
   {
-    number: 495,
+    number: '495',
     name: 'Snivy',
     baseAttack: 88,
     baseDefense: 107,
@@ -4288,7 +4301,7 @@ const pokedex = [
     family: 'snivy'
   },
   {
-    number: 496,
+    number: '496',
     name: 'Servine',
     baseAttack: 122,
     baseDefense: 152,
@@ -4296,7 +4309,7 @@ const pokedex = [
     family: 'snivy'
   },
   {
-    number: 497,
+    number: '497',
     name: 'Serperior',
     baseAttack: 161,
     baseDefense: 204,
@@ -4304,7 +4317,7 @@ const pokedex = [
     family: 'snivy'
   },
   {
-    number: 498,
+    number: '498',
     name: 'Tepig',
     baseAttack: 115,
     baseDefense: 85,
@@ -4312,7 +4325,7 @@ const pokedex = [
     family: 'tepig'
   },
   {
-    number: 499,
+    number: '499',
     name: 'Pignite',
     baseAttack: 173,
     baseDefense: 106,
@@ -4320,7 +4333,7 @@ const pokedex = [
     family: 'tepig'
   },
   {
-    number: 500,
+    number: '500',
     name: 'Emboar',
     baseAttack: 235,
     baseDefense: 127,
@@ -4328,7 +4341,7 @@ const pokedex = [
     family: 'tepig'
   },
   {
-    number: 501,
+    number: '501',
     name: 'Oshawott',
     baseAttack: 117,
     baseDefense: 85,
@@ -4336,7 +4349,7 @@ const pokedex = [
     family: 'oshawott'
   },
   {
-    number: 502,
+    number: '502',
     name: 'Dewott',
     baseAttack: 159,
     baseDefense: 116,
@@ -4344,7 +4357,7 @@ const pokedex = [
     family: 'oshawott'
   },
   {
-    number: 503,
+    number: '503',
     name: 'Samurott',
     baseAttack: 212,
     baseDefense: 157,
@@ -4352,7 +4365,7 @@ const pokedex = [
     family: 'oshawott'
   },
   {
-    number: 504,
+    number: '504',
     name: 'Patrat',
     baseAttack: 98,
     baseDefense: 73,
@@ -4360,7 +4373,7 @@ const pokedex = [
     family: 'patrat'
   },
   {
-    number: 505,
+    number: '505',
     name: 'Watchog',
     baseAttack: 165,
     baseDefense: 139,
@@ -4368,7 +4381,7 @@ const pokedex = [
     family: 'patrat'
   },
   {
-    number: 506,
+    number: '506',
     name: 'Lillipup',
     baseAttack: 107,
     baseDefense: 86,
@@ -4376,7 +4389,7 @@ const pokedex = [
     family: 'lillipup'
   },
   {
-    number: 507,
+    number: '507',
     name: 'Herdier',
     baseAttack: 145,
     baseDefense: 126,
@@ -4384,7 +4397,7 @@ const pokedex = [
     family: 'lillipup'
   },
   {
-    number: 508,
+    number: '508',
     name: 'Stoutland',
     baseAttack: 206,
     baseDefense: 182,
@@ -4392,7 +4405,7 @@ const pokedex = [
     family: 'lillipup'
   },
   {
-    number: 509,
+    number: '509',
     name: 'Purrloin',
     baseAttack: 98,
     baseDefense: 73,
@@ -4400,7 +4413,7 @@ const pokedex = [
     family: 'purrloin'
   },
   {
-    number: 510,
+    number: '510',
     name: 'Liepard',
     baseAttack: 187,
     baseDefense: 106,
@@ -4408,7 +4421,7 @@ const pokedex = [
     family: 'purrloin'
   },
   {
-    number: 511,
+    number: '511',
     name: 'Pansage',
     baseAttack: 104,
     baseDefense: 94,
@@ -4416,7 +4429,7 @@ const pokedex = [
     family: 'pansage'
   },
   {
-    number: 512,
+    number: '512',
     name: 'Simisage',
     baseAttack: 206,
     baseDefense: 133,
@@ -4424,7 +4437,7 @@ const pokedex = [
     family: 'pansage'
   },
   {
-    number: 513,
+    number: '513',
     name: 'Pansear',
     baseAttack: 104,
     baseDefense: 94,
@@ -4432,7 +4445,7 @@ const pokedex = [
     family: 'pansear'
   },
   {
-    number: 514,
+    number: '514',
     name: 'Simisear',
     baseAttack: 206,
     baseDefense: 133,
@@ -4440,7 +4453,7 @@ const pokedex = [
     family: 'pansear'
   },
   {
-    number: 515,
+    number: '515',
     name: 'Panpour',
     baseAttack: 104,
     baseDefense: 94,
@@ -4448,7 +4461,7 @@ const pokedex = [
     family: 'panpour'
   },
   {
-    number: 516,
+    number: '516',
     name: 'Simipour',
     baseAttack: 206,
     baseDefense: 133,
@@ -4456,7 +4469,7 @@ const pokedex = [
     family: 'panpour'
   },
   {
-    number: 517,
+    number: '517',
     name: 'Munna',
     baseAttack: 111,
     baseDefense: 92,
@@ -4464,7 +4477,7 @@ const pokedex = [
     family: 'munna'
   },
   {
-    number: 518,
+    number: '518',
     name: 'Musharna',
     baseAttack: 183,
     baseDefense: 166,
@@ -4472,7 +4485,7 @@ const pokedex = [
     family: 'munna'
   },
   {
-    number: 519,
+    number: '519',
     name: 'Pidove',
     baseAttack: 98,
     baseDefense: 80,
@@ -4480,7 +4493,7 @@ const pokedex = [
     family: 'pidove'
   },
   {
-    number: 520,
+    number: '520',
     name: 'Tranquill',
     baseAttack: 144,
     baseDefense: 107,
@@ -4488,7 +4501,7 @@ const pokedex = [
     family: 'pidove'
   },
   {
-    number: 521,
+    number: '521',
     name: 'Unfezant',
     baseAttack: 226,
     baseDefense: 146,
@@ -4496,7 +4509,7 @@ const pokedex = [
     family: 'pidove'
   },
   {
-    number: 522,
+    number: '522',
     name: 'Blitzle',
     baseAttack: 118,
     baseDefense: 64,
@@ -4504,7 +4517,7 @@ const pokedex = [
     family: 'blitzle'
   },
   {
-    number: 523,
+    number: '523',
     name: 'Zebstrika',
     baseAttack: 211,
     baseDefense: 136,
@@ -4512,7 +4525,7 @@ const pokedex = [
     family: 'blitzle'
   },
   {
-    number: 524,
+    number: '524',
     name: 'Roggenrola',
     baseAttack: 121,
     baseDefense: 110,
@@ -4520,7 +4533,7 @@ const pokedex = [
     family: 'roggenrola'
   },
   {
-    number: 525,
+    number: '525',
     name: 'Boldore',
     baseAttack: 174,
     baseDefense: 143,
@@ -4528,7 +4541,7 @@ const pokedex = [
     family: 'roggenrola'
   },
   {
-    number: 526,
+    number: '526',
     name: 'Gigalith',
     baseAttack: 226,
     baseDefense: 201,
@@ -4536,7 +4549,7 @@ const pokedex = [
     family: 'roggenrola'
   },
   {
-    number: 527,
+    number: '527',
     name: 'Woobat',
     baseAttack: 107,
     baseDefense: 85,
@@ -4544,7 +4557,7 @@ const pokedex = [
     family: 'woobat'
   },
   {
-    number: 528,
+    number: '528',
     name: 'Swoobat',
     baseAttack: 161,
     baseDefense: 119,
@@ -4552,7 +4565,7 @@ const pokedex = [
     family: 'woobat'
   },
   {
-    number: 529,
+    number: '529',
     name: 'Drilbur',
     baseAttack: 154,
     baseDefense: 85,
@@ -4560,7 +4573,7 @@ const pokedex = [
     family: 'drilbur'
   },
   {
-    number: 530,
+    number: '530',
     name: 'Excadrill',
     baseAttack: 255,
     baseDefense: 129,
@@ -4568,7 +4581,7 @@ const pokedex = [
     family: 'drilbur'
   },
   {
-    number: 531,
+    number: '531',
     name: 'Audino',
     baseAttack: 114,
     baseDefense: 163,
@@ -4576,7 +4589,7 @@ const pokedex = [
     family: 'audino'
   },
   {
-    number: 532,
+    number: '532',
     name: 'Timburr',
     baseAttack: 134,
     baseDefense: 87,
@@ -4584,7 +4597,7 @@ const pokedex = [
     family: 'timburr'
   },
   {
-    number: 533,
+    number: '533',
     name: 'Gurdurr',
     baseAttack: 180,
     baseDefense: 134,
@@ -4592,7 +4605,7 @@ const pokedex = [
     family: 'timburr'
   },
   {
-    number: 534,
+    number: '534',
     name: 'Conkeldurr',
     baseAttack: 243,
     baseDefense: 158,
@@ -4600,7 +4613,7 @@ const pokedex = [
     family: 'timburr'
   },
   {
-    number: 535,
+    number: '535',
     name: 'Tympole',
     baseAttack: 98,
     baseDefense: 78,
@@ -4608,7 +4621,7 @@ const pokedex = [
     family: 'tympole'
   },
   {
-    number: 536,
+    number: '536',
     name: 'Palpitoad',
     baseAttack: 128,
     baseDefense: 109,
@@ -4616,7 +4629,7 @@ const pokedex = [
     family: 'tympole'
   },
   {
-    number: 537,
+    number: '537',
     name: 'Seismitoad',
     baseAttack: 188,
     baseDefense: 150,
@@ -4624,7 +4637,7 @@ const pokedex = [
     family: 'tympole'
   },
   {
-    number: 538,
+    number: '538',
     name: 'Throh',
     baseAttack: 172,
     baseDefense: 160,
@@ -4632,7 +4645,7 @@ const pokedex = [
     family: 'throh'
   },
   {
-    number: 539,
+    number: '539',
     name: 'Sawk',
     baseAttack: 231,
     baseDefense: 153,
@@ -4640,7 +4653,7 @@ const pokedex = [
     family: 'sawk'
   },
   {
-    number: 540,
+    number: '540',
     name: 'Sewaddle',
     baseAttack: 96,
     baseDefense: 124,
@@ -4648,7 +4661,7 @@ const pokedex = [
     family: 'sewaddle'
   },
   {
-    number: 541,
+    number: '541',
     name: 'Swadloon',
     baseAttack: 115,
     baseDefense: 162,
@@ -4656,7 +4669,7 @@ const pokedex = [
     family: 'sewaddle'
   },
   {
-    number: 542,
+    number: '542',
     name: 'Leavanny',
     baseAttack: 205,
     baseDefense: 165,
@@ -4664,7 +4677,7 @@ const pokedex = [
     family: 'sewaddle'
   },
   {
-    number: 543,
+    number: '543',
     name: 'Venipede',
     baseAttack: 83,
     baseDefense: 99,
@@ -4672,7 +4685,7 @@ const pokedex = [
     family: 'venipede'
   },
   {
-    number: 544,
+    number: '544',
     name: 'Whirlipede',
     baseAttack: 100,
     baseDefense: 173,
@@ -4680,7 +4693,7 @@ const pokedex = [
     family: 'venipede'
   },
   {
-    number: 545,
+    number: '545',
     name: 'Scolipede',
     baseAttack: 203,
     baseDefense: 175,
@@ -4688,7 +4701,7 @@ const pokedex = [
     family: 'venipede'
   },
   {
-    number: 546,
+    number: '546',
     name: 'Cottonee',
     baseAttack: 71,
     baseDefense: 111,
@@ -4696,7 +4709,7 @@ const pokedex = [
     family: 'cottonee'
   },
   {
-    number: 547,
+    number: '547',
     name: 'Whimsicott',
     baseAttack: 164,
     baseDefense: 176,
@@ -4704,7 +4717,7 @@ const pokedex = [
     family: 'cottonee'
   },
   {
-    number: 548,
+    number: '548',
     name: 'Petilil',
     baseAttack: 119,
     baseDefense: 91,
@@ -4712,7 +4725,7 @@ const pokedex = [
     family: 'petilil'
   },
   {
-    number: 549,
+    number: '549',
     name: 'Lilligant',
     baseAttack: 214,
     baseDefense: 155,
@@ -4720,7 +4733,7 @@ const pokedex = [
     family: 'petilil'
   },
   {
-    number: 550,
+    number: '550',
     name: 'Basculin',
     baseAttack: 189,
     baseDefense: 129,
@@ -4728,7 +4741,7 @@ const pokedex = [
     family: 'basculin'
   },
   {
-    number: 551,
+    number: '551',
     name: 'Sandile',
     baseAttack: 132,
     baseDefense: 69,
@@ -4736,7 +4749,7 @@ const pokedex = [
     family: 'sandile'
   },
   {
-    number: 552,
+    number: '552',
     name: 'Krokorok',
     baseAttack: 155,
     baseDefense: 90,
@@ -4744,7 +4757,7 @@ const pokedex = [
     family: 'sandile'
   },
   {
-    number: 553,
+    number: '553',
     name: 'Krookodile',
     baseAttack: 229,
     baseDefense: 158,
@@ -4752,7 +4765,7 @@ const pokedex = [
     family: 'sandile'
   },
   {
-    number: 554,
+    number: '554',
     name: 'Darumaka',
     baseAttack: 153,
     baseDefense: 86,
@@ -4760,7 +4773,7 @@ const pokedex = [
     family: 'darumaka'
   },
   {
-    number: 554,
+    number: '554',
     name: 'Darumaka Galar',
     baseAttack: 153,
     baseDefense: 86,
@@ -4768,7 +4781,7 @@ const pokedex = [
     family: 'darumaka'
   },
   {
-    number: 555,
+    number: '555',
     name: 'Darmanitan',
     baseAttack: 263,
     baseDefense: 114,
@@ -4776,7 +4789,7 @@ const pokedex = [
     family: 'darumaka'
   },
   {
-    number: 555,
+    number: '555',
     name: 'Darmanitan Galar',
     baseAttack: 263,
     baseDefense: 114,
@@ -4784,7 +4797,7 @@ const pokedex = [
     family: 'darumaka'
   },
   {
-    number: 555,
+    number: '555',
     name: 'Darmanitan Galar',
     baseAttack: 323,
     baseDefense: 123,
@@ -4792,7 +4805,7 @@ const pokedex = [
     family: 'darumaka'
   },
   {
-    number: 556,
+    number: '556',
     name: 'Maractus',
     baseAttack: 201,
     baseDefense: 130,
@@ -4800,7 +4813,7 @@ const pokedex = [
     family: 'maractus'
   },
   {
-    number: 557,
+    number: '557',
     name: 'Dwebble',
     baseAttack: 118,
     baseDefense: 128,
@@ -4808,7 +4821,7 @@ const pokedex = [
     family: 'dwebble'
   },
   {
-    number: 558,
+    number: '558',
     name: 'Crustle',
     baseAttack: 188,
     baseDefense: 200,
@@ -4816,7 +4829,7 @@ const pokedex = [
     family: 'dwebble'
   },
   {
-    number: 559,
+    number: '559',
     name: 'Scraggy',
     baseAttack: 132,
     baseDefense: 132,
@@ -4824,7 +4837,7 @@ const pokedex = [
     family: 'scraggy'
   },
   {
-    number: 560,
+    number: '560',
     name: 'Scrafty',
     baseAttack: 163,
     baseDefense: 222,
@@ -4832,7 +4845,7 @@ const pokedex = [
     family: 'scraggy'
   },
   {
-    number: 561,
+    number: '561',
     name: 'Sigilyph',
     baseAttack: 204,
     baseDefense: 167,
@@ -4840,7 +4853,7 @@ const pokedex = [
     family: 'sigilyph'
   },
   {
-    number: 562,
+    number: '562',
     name: 'Yamask',
     baseAttack: 95,
     baseDefense: 141,
@@ -4848,7 +4861,7 @@ const pokedex = [
     family: 'yamask'
   },
   {
-    number: 562,
+    number: '562',
     name: 'Yamask Galar',
     baseAttack: 95,
     baseDefense: 141,
@@ -4856,7 +4869,7 @@ const pokedex = [
     family: 'yamask'
   },
   {
-    number: 563,
+    number: '563',
     name: 'Cofagrigus',
     baseAttack: 163,
     baseDefense: 237,
@@ -4864,7 +4877,7 @@ const pokedex = [
     family: 'yamask'
   },
   {
-    number: 564,
+    number: '564',
     name: 'Tirtouga',
     baseAttack: 134,
     baseDefense: 146,
@@ -4872,7 +4885,7 @@ const pokedex = [
     family: 'tirtouga'
   },
   {
-    number: 565,
+    number: '565',
     name: 'Carracosta',
     baseAttack: 192,
     baseDefense: 197,
@@ -4880,7 +4893,7 @@ const pokedex = [
     family: 'tirtouga'
   },
   {
-    number: 566,
+    number: '566',
     name: 'Archen',
     baseAttack: 213,
     baseDefense: 89,
@@ -4888,7 +4901,7 @@ const pokedex = [
     family: 'archen'
   },
   {
-    number: 567,
+    number: '567',
     name: 'Archeops',
     baseAttack: 292,
     baseDefense: 139,
@@ -4896,7 +4909,7 @@ const pokedex = [
     family: 'archen'
   },
   {
-    number: 568,
+    number: '568',
     name: 'Trubbish',
     baseAttack: 96,
     baseDefense: 122,
@@ -4904,7 +4917,7 @@ const pokedex = [
     family: 'trubbish'
   },
   {
-    number: 569,
+    number: '569',
     name: 'Garbodor',
     baseAttack: 181,
     baseDefense: 164,
@@ -4912,7 +4925,7 @@ const pokedex = [
     family: 'trubbish'
   },
   {
-    number: 570,
+    number: '570',
     name: 'Zorua',
     baseAttack: 153,
     baseDefense: 78,
@@ -4920,7 +4933,7 @@ const pokedex = [
     family: 'zorua'
   },
   {
-    number: 571,
+    number: '571',
     name: 'Zoroark',
     baseAttack: 250,
     baseDefense: 127,
@@ -4928,7 +4941,7 @@ const pokedex = [
     family: 'zorua'
   },
   {
-    number: 572,
+    number: '572',
     name: 'Minccino',
     baseAttack: 98,
     baseDefense: 80,
@@ -4936,7 +4949,7 @@ const pokedex = [
     family: 'minccino'
   },
   {
-    number: 573,
+    number: '573',
     name: 'Cinccino',
     baseAttack: 198,
     baseDefense: 130,
@@ -4944,7 +4957,7 @@ const pokedex = [
     family: 'minccino'
   },
   {
-    number: 574,
+    number: '574',
     name: 'Gothita',
     baseAttack: 98,
     baseDefense: 112,
@@ -4952,7 +4965,7 @@ const pokedex = [
     family: 'gothita'
   },
   {
-    number: 575,
+    number: '575',
     name: 'Gothorita',
     baseAttack: 137,
     baseDefense: 153,
@@ -4960,7 +4973,7 @@ const pokedex = [
     family: 'gothita'
   },
   {
-    number: 576,
+    number: '576',
     name: 'Gothitelle',
     baseAttack: 176,
     baseDefense: 205,
@@ -4968,7 +4981,7 @@ const pokedex = [
     family: 'gothita'
   },
   {
-    number: 577,
+    number: '577',
     name: 'Solosis',
     baseAttack: 170,
     baseDefense: 83,
@@ -4976,7 +4989,7 @@ const pokedex = [
     family: 'solosis'
   },
   {
-    number: 578,
+    number: '578',
     name: 'Duosion',
     baseAttack: 208,
     baseDefense: 103,
@@ -4984,7 +4997,7 @@ const pokedex = [
     family: 'solosis'
   },
   {
-    number: 579,
+    number: '579',
     name: 'Reuniclus',
     baseAttack: 214,
     baseDefense: 148,
@@ -4992,7 +5005,7 @@ const pokedex = [
     family: 'solosis'
   },
   {
-    number: 580,
+    number: '580',
     name: 'Ducklett',
     baseAttack: 84,
     baseDefense: 96,
@@ -5000,7 +5013,7 @@ const pokedex = [
     family: 'ducklett'
   },
   {
-    number: 581,
+    number: '581',
     name: 'Swanna',
     baseAttack: 182,
     baseDefense: 132,
@@ -5008,7 +5021,7 @@ const pokedex = [
     family: 'ducklett'
   },
   {
-    number: 582,
+    number: '582',
     name: 'Vanillite',
     baseAttack: 118,
     baseDefense: 106,
@@ -5016,7 +5029,7 @@ const pokedex = [
     family: 'vanillite'
   },
   {
-    number: 583,
+    number: '583',
     name: 'Vanillish',
     baseAttack: 151,
     baseDefense: 138,
@@ -5024,7 +5037,7 @@ const pokedex = [
     family: 'vanillite'
   },
   {
-    number: 584,
+    number: '584',
     name: 'Vanilluxe',
     baseAttack: 218,
     baseDefense: 184,
@@ -5032,7 +5045,7 @@ const pokedex = [
     family: 'vanillite'
   },
   {
-    number: 585,
+    number: '585',
     name: 'Deerling',
     baseAttack: 115,
     baseDefense: 100,
@@ -5040,7 +5053,7 @@ const pokedex = [
     family: 'deerling'
   },
   {
-    number: 586,
+    number: '586',
     name: 'Sawsbuck',
     baseAttack: 198,
     baseDefense: 146,
@@ -5048,7 +5061,7 @@ const pokedex = [
     family: 'deerling'
   },
   {
-    number: 587,
+    number: '587',
     name: 'Emolga',
     baseAttack: 158,
     baseDefense: 127,
@@ -5056,7 +5069,7 @@ const pokedex = [
     family: 'emolga'
   },
   {
-    number: 588,
+    number: '588',
     name: 'Karrablast',
     baseAttack: 137,
     baseDefense: 87,
@@ -5064,7 +5077,7 @@ const pokedex = [
     family: 'karrablast'
   },
   {
-    number: 589,
+    number: '589',
     name: 'Escavalier',
     baseAttack: 223,
     baseDefense: 187,
@@ -5072,7 +5085,7 @@ const pokedex = [
     family: 'karrablast'
   },
   {
-    number: 590,
+    number: '590',
     name: 'Foongus',
     baseAttack: 97,
     baseDefense: 91,
@@ -5080,7 +5093,7 @@ const pokedex = [
     family: 'foongus'
   },
   {
-    number: 591,
+    number: '591',
     name: 'Amoonguss',
     baseAttack: 155,
     baseDefense: 139,
@@ -5088,7 +5101,7 @@ const pokedex = [
     family: 'foongus'
   },
   {
-    number: 592,
+    number: '592',
     name: 'Frillish',
     baseAttack: 115,
     baseDefense: 134,
@@ -5096,7 +5109,7 @@ const pokedex = [
     family: 'frillish'
   },
   {
-    number: 593,
+    number: '593',
     name: 'Jellicent',
     baseAttack: 159,
     baseDefense: 178,
@@ -5104,7 +5117,7 @@ const pokedex = [
     family: 'frillish'
   },
   {
-    number: 594,
+    number: '594',
     name: 'Alomomola',
     baseAttack: 138,
     baseDefense: 131,
@@ -5112,7 +5125,7 @@ const pokedex = [
     family: 'alomomola'
   },
   {
-    number: 595,
+    number: '595',
     name: 'Joltik',
     baseAttack: 110,
     baseDefense: 98,
@@ -5120,7 +5133,7 @@ const pokedex = [
     family: 'joltik'
   },
   {
-    number: 596,
+    number: '596',
     name: 'Galvantula',
     baseAttack: 201,
     baseDefense: 128,
@@ -5128,7 +5141,7 @@ const pokedex = [
     family: 'joltik'
   },
   {
-    number: 597,
+    number: '597',
     name: 'Ferroseed',
     baseAttack: 82,
     baseDefense: 155,
@@ -5136,7 +5149,7 @@ const pokedex = [
     family: 'ferroseed'
   },
   {
-    number: 598,
+    number: '598',
     name: 'Ferrothorn',
     baseAttack: 158,
     baseDefense: 223,
@@ -5144,7 +5157,7 @@ const pokedex = [
     family: 'ferroseed'
   },
   {
-    number: 599,
+    number: '599',
     name: 'Klink',
     baseAttack: 98,
     baseDefense: 121,
@@ -5152,7 +5165,7 @@ const pokedex = [
     family: 'klink'
   },
   {
-    number: 600,
+    number: '600',
     name: 'Klang',
     baseAttack: 150,
     baseDefense: 174,
@@ -5160,7 +5173,7 @@ const pokedex = [
     family: 'klink'
   },
   {
-    number: 601,
+    number: '601',
     name: 'Klinklang',
     baseAttack: 199,
     baseDefense: 214,
@@ -5168,7 +5181,7 @@ const pokedex = [
     family: 'klink'
   },
   {
-    number: 602,
+    number: '602',
     name: 'Tynamo',
     baseAttack: 105,
     baseDefense: 78,
@@ -5176,7 +5189,7 @@ const pokedex = [
     family: 'tynamo'
   },
   {
-    number: 603,
+    number: '603',
     name: 'Eelektrik',
     baseAttack: 156,
     baseDefense: 130,
@@ -5184,7 +5197,7 @@ const pokedex = [
     family: 'tynamo'
   },
   {
-    number: 604,
+    number: '604',
     name: 'Eelektross',
     baseAttack: 217,
     baseDefense: 152,
@@ -5192,7 +5205,7 @@ const pokedex = [
     family: 'tynamo'
   },
   {
-    number: 605,
+    number: '605',
     name: 'Elgyem',
     baseAttack: 148,
     baseDefense: 100,
@@ -5200,7 +5213,7 @@ const pokedex = [
     family: 'elgyem'
   },
   {
-    number: 606,
+    number: '606',
     name: 'Beheeyem',
     baseAttack: 221,
     baseDefense: 163,
@@ -5208,7 +5221,7 @@ const pokedex = [
     family: 'elgyem'
   },
   {
-    number: 607,
+    number: '607',
     name: 'Litwick',
     baseAttack: 108,
     baseDefense: 98,
@@ -5216,7 +5229,7 @@ const pokedex = [
     family: 'litwick'
   },
   {
-    number: 608,
+    number: '608',
     name: 'Lampent',
     baseAttack: 169,
     baseDefense: 115,
@@ -5224,7 +5237,7 @@ const pokedex = [
     family: 'litwick'
   },
   {
-    number: 609,
+    number: '609',
     name: 'Chandelure',
     baseAttack: 271,
     baseDefense: 182,
@@ -5232,7 +5245,7 @@ const pokedex = [
     family: 'litwick'
   },
   {
-    number: 610,
+    number: '610',
     name: 'Axew',
     baseAttack: 154,
     baseDefense: 101,
@@ -5240,7 +5253,7 @@ const pokedex = [
     family: 'axew'
   },
   {
-    number: 611,
+    number: '611',
     name: 'Fraxure',
     baseAttack: 212,
     baseDefense: 123,
@@ -5248,7 +5261,7 @@ const pokedex = [
     family: 'axew'
   },
   {
-    number: 612,
+    number: '612',
     name: 'Haxorus',
     baseAttack: 284,
     baseDefense: 172,
@@ -5256,7 +5269,7 @@ const pokedex = [
     family: 'axew'
   },
   {
-    number: 613,
+    number: '613',
     name: 'Cubchoo',
     baseAttack: 128,
     baseDefense: 74,
@@ -5264,7 +5277,7 @@ const pokedex = [
     family: 'cubchoo'
   },
   {
-    number: 614,
+    number: '614',
     name: 'Beartic',
     baseAttack: 233,
     baseDefense: 152,
@@ -5272,7 +5285,7 @@ const pokedex = [
     family: 'cubchoo'
   },
   {
-    number: 615,
+    number: '615',
     name: 'Cryogonal',
     baseAttack: 190,
     baseDefense: 218,
@@ -5280,7 +5293,7 @@ const pokedex = [
     family: 'cryogonal'
   },
   {
-    number: 616,
+    number: '616',
     name: 'Shelmet',
     baseAttack: 72,
     baseDefense: 140,
@@ -5288,7 +5301,7 @@ const pokedex = [
     family: 'shelmet'
   },
   {
-    number: 617,
+    number: '617',
     name: 'Accelgor',
     baseAttack: 220,
     baseDefense: 120,
@@ -5296,7 +5309,7 @@ const pokedex = [
     family: 'shelmet'
   },
   {
-    number: 618,
+    number: '618',
     name: 'Stunfisk',
     baseAttack: 144,
     baseDefense: 171,
@@ -5304,7 +5317,7 @@ const pokedex = [
     family: 'stunfisk'
   },
   {
-    number: 618,
+    number: '618',
     name: 'Stunfisk Galar',
     baseAttack: 144,
     baseDefense: 171,
@@ -5312,7 +5325,7 @@ const pokedex = [
     family: 'stunfisk'
   },
   {
-    number: 619,
+    number: '619',
     name: 'Mienfoo',
     baseAttack: 160,
     baseDefense: 98,
@@ -5320,7 +5333,7 @@ const pokedex = [
     family: 'mienfoo'
   },
   {
-    number: 620,
+    number: '620',
     name: 'Mienshao',
     baseAttack: 258,
     baseDefense: 127,
@@ -5328,7 +5341,7 @@ const pokedex = [
     family: 'mienfoo'
   },
   {
-    number: 621,
+    number: '621',
     name: 'Druddigon',
     baseAttack: 213,
     baseDefense: 170,
@@ -5336,7 +5349,7 @@ const pokedex = [
     family: 'druddigon'
   },
   {
-    number: 622,
+    number: '622',
     name: 'Golett',
     baseAttack: 127,
     baseDefense: 92,
@@ -5344,7 +5357,7 @@ const pokedex = [
     family: 'golett'
   },
   {
-    number: 623,
+    number: '623',
     name: 'Golurk',
     baseAttack: 222,
     baseDefense: 154,
@@ -5352,7 +5365,7 @@ const pokedex = [
     family: 'golett'
   },
   {
-    number: 624,
+    number: '624',
     name: 'Pawniard',
     baseAttack: 154,
     baseDefense: 114,
@@ -5360,7 +5373,7 @@ const pokedex = [
     family: 'pawniard'
   },
   {
-    number: 625,
+    number: '625',
     name: 'Bisharp',
     baseAttack: 232,
     baseDefense: 176,
@@ -5368,7 +5381,7 @@ const pokedex = [
     family: 'pawniard'
   },
   {
-    number: 626,
+    number: '626',
     name: 'Bouffalant',
     baseAttack: 195,
     baseDefense: 182,
@@ -5376,7 +5389,7 @@ const pokedex = [
     family: 'bouffalant'
   },
   {
-    number: 627,
+    number: '627',
     name: 'Rufflet',
     baseAttack: 150,
     baseDefense: 97,
@@ -5384,7 +5397,7 @@ const pokedex = [
     family: 'rufflet'
   },
   {
-    number: 628,
+    number: '628',
     name: 'Braviary',
     baseAttack: 232,
     baseDefense: 152,
@@ -5392,7 +5405,7 @@ const pokedex = [
     family: 'rufflet'
   },
   {
-    number: 629,
+    number: '629',
     name: 'Vullaby',
     baseAttack: 105,
     baseDefense: 139,
@@ -5400,7 +5413,7 @@ const pokedex = [
     family: 'vullaby'
   },
   {
-    number: 630,
+    number: '630',
     name: 'Mandibuzz',
     baseAttack: 129,
     baseDefense: 205,
@@ -5408,7 +5421,7 @@ const pokedex = [
     family: 'vullaby'
   },
   {
-    number: 631,
+    number: '631',
     name: 'Heatmor',
     baseAttack: 204,
     baseDefense: 129,
@@ -5416,7 +5429,7 @@ const pokedex = [
     family: 'heatmor'
   },
   {
-    number: 632,
+    number: '632',
     name: 'Durant',
     baseAttack: 217,
     baseDefense: 188,
@@ -5424,7 +5437,7 @@ const pokedex = [
     family: 'durant'
   },
   {
-    number: 633,
+    number: '633',
     name: 'Deino',
     baseAttack: 116,
     baseDefense: 93,
@@ -5432,7 +5445,7 @@ const pokedex = [
     family: 'deino'
   },
   {
-    number: 634,
+    number: '634',
     name: 'Zweilous',
     baseAttack: 159,
     baseDefense: 135,
@@ -5440,7 +5453,7 @@ const pokedex = [
     family: 'deino'
   },
   {
-    number: 635,
+    number: '635',
     name: 'Hydreigon',
     baseAttack: 256,
     baseDefense: 188,
@@ -5448,7 +5461,7 @@ const pokedex = [
     family: 'deino'
   },
   {
-    number: 636,
+    number: '636',
     name: 'Larvesta',
     baseAttack: 156,
     baseDefense: 107,
@@ -5456,7 +5469,7 @@ const pokedex = [
     family: 'larvesta'
   },
   {
-    number: 637,
+    number: '637',
     name: 'Volcarona',
     baseAttack: 264,
     baseDefense: 189,
@@ -5464,7 +5477,7 @@ const pokedex = [
     family: 'larvesta'
   },
   {
-    number: 638,
+    number: '638',
     name: 'Cobalion',
     baseAttack: 192,
     baseDefense: 229,
@@ -5472,7 +5485,7 @@ const pokedex = [
     family: 'cobalion'
   },
   {
-    number: 639,
+    number: '639',
     name: 'Terrakion',
     baseAttack: 260,
     baseDefense: 192,
@@ -5480,7 +5493,7 @@ const pokedex = [
     family: 'terrakion'
   },
   {
-    number: 640,
+    number: '640',
     name: 'Virizion',
     baseAttack: 192,
     baseDefense: 229,
@@ -5488,7 +5501,7 @@ const pokedex = [
     family: 'virizion'
   },
   {
-    number: 641,
+    number: '641',
     name: 'Tornadus',
     baseAttack: 266,
     baseDefense: 164,
@@ -5496,7 +5509,7 @@ const pokedex = [
     family: 'tornadus'
   },
   {
-    number: 642,
+    number: '642',
     name: 'Thundurus',
     baseAttack: 266,
     baseDefense: 164,
@@ -5504,7 +5517,7 @@ const pokedex = [
     family: 'thundurus'
   },
   {
-    number: 643,
+    number: '643',
     name: 'Reshiram',
     baseAttack: 275,
     baseDefense: 211,
@@ -5512,7 +5525,7 @@ const pokedex = [
     family: 'reshiram'
   },
   {
-    number: 644,
+    number: '644',
     name: 'Zekrom',
     baseAttack: 275,
     baseDefense: 211,
@@ -5520,7 +5533,7 @@ const pokedex = [
     family: 'zekrom'
   },
   {
-    number: 645,
+    number: '645',
     name: 'Landorus',
     baseAttack: 261,
     baseDefense: 182,
@@ -5528,7 +5541,7 @@ const pokedex = [
     family: 'landorus'
   },
   {
-    number: 646,
+    number: '646',
     name: 'Kyurem',
     baseAttack: 246,
     baseDefense: 170,
@@ -5536,7 +5549,7 @@ const pokedex = [
     family: 'kyurem'
   },
   {
-    number: 647,
+    number: '647',
     name: 'Keldeo',
     baseAttack: 260,
     baseDefense: 192,
@@ -5544,7 +5557,7 @@ const pokedex = [
     family: 'keldeo'
   },
   {
-    number: 648,
+    number: '648',
     name: 'Meloetta',
     baseAttack: 250,
     baseDefense: 225,
@@ -5552,7 +5565,7 @@ const pokedex = [
     family: 'meloetta'
   },
   {
-    number: 649,
+    number: '649',
     name: 'Genesect',
     baseAttack: 252,
     baseDefense: 199,
@@ -5560,7 +5573,7 @@ const pokedex = [
     family: 'genesect'
   },
   {
-    number: 650,
+    number: '650',
     name: 'Chespin',
     baseAttack: 110,
     baseDefense: 106,
@@ -5568,7 +5581,7 @@ const pokedex = [
     family: 'chespin'
   },
   {
-    number: 651,
+    number: '651',
     name: 'Quilladin',
     baseAttack: 146,
     baseDefense: 156,
@@ -5576,7 +5589,7 @@ const pokedex = [
     family: 'chespin'
   },
   {
-    number: 652,
+    number: '652',
     name: 'Chesnaught',
     baseAttack: 201,
     baseDefense: 204,
@@ -5584,7 +5597,7 @@ const pokedex = [
     family: 'chespin'
   },
   {
-    number: 653,
+    number: '653',
     name: 'Fennekin',
     baseAttack: 116,
     baseDefense: 102,
@@ -5592,7 +5605,7 @@ const pokedex = [
     family: 'fennekin'
   },
   {
-    number: 654,
+    number: '654',
     name: 'Braixen',
     baseAttack: 171,
     baseDefense: 130,
@@ -5600,7 +5613,7 @@ const pokedex = [
     family: 'fennekin'
   },
   {
-    number: 655,
+    number: '655',
     name: 'Delphox',
     baseAttack: 230,
     baseDefense: 189,
@@ -5608,7 +5621,7 @@ const pokedex = [
     family: 'fennekin'
   },
   {
-    number: 656,
+    number: '656',
     name: 'Froakie',
     baseAttack: 122,
     baseDefense: 84,
@@ -5616,7 +5629,7 @@ const pokedex = [
     family: 'froakie'
   },
   {
-    number: 657,
+    number: '657',
     name: 'Frogadier',
     baseAttack: 168,
     baseDefense: 114,
@@ -5624,7 +5637,7 @@ const pokedex = [
     family: 'froakie'
   },
   {
-    number: 658,
+    number: '658',
     name: 'Greninja',
     baseAttack: 223,
     baseDefense: 152,
@@ -5632,7 +5645,7 @@ const pokedex = [
     family: 'froakie'
   },
   {
-    number: 659,
+    number: '659',
     name: 'Bunnelby',
     baseAttack: 68,
     baseDefense: 72,
@@ -5640,7 +5653,7 @@ const pokedex = [
     family: 'bunnelby'
   },
   {
-    number: 660,
+    number: '660',
     name: 'Diggersby',
     baseAttack: 112,
     baseDefense: 155,
@@ -5648,7 +5661,7 @@ const pokedex = [
     family: 'bunnelby'
   },
   {
-    number: 661,
+    number: '661',
     name: 'Fletchling',
     baseAttack: 95,
     baseDefense: 80,
@@ -5656,7 +5669,7 @@ const pokedex = [
     family: 'fletchling'
   },
   {
-    number: 662,
+    number: '662',
     name: 'Fletchinder',
     baseAttack: 145,
     baseDefense: 110,
@@ -5664,7 +5677,7 @@ const pokedex = [
     family: 'fletchling'
   },
   {
-    number: 663,
+    number: '663',
     name: 'Talonflame',
     baseAttack: 176,
     baseDefense: 155,
@@ -5672,7 +5685,7 @@ const pokedex = [
     family: 'fletchling'
   },
   {
-    number: 664,
+    number: '664',
     name: 'Scatterbug',
     baseAttack: 63,
     baseDefense: 63,
@@ -5680,7 +5693,7 @@ const pokedex = [
     family: 'scatterbug'
   },
   {
-    number: 665,
+    number: '665',
     name: 'Spewpa',
     baseAttack: 48,
     baseDefense: 89,
@@ -5688,7 +5701,7 @@ const pokedex = [
     family: 'scatterbug'
   },
   {
-    number: 666,
+    number: '666',
     name: 'Vivillon',
     baseAttack: 176,
     baseDefense: 103,
@@ -5696,7 +5709,7 @@ const pokedex = [
     family: 'scatterbug'
   },
   {
-    number: 667,
+    number: '667',
     name: 'Litleo',
     baseAttack: 139,
     baseDefense: 112,
@@ -5704,7 +5717,7 @@ const pokedex = [
     family: 'litleo'
   },
   {
-    number: 668,
+    number: '668',
     name: 'Pyroar',
     baseAttack: 221,
     baseDefense: 149,
@@ -5712,7 +5725,7 @@ const pokedex = [
     family: 'litleo'
   },
   {
-    number: 669,
+    number: '669',
     name: 'Flabebe',
     baseAttack: 108,
     baseDefense: 120,
@@ -5720,7 +5733,7 @@ const pokedex = [
     family: 'flabebe'
   },
   {
-    number: 670,
+    number: '670',
     name: 'Floette',
     baseAttack: 136,
     baseDefense: 151,
@@ -5728,7 +5741,7 @@ const pokedex = [
     family: 'flabebe'
   },
   {
-    number: 671,
+    number: '671',
     name: 'Florges',
     baseAttack: 212,
     baseDefense: 244,
@@ -5736,7 +5749,7 @@ const pokedex = [
     family: 'flabebe'
   },
   {
-    number: 672,
+    number: '672',
     name: 'Skiddo',
     baseAttack: 123,
     baseDefense: 102,
@@ -5744,7 +5757,7 @@ const pokedex = [
     family: 'skiddo'
   },
   {
-    number: 673,
+    number: '673',
     name: 'Gogoat',
     baseAttack: 196,
     baseDefense: 146,
@@ -5752,7 +5765,7 @@ const pokedex = [
     family: 'skiddo'
   },
   {
-    number: 674,
+    number: '674',
     name: 'Pancham',
     baseAttack: 145,
     baseDefense: 107,
@@ -5760,7 +5773,7 @@ const pokedex = [
     family: 'pancham'
   },
   {
-    number: 675,
+    number: '675',
     name: 'Pangoro',
     baseAttack: 226,
     baseDefense: 146,
@@ -5768,7 +5781,7 @@ const pokedex = [
     family: 'pancham'
   },
   {
-    number: 676,
+    number: '676',
     name: 'Furfrou',
     baseAttack: 164,
     baseDefense: 167,
@@ -5776,7 +5789,7 @@ const pokedex = [
     family: 'furfrou'
   },
   {
-    number: 677,
+    number: '677',
     name: 'Espurr',
     baseAttack: 120,
     baseDefense: 114,
@@ -5784,7 +5797,7 @@ const pokedex = [
     family: 'espurr'
   },
   {
-    number: 678,
+    number: '678',
     name: 'Meowstic',
     baseAttack: 166,
     baseDefense: 167,
@@ -5792,7 +5805,7 @@ const pokedex = [
     family: 'espurr'
   },
   {
-    number: 682,
+    number: '682',
     name: 'Spritzee',
     baseAttack: 110,
     baseDefense: 113,
@@ -5800,7 +5813,7 @@ const pokedex = [
     family: 'spritzee'
   },
   {
-    number: 683,
+    number: '683',
     name: 'Aromatisse',
     baseAttack: 173,
     baseDefense: 150,
@@ -5808,7 +5821,7 @@ const pokedex = [
     family: 'spritzee'
   },
   {
-    number: 684,
+    number: '684',
     name: 'Swirlix',
     baseAttack: 109,
     baseDefense: 119,
@@ -5816,7 +5829,7 @@ const pokedex = [
     family: 'swirlix'
   },
   {
-    number: 685,
+    number: '685',
     name: 'Slurpuff',
     baseAttack: 168,
     baseDefense: 163,
@@ -5824,7 +5837,7 @@ const pokedex = [
     family: 'swirlix'
   },
   {
-    number: 686,
+    number: '686',
     name: 'Inkay',
     baseAttack: 98,
     baseDefense: 95,
@@ -5832,7 +5845,7 @@ const pokedex = [
     family: 'inkay'
   },
   {
-    number: 687,
+    number: '687',
     name: 'Malamar',
     baseAttack: 177,
     baseDefense: 165,
@@ -5840,7 +5853,7 @@ const pokedex = [
     family: 'inkay'
   },
   {
-    number: 688,
+    number: '688',
     name: 'Binacle',
     baseAttack: 96,
     baseDefense: 120,
@@ -5848,7 +5861,7 @@ const pokedex = [
     family: 'binacle'
   },
   {
-    number: 689,
+    number: '689',
     name: 'Barbaracle',
     baseAttack: 194,
     baseDefense: 205,
@@ -5856,7 +5869,7 @@ const pokedex = [
     family: 'binacle'
   },
   {
-    number: 690,
+    number: '690',
     name: 'Skrelp',
     baseAttack: 109,
     baseDefense: 109,
@@ -5864,7 +5877,7 @@ const pokedex = [
     family: 'skrelp'
   },
   {
-    number: 691,
+    number: '691',
     name: 'Dragalge',
     baseAttack: 177,
     baseDefense: 207,
@@ -5872,7 +5885,7 @@ const pokedex = [
     family: 'skrelp'
   },
   {
-    number: 692,
+    number: '692',
     name: 'Clauncher',
     baseAttack: 108,
     baseDefense: 117,
@@ -5880,7 +5893,7 @@ const pokedex = [
     family: 'clauncher'
   },
   {
-    number: 693,
+    number: '693',
     name: 'Clawitzer',
     baseAttack: 221,
     baseDefense: 171,
@@ -5888,7 +5901,7 @@ const pokedex = [
     family: 'clauncher'
   },
   {
-    number: 694,
+    number: '694',
     name: 'Helioptile',
     baseAttack: 115,
     baseDefense: 78,
@@ -5896,7 +5909,7 @@ const pokedex = [
     family: 'helioptile'
   },
   {
-    number: 695,
+    number: '695',
     name: 'Heliolisk',
     baseAttack: 219,
     baseDefense: 168,
@@ -5904,7 +5917,7 @@ const pokedex = [
     family: 'helioptile'
   },
   {
-    number: 696,
+    number: '696',
     name: 'Tyrunt',
     baseAttack: 158,
     baseDefense: 123,
@@ -5912,7 +5925,7 @@ const pokedex = [
     family: 'tyrunt'
   },
   {
-    number: 697,
+    number: '697',
     name: 'Tyrantrum',
     baseAttack: 227,
     baseDefense: 191,
@@ -5920,7 +5933,7 @@ const pokedex = [
     family: 'tyrunt'
   },
   {
-    number: 698,
+    number: '698',
     name: 'Amaura',
     baseAttack: 124,
     baseDefense: 109,
@@ -5928,7 +5941,7 @@ const pokedex = [
     family: 'amaura'
   },
   {
-    number: 699,
+    number: '699',
     name: 'Aurorus',
     baseAttack: 186,
     baseDefense: 163,
@@ -5936,7 +5949,7 @@ const pokedex = [
     family: 'amaura'
   },
   {
-    number: 700,
+    number: '700',
     name: 'Sylveon',
     baseAttack: 203,
     baseDefense: 205,
@@ -5944,7 +5957,7 @@ const pokedex = [
     family: 'eevee'
   },
   {
-    number: 701,
+    number: '701',
     name: 'Hawlucha',
     baseAttack: 195,
     baseDefense: 153,
@@ -5952,7 +5965,7 @@ const pokedex = [
     family: 'hawlucha'
   },
   {
-    number: 702,
+    number: '702',
     name: 'Dedenne',
     baseAttack: 164,
     baseDefense: 134,
@@ -5960,7 +5973,7 @@ const pokedex = [
     family: 'dedenne'
   },
   {
-    number: 703,
+    number: '703',
     name: 'Carbink',
     baseAttack: 95,
     baseDefense: 285,
@@ -5968,7 +5981,7 @@ const pokedex = [
     family: 'carbink'
   },
   {
-    number: 704,
+    number: '704',
     name: 'Goomy',
     baseAttack: 101,
     baseDefense: 112,
@@ -5976,7 +5989,7 @@ const pokedex = [
     family: 'goomy'
   },
   {
-    number: 705,
+    number: '705',
     name: 'Sliggoo',
     baseAttack: 159,
     baseDefense: 176,
@@ -5984,7 +5997,7 @@ const pokedex = [
     family: 'goomy'
   },
   {
-    number: 706,
+    number: '706',
     name: 'Goodra',
     baseAttack: 220,
     baseDefense: 242,
@@ -5992,7 +6005,7 @@ const pokedex = [
     family: 'goomy'
   },
   {
-    number: 707,
+    number: '707',
     name: 'Klefki',
     baseAttack: 160,
     baseDefense: 179,
@@ -6000,7 +6013,7 @@ const pokedex = [
     family: 'klefki'
   },
   {
-    number: 708,
+    number: '708',
     name: 'Phantump',
     baseAttack: 125,
     baseDefense: 103,
@@ -6008,7 +6021,7 @@ const pokedex = [
     family: 'phantump'
   },
   {
-    number: 709,
+    number: '709',
     name: 'Trevenant',
     baseAttack: 201,
     baseDefense: 154,
@@ -6016,7 +6029,7 @@ const pokedex = [
     family: 'phantump'
   },
   {
-    number: 712,
+    number: '712',
     name: 'Bergmite',
     baseAttack: 117,
     baseDefense: 120,
@@ -6024,7 +6037,7 @@ const pokedex = [
     family: 'bergmite'
   },
   {
-    number: 713,
+    number: '713',
     name: 'Avalugg',
     baseAttack: 196,
     baseDefense: 240,
@@ -6032,7 +6045,7 @@ const pokedex = [
     family: 'bergmite'
   },
   {
-    number: 714,
+    number: '714',
     name: 'Noibat',
     baseAttack: 83,
     baseDefense: 73,
@@ -6040,7 +6053,7 @@ const pokedex = [
     family: 'noibat'
   },
   {
-    number: 715,
+    number: '715',
     name: 'Noivern',
     baseAttack: 205,
     baseDefense: 175,
@@ -6048,7 +6061,7 @@ const pokedex = [
     family: 'noibat'
   },
   {
-    number: 716,
+    number: '716',
     name: 'Xerneas',
     baseAttack: 275,
     baseDefense: 203,
@@ -6056,7 +6069,7 @@ const pokedex = [
     family: 'xerneas'
   },
   {
-    number: 717,
+    number: '717',
     name: 'Yveltal',
     baseAttack: 275,
     baseDefense: 203,
@@ -6064,7 +6077,7 @@ const pokedex = [
     family: 'yveltal'
   },
   {
-    number: 808,
+    number: '808',
     name: 'Meltan',
     baseAttack: 118,
     baseDefense: 99,
@@ -6072,7 +6085,7 @@ const pokedex = [
     family: 'meltan'
   },
   {
-    number: 809,
+    number: '809',
     name: 'Melmetal',
     baseAttack: 226,
     baseDefense: 190,
@@ -6080,7 +6093,7 @@ const pokedex = [
     family: 'meltan'
   },
   {
-    number: 862,
+    number: '862',
     name: 'Obstagoon',
     baseAttack: 180,
     baseDefense: 194,
@@ -6088,7 +6101,7 @@ const pokedex = [
     family: 'zigzagoon'
   },
   {
-    number: 863,
+    number: '863',
     name: 'Perrserker',
     baseAttack: 195,
     baseDefense: 162,
@@ -6096,7 +6109,7 @@ const pokedex = [
     family: 'meowth'
   },
   {
-    number: 865,
+    number: '865',
     name: 'Sirfetchd',
     baseAttack: 248,
     baseDefense: 176,
@@ -6104,7 +6117,7 @@ const pokedex = [
     family: 'farfetchd'
   },
   {
-    number: 866,
+    number: '866',
     name: 'Mr Rime',
     baseAttack: 212,
     baseDefense: 179,
@@ -6112,7 +6125,7 @@ const pokedex = [
     family: 'mr_mime'
   },
   {
-    number: 867,
+    number: '867',
     name: 'Runerigus',
     baseAttack: 163,
     baseDefense: 237,
@@ -6121,7 +6134,8 @@ const pokedex = [
   }
 ];
 
-export const getByName = ({ name }) => pokedex.find(pokemon => pokemon.name === name);
-export const getByFamily = ({ name }) => pokedex.filter(pokemon => pokemon.name === name);
+export const getByName = ({ name }: PokedexSearchRequest): PokedexEntry => pokedex.find(pokemon => pokemon.name === name);
+
+export const getByFamily = ({ name }: PokedexSearchRequest): PokedexEntry[] => pokedex.filter(pokemon => pokemon.name === name);
 
 export default pokedex;

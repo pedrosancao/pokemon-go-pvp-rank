@@ -1,4 +1,4 @@
-import { getByName, calculateRank } from '../main.js';
+import { getByName, calculateRank } from '../index';
 
 describe('general-test', () => {
   it('should generate ranking', () => {
