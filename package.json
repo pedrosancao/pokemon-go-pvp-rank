@@ -1,8 +1,10 @@
 {
   "name": "pokemon-go-pvp-rank",
-  "version": "0.2.0-rc1",
+  "version": "0.2.0",
   "description": "Pokémon Go PVP ranking calculator",
-  "keywords": ["pokemon-go"],
+  "keywords": [
+    "pokemon-go"
+  ],
   "author": "Pedro Sanção <pedrosancao@users.noreply.github.com>",
   "license": "MIT",
   "repository": {
