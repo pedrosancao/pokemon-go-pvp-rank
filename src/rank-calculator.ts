@@ -78,6 +78,9 @@ export default function calculateRank({
       && el.defenseStat === refDefenseStat
       && el.healthStat === refHealthStat;
   });
+  if (!occurence) {
+    throw new Error('Could not find a rank occurence');
+  }
   return { occurence, rank };
 }
 

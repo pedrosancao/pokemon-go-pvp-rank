@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "target": "ES6"
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "./src",
+    "declaration": true,
+    // "declarationDir": "dist/types",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
   },
-  "exclude": ["coverage", "node_modules", "src/__tests__"]
+  "exclude": ["coverage", "dist", "node_modules", "src/__tests__"]
 }

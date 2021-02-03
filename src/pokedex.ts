@@ -6134,7 +6134,13 @@ const pokedex: PokedexEntry[] = [
   }
 ];
 
-export const getByName = ({ name }: PokedexSearchRequest): PokedexEntry => pokedex.find(pokemon => pokemon.name === name);
+export function getByName({ name }: PokedexSearchRequest): PokedexEntry {
+  const entry = pokedex.find(pokemon => pokemon.name === name);
+  if (!entry) {
+    throw new Error('Could not find entry.');
+  }
+  return entry;
+}
 
 export const getByFamily = ({ name }: PokedexSearchRequest): PokedexEntry[] => pokedex.filter(pokemon => pokemon.name === name);
 
