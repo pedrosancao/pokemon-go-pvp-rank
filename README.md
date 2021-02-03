@@ -8,6 +8,9 @@
 ![tests status](https://img.shields.io/github/workflow/status/pedrosancao/pokemon-go-pvp-rank/yarn?label=tests)
 
 A rank calculator for PVP on Pokémon Go.
+
+It features full support for Typescript, ES Modules and Common JS imports.
+
 Based on the work of [nickmagus][pogostat-reddit] on pogostat.com
 and [gostadiumpvp][gostadiumpvp] on stadiumgaming.gg.
 
@@ -23,11 +26,19 @@ Or
 
 ## Use
 
+Import the library:
+
+```javascript
+// for Typescript / ESM
+import { calculateRank, getByName } from 'pokemon-go-pvp-rank';
+
+// for Common JS
+const { calculateRank, getByName } = require('pokemon-go-pvp-rank');
+```
+
 All function user objects as named parameters.
 
 ```javascript
-import { calculateRank, getByName } from 'pokemon-go-pvp-rank';
-
 const pokedexEntry = getByName({ name: 'Machamp' });
 const { rank, occurence } = calculateRank({
     pokedexEntry,
