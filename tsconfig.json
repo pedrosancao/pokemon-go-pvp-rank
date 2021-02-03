@@ -11,5 +11,10 @@
     "strictPropertyInitialization": false,
     "esModuleInterop": true,
   },
-  "exclude": ["coverage", "dist", "node_modules", "src/__tests__"]
+  "exclude": [
+    "coverage",
+    "dist",
+    "node_modules",
+    "src/__tests__",
+  ]
 }

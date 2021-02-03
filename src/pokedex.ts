@@ -18,7 +18,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 111,
     baseHealth: 128,
-    family: 'bulbasaur'
+    family: 'bulbasaur',
   },
   {
     number: '002',
@@ -26,7 +26,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 151,
     baseDefense: 143,
     baseHealth: 155,
-    family: 'bulbasaur'
+    family: 'bulbasaur',
   },
   {
     number: '003',
@@ -34,7 +34,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 189,
     baseHealth: 190,
-    family: 'bulbasaur'
+    family: 'bulbasaur',
   },
   {
     number: '003',
@@ -42,7 +42,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 241,
     baseDefense: 246,
     baseHealth: 190,
-    family: 'bulbasaur'
+    family: 'bulbasaur',
   },
   {
     number: '004',
@@ -50,7 +50,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 93,
     baseHealth: 118,
-    family: 'charmander'
+    family: 'charmander',
   },
   {
     number: '005',
@@ -58,7 +58,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 126,
     baseHealth: 151,
-    family: 'charmander'
+    family: 'charmander',
   },
   {
     number: '006',
@@ -66,7 +66,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 173,
     baseHealth: 186,
-    family: 'charmander'
+    family: 'charmander',
   },
   {
     number: '006',
@@ -74,7 +74,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 273,
     baseDefense: 213,
     baseHealth: 186,
-    family: 'charmander'
+    family: 'charmander',
   },
   {
     number: '006',
@@ -82,7 +82,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 319,
     baseDefense: 212,
     baseHealth: 186,
-    family: 'charmander'
+    family: 'charmander',
   },
   {
     number: '007',
@@ -90,7 +90,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 94,
     baseDefense: 121,
     baseHealth: 127,
-    family: 'squirtle'
+    family: 'squirtle',
   },
   {
     number: '008',
@@ -98,7 +98,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 126,
     baseDefense: 155,
     baseHealth: 153,
-    family: 'squirtle'
+    family: 'squirtle',
   },
   {
     number: '009',
@@ -106,7 +106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 171,
     baseDefense: 207,
     baseHealth: 188,
-    family: 'squirtle'
+    family: 'squirtle',
   },
   {
     number: '009',
@@ -114,7 +114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 264,
     baseDefense: 237,
     baseHealth: 188,
-    family: 'squirtle'
+    family: 'squirtle',
   },
   {
     number: '010',
@@ -122,7 +122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 55,
     baseDefense: 55,
     baseHealth: 128,
-    family: 'caterpie'
+    family: 'caterpie',
   },
   {
     number: '011',
@@ -130,7 +130,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 45,
     baseDefense: 80,
     baseHealth: 137,
-    family: 'caterpie'
+    family: 'caterpie',
   },
   {
     number: '012',
@@ -138,7 +138,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 167,
     baseDefense: 137,
     baseHealth: 155,
-    family: 'caterpie'
+    family: 'caterpie',
   },
   {
     number: '013',
@@ -146,7 +146,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 63,
     baseDefense: 50,
     baseHealth: 120,
-    family: 'weedle'
+    family: 'weedle',
   },
   {
     number: '014',
@@ -154,7 +154,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 46,
     baseDefense: 75,
     baseHealth: 128,
-    family: 'weedle'
+    family: 'weedle',
   },
   {
     number: '015',
@@ -162,7 +162,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 169,
     baseDefense: 130,
     baseHealth: 163,
-    family: 'weedle'
+    family: 'weedle',
   },
   {
     number: '015',
@@ -170,7 +170,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 303,
     baseDefense: 148,
     baseHealth: 163,
-    family: 'weedle'
+    family: 'weedle',
   },
   {
     number: '016',
@@ -178,7 +178,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 85,
     baseDefense: 73,
     baseHealth: 120,
-    family: 'pidgey'
+    family: 'pidgey',
   },
   {
     number: '017',
@@ -186,7 +186,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 105,
     baseHealth: 160,
-    family: 'pidgey'
+    family: 'pidgey',
   },
   {
     number: '018',
@@ -194,7 +194,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 166,
     baseDefense: 154,
     baseHealth: 195,
-    family: 'pidgey'
+    family: 'pidgey',
   },
   {
     number: '018',
@@ -202,7 +202,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 280,
     baseDefense: 175,
     baseHealth: 195,
-    family: 'pidgey'
+    family: 'pidgey',
   },
   {
     number: '019',
@@ -210,7 +210,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 103,
     baseDefense: 70,
     baseHealth: 102,
-    family: 'rattata'
+    family: 'rattata',
   },
   {
     number: '019',
@@ -218,7 +218,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 103,
     baseDefense: 70,
     baseHealth: 102,
-    family: 'rattata'
+    family: 'rattata',
   },
   {
     number: '020',
@@ -226,7 +226,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 139,
     baseHealth: 146,
-    family: 'rattata'
+    family: 'rattata',
   },
   {
     number: '020',
@@ -234,7 +234,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 135,
     baseDefense: 154,
     baseHealth: 181,
-    family: 'rattata'
+    family: 'rattata',
   },
   {
     number: '021',
@@ -242,7 +242,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 112,
     baseDefense: 60,
     baseHealth: 120,
-    family: 'spearow'
+    family: 'spearow',
   },
   {
     number: '022',
@@ -250,7 +250,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 133,
     baseHealth: 163,
-    family: 'spearow'
+    family: 'spearow',
   },
   {
     number: '023',
@@ -258,7 +258,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 110,
     baseDefense: 97,
     baseHealth: 111,
-    family: 'ekans'
+    family: 'ekans',
   },
   {
     number: '024',
@@ -266,7 +266,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 167,
     baseDefense: 153,
     baseHealth: 155,
-    family: 'ekans'
+    family: 'ekans',
   },
   {
     number: '025',
@@ -274,7 +274,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 112,
     baseDefense: 96,
     baseHealth: 111,
-    family: 'pikachu'
+    family: 'pikachu',
   },
   {
     number: '026',
@@ -282,7 +282,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 193,
     baseDefense: 151,
     baseHealth: 155,
-    family: 'pikachu'
+    family: 'pikachu',
   },
   {
     number: '026',
@@ -290,7 +290,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 154,
     baseHealth: 155,
-    family: 'pikachu'
+    family: 'pikachu',
   },
   {
     number: '027',
@@ -298,7 +298,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 126,
     baseDefense: 120,
     baseHealth: 137,
-    family: 'sandshrew'
+    family: 'sandshrew',
   },
   {
     number: '027',
@@ -306,7 +306,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 125,
     baseDefense: 129,
     baseHealth: 137,
-    family: 'sandshrew'
+    family: 'sandshrew',
   },
   {
     number: '028',
@@ -314,7 +314,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 175,
     baseHealth: 181,
-    family: 'sandshrew'
+    family: 'sandshrew',
   },
   {
     number: '028',
@@ -322,7 +322,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 177,
     baseDefense: 195,
     baseHealth: 181,
-    family: 'sandshrew'
+    family: 'sandshrew',
   },
   {
     number: '029',
@@ -330,7 +330,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 86,
     baseDefense: 89,
     baseHealth: 146,
-    family: 'nidoran_female'
+    family: 'nidoran_female',
   },
   {
     number: '030',
@@ -338,7 +338,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 120,
     baseHealth: 172,
-    family: 'nidoran_female'
+    family: 'nidoran_female',
   },
   {
     number: '031',
@@ -346,7 +346,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 173,
     baseHealth: 207,
-    family: 'nidoran_female'
+    family: 'nidoran_female',
   },
   {
     number: '032',
@@ -354,7 +354,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 105,
     baseDefense: 76,
     baseHealth: 130,
-    family: 'nidoran_male'
+    family: 'nidoran_male',
   },
   {
     number: '033',
@@ -362,7 +362,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 111,
     baseHealth: 156,
-    family: 'nidoran_male'
+    family: 'nidoran_male',
   },
   {
     number: '034',
@@ -370,7 +370,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 204,
     baseDefense: 156,
     baseHealth: 191,
-    family: 'nidoran_male'
+    family: 'nidoran_male',
   },
   {
     number: '035',
@@ -378,7 +378,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 107,
     baseDefense: 108,
     baseHealth: 172,
-    family: 'clefairy'
+    family: 'clefairy',
   },
   {
     number: '036',
@@ -386,7 +386,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 178,
     baseDefense: 162,
     baseHealth: 216,
-    family: 'clefairy'
+    family: 'clefairy',
   },
   {
     number: '037',
@@ -394,7 +394,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 109,
     baseHealth: 116,
-    family: 'vulpix'
+    family: 'vulpix',
   },
   {
     number: '037',
@@ -402,7 +402,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 109,
     baseHealth: 116,
-    family: 'vulpix'
+    family: 'vulpix',
   },
   {
     number: '038',
@@ -410,7 +410,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 169,
     baseDefense: 190,
     baseHealth: 177,
-    family: 'vulpix'
+    family: 'vulpix',
   },
   {
     number: '038',
@@ -418,7 +418,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 170,
     baseDefense: 193,
     baseHealth: 177,
-    family: 'vulpix'
+    family: 'vulpix',
   },
   {
     number: '039',
@@ -426,7 +426,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 80,
     baseDefense: 41,
     baseHealth: 251,
-    family: 'jigglypuff'
+    family: 'jigglypuff',
   },
   {
     number: '040',
@@ -434,7 +434,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 90,
     baseHealth: 295,
-    family: 'jigglypuff'
+    family: 'jigglypuff',
   },
   {
     number: '041',
@@ -442,7 +442,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 83,
     baseDefense: 73,
     baseHealth: 120,
-    family: 'zubat'
+    family: 'zubat',
   },
   {
     number: '042',
@@ -450,7 +450,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 150,
     baseHealth: 181,
-    family: 'zubat'
+    family: 'zubat',
   },
   {
     number: '043',
@@ -458,7 +458,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 131,
     baseDefense: 112,
     baseHealth: 128,
-    family: 'oddish'
+    family: 'oddish',
   },
   {
     number: '044',
@@ -466,7 +466,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 136,
     baseHealth: 155,
-    family: 'oddish'
+    family: 'oddish',
   },
   {
     number: '045',
@@ -474,7 +474,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 202,
     baseDefense: 167,
     baseHealth: 181,
-    family: 'oddish'
+    family: 'oddish',
   },
   {
     number: '046',
@@ -482,7 +482,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 121,
     baseDefense: 99,
     baseHealth: 111,
-    family: 'paras'
+    family: 'paras',
   },
   {
     number: '047',
@@ -490,7 +490,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 165,
     baseDefense: 146,
     baseHealth: 155,
-    family: 'paras'
+    family: 'paras',
   },
   {
     number: '048',
@@ -498,7 +498,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 100,
     baseDefense: 100,
     baseHealth: 155,
-    family: 'venonat'
+    family: 'venonat',
   },
   {
     number: '049',
@@ -506,7 +506,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 179,
     baseDefense: 143,
     baseHealth: 172,
-    family: 'venonat'
+    family: 'venonat',
   },
   {
     number: '050',
@@ -514,7 +514,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 109,
     baseDefense: 78,
     baseHealth: 67,
-    family: 'diglett'
+    family: 'diglett',
   },
   {
     number: '050',
@@ -522,7 +522,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 81,
     baseHealth: 67,
-    family: 'diglett'
+    family: 'diglett',
   },
   {
     number: '051',
@@ -530,7 +530,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 167,
     baseDefense: 134,
     baseHealth: 111,
-    family: 'diglett'
+    family: 'diglett',
   },
   {
     number: '051',
@@ -538,7 +538,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 142,
     baseHealth: 111,
-    family: 'diglett'
+    family: 'diglett',
   },
   {
     number: '052',
@@ -546,7 +546,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 92,
     baseDefense: 78,
     baseHealth: 120,
-    family: 'meowth'
+    family: 'meowth',
   },
   {
     number: '052',
@@ -554,7 +554,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 99,
     baseDefense: 78,
     baseHealth: 120,
-    family: 'meowth'
+    family: 'meowth',
   },
   {
     number: '052',
@@ -562,7 +562,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 92,
     baseHealth: 137,
-    family: 'meowth'
+    family: 'meowth',
   },
   {
     number: '053',
@@ -570,7 +570,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 150,
     baseDefense: 136,
     baseHealth: 163,
-    family: 'meowth'
+    family: 'meowth',
   },
   {
     number: '053',
@@ -578,7 +578,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 136,
     baseHealth: 163,
-    family: 'meowth'
+    family: 'meowth',
   },
   {
     number: '054',
@@ -586,7 +586,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 122,
     baseDefense: 95,
     baseHealth: 137,
-    family: 'psyduck'
+    family: 'psyduck',
   },
   {
     number: '055',
@@ -594,7 +594,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 191,
     baseDefense: 162,
     baseHealth: 190,
-    family: 'psyduck'
+    family: 'psyduck',
   },
   {
     number: '056',
@@ -602,7 +602,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 82,
     baseHealth: 120,
-    family: 'mankey'
+    family: 'mankey',
   },
   {
     number: '057',
@@ -610,7 +610,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 207,
     baseDefense: 138,
     baseHealth: 163,
-    family: 'mankey'
+    family: 'mankey',
   },
   {
     number: '058',
@@ -618,7 +618,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 136,
     baseDefense: 93,
     baseHealth: 146,
-    family: 'growlithe'
+    family: 'growlithe',
   },
   {
     number: '059',
@@ -626,7 +626,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 227,
     baseDefense: 166,
     baseHealth: 207,
-    family: 'growlithe'
+    family: 'growlithe',
   },
   {
     number: '060',
@@ -634,7 +634,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 101,
     baseDefense: 82,
     baseHealth: 120,
-    family: 'poliwag'
+    family: 'poliwag',
   },
   {
     number: '061',
@@ -642,7 +642,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 130,
     baseDefense: 123,
     baseHealth: 163,
-    family: 'poliwag'
+    family: 'poliwag',
   },
   {
     number: '062',
@@ -650,7 +650,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 184,
     baseHealth: 207,
-    family: 'poliwag'
+    family: 'poliwag',
   },
   {
     number: '063',
@@ -658,7 +658,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 195,
     baseDefense: 82,
     baseHealth: 93,
-    family: 'abra'
+    family: 'abra',
   },
   {
     number: '064',
@@ -666,7 +666,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 232,
     baseDefense: 117,
     baseHealth: 120,
-    family: 'abra'
+    family: 'abra',
   },
   {
     number: '065',
@@ -674,7 +674,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 271,
     baseDefense: 167,
     baseHealth: 146,
-    family: 'abra'
+    family: 'abra',
   },
   {
     number: '066',
@@ -682,7 +682,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 82,
     baseHealth: 172,
-    family: 'machop'
+    family: 'machop',
   },
   {
     number: '067',
@@ -690,7 +690,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 177,
     baseDefense: 125,
     baseHealth: 190,
-    family: 'machop'
+    family: 'machop',
   },
   {
     number: '068',
@@ -698,7 +698,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 234,
     baseDefense: 159,
     baseHealth: 207,
-    family: 'machop'
+    family: 'machop',
   },
   {
     number: '069',
@@ -706,7 +706,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 139,
     baseDefense: 61,
     baseHealth: 137,
-    family: 'bellsprout'
+    family: 'bellsprout',
   },
   {
     number: '070',
@@ -714,7 +714,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 172,
     baseDefense: 92,
     baseHealth: 163,
-    family: 'bellsprout'
+    family: 'bellsprout',
   },
   {
     number: '071',
@@ -722,7 +722,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 207,
     baseDefense: 135,
     baseHealth: 190,
-    family: 'bellsprout'
+    family: 'bellsprout',
   },
   {
     number: '072',
@@ -730,7 +730,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 97,
     baseDefense: 149,
     baseHealth: 120,
-    family: 'tentacool'
+    family: 'tentacool',
   },
   {
     number: '073',
@@ -738,7 +738,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 166,
     baseDefense: 209,
     baseHealth: 190,
-    family: 'tentacool'
+    family: 'tentacool',
   },
   {
     number: '074',
@@ -746,7 +746,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 132,
     baseDefense: 132,
     baseHealth: 120,
-    family: 'geodude'
+    family: 'geodude',
   },
   {
     number: '074',
@@ -754,7 +754,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 132,
     baseDefense: 132,
     baseHealth: 120,
-    family: 'geodude'
+    family: 'geodude',
   },
   {
     number: '075',
@@ -762,7 +762,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 164,
     baseDefense: 164,
     baseHealth: 146,
-    family: 'geodude'
+    family: 'geodude',
   },
   {
     number: '075',
@@ -770,7 +770,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 164,
     baseDefense: 164,
     baseHealth: 146,
-    family: 'geodude'
+    family: 'geodude',
   },
   {
     number: '076',
@@ -778,7 +778,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 198,
     baseHealth: 190,
-    family: 'geodude'
+    family: 'geodude',
   },
   {
     number: '076',
@@ -786,7 +786,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 198,
     baseHealth: 190,
-    family: 'geodude'
+    family: 'geodude',
   },
   {
     number: '077',
@@ -794,7 +794,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 170,
     baseDefense: 127,
     baseHealth: 137,
-    family: 'ponyta'
+    family: 'ponyta',
   },
   {
     number: '077',
@@ -802,7 +802,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 170,
     baseDefense: 127,
     baseHealth: 137,
-    family: 'ponyta'
+    family: 'ponyta',
   },
   {
     number: '078',
@@ -810,7 +810,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 207,
     baseDefense: 162,
     baseHealth: 163,
-    family: 'ponyta'
+    family: 'ponyta',
   },
   {
     number: '078',
@@ -818,7 +818,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 207,
     baseDefense: 162,
     baseHealth: 163,
-    family: 'ponyta'
+    family: 'ponyta',
   },
   {
     number: '079',
@@ -826,7 +826,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 109,
     baseDefense: 98,
     baseHealth: 207,
-    family: 'slowpoke'
+    family: 'slowpoke',
   },
   {
     number: '080',
@@ -834,7 +834,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 177,
     baseDefense: 180,
     baseHealth: 216,
-    family: 'slowpoke'
+    family: 'slowpoke',
   },
   {
     number: '081',
@@ -842,7 +842,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 165,
     baseDefense: 121,
     baseHealth: 93,
-    family: 'magnemite'
+    family: 'magnemite',
   },
   {
     number: '082',
@@ -850,7 +850,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 169,
     baseHealth: 137,
-    family: 'magnemite'
+    family: 'magnemite',
   },
   {
     number: '083',
@@ -858,7 +858,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 115,
     baseHealth: 141,
-    family: 'farfetchd'
+    family: 'farfetchd',
   },
   {
     number: '083',
@@ -866,7 +866,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 174,
     baseDefense: 114,
     baseHealth: 141,
-    family: 'farfetchd'
+    family: 'farfetchd',
   },
   {
     number: '084',
@@ -874,7 +874,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 83,
     baseHealth: 111,
-    family: 'doduo'
+    family: 'doduo',
   },
   {
     number: '085',
@@ -882,7 +882,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 218,
     baseDefense: 140,
     baseHealth: 155,
-    family: 'doduo'
+    family: 'doduo',
   },
   {
     number: '086',
@@ -890,7 +890,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 85,
     baseDefense: 121,
     baseHealth: 163,
-    family: 'seel'
+    family: 'seel',
   },
   {
     number: '087',
@@ -898,7 +898,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 139,
     baseDefense: 177,
     baseHealth: 207,
-    family: 'seel'
+    family: 'seel',
   },
   {
     number: '088',
@@ -906,7 +906,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 135,
     baseDefense: 90,
     baseHealth: 190,
-    family: 'grimer'
+    family: 'grimer',
   },
   {
     number: '088',
@@ -914,7 +914,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 135,
     baseDefense: 90,
     baseHealth: 190,
-    family: 'grimer'
+    family: 'grimer',
   },
   {
     number: '089',
@@ -922,7 +922,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 190,
     baseDefense: 172,
     baseHealth: 233,
-    family: 'grimer'
+    family: 'grimer',
   },
   {
     number: '089',
@@ -930,7 +930,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 190,
     baseDefense: 172,
     baseHealth: 233,
-    family: 'grimer'
+    family: 'grimer',
   },
   {
     number: '090',
@@ -938,7 +938,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 134,
     baseHealth: 102,
-    family: 'shellder'
+    family: 'shellder',
   },
   {
     number: '091',
@@ -946,7 +946,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 186,
     baseDefense: 256,
     baseHealth: 137,
-    family: 'shellder'
+    family: 'shellder',
   },
   {
     number: '092',
@@ -954,7 +954,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 186,
     baseDefense: 67,
     baseHealth: 102,
-    family: 'gastly'
+    family: 'gastly',
   },
   {
     number: '093',
@@ -962,7 +962,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 107,
     baseHealth: 128,
-    family: 'gastly'
+    family: 'gastly',
   },
   {
     number: '094',
@@ -970,7 +970,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 261,
     baseDefense: 149,
     baseHealth: 155,
-    family: 'gastly'
+    family: 'gastly',
   },
   {
     number: '094',
@@ -978,7 +978,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 349,
     baseDefense: 199,
     baseHealth: 155,
-    family: 'gastly'
+    family: 'gastly',
   },
   {
     number: '095',
@@ -986,7 +986,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 85,
     baseDefense: 232,
     baseHealth: 111,
-    family: 'onix'
+    family: 'onix',
   },
   {
     number: '096',
@@ -994,7 +994,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 89,
     baseDefense: 136,
     baseHealth: 155,
-    family: 'drowzee'
+    family: 'drowzee',
   },
   {
     number: '097',
@@ -1002,7 +1002,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 193,
     baseHealth: 198,
-    family: 'drowzee'
+    family: 'drowzee',
   },
   {
     number: '098',
@@ -1010,7 +1010,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 181,
     baseDefense: 124,
     baseHealth: 102,
-    family: 'krabby'
+    family: 'krabby',
   },
   {
     number: '099',
@@ -1018,7 +1018,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 240,
     baseDefense: 181,
     baseHealth: 146,
-    family: 'krabby'
+    family: 'krabby',
   },
   {
     number: '100',
@@ -1026,7 +1026,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 109,
     baseDefense: 111,
     baseHealth: 120,
-    family: 'voltorb'
+    family: 'voltorb',
   },
   {
     number: '101',
@@ -1034,7 +1034,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 173,
     baseDefense: 173,
     baseHealth: 155,
-    family: 'voltorb'
+    family: 'voltorb',
   },
   {
     number: '102',
@@ -1042,7 +1042,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 107,
     baseDefense: 125,
     baseHealth: 155,
-    family: 'exeggcute'
+    family: 'exeggcute',
   },
   {
     number: '103',
@@ -1050,7 +1050,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 233,
     baseDefense: 149,
     baseHealth: 216,
-    family: 'exeggcute'
+    family: 'exeggcute',
   },
   {
     number: '103',
@@ -1058,7 +1058,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 230,
     baseDefense: 153,
     baseHealth: 216,
-    family: 'exeggcute'
+    family: 'exeggcute',
   },
   {
     number: '104',
@@ -1066,7 +1066,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 90,
     baseDefense: 144,
     baseHealth: 137,
-    family: 'cubone'
+    family: 'cubone',
   },
   {
     number: '105',
@@ -1074,7 +1074,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 186,
     baseHealth: 155,
-    family: 'cubone'
+    family: 'cubone',
   },
   {
     number: '105',
@@ -1082,7 +1082,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 186,
     baseHealth: 155,
-    family: 'cubone'
+    family: 'cubone',
   },
   {
     number: '106',
@@ -1090,7 +1090,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 224,
     baseDefense: 181,
     baseHealth: 137,
-    family: 'tyrogue'
+    family: 'tyrogue',
   },
   {
     number: '107',
@@ -1098,7 +1098,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 193,
     baseDefense: 197,
     baseHealth: 137,
-    family: 'tyrogue'
+    family: 'tyrogue',
   },
   {
     number: '108',
@@ -1106,7 +1106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 137,
     baseHealth: 207,
-    family: 'lickitung'
+    family: 'lickitung',
   },
   {
     number: '109',
@@ -1114,7 +1114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 119,
     baseDefense: 141,
     baseHealth: 120,
-    family: 'koffing'
+    family: 'koffing',
   },
   {
     number: '110',
@@ -1122,7 +1122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 174,
     baseDefense: 197,
     baseHealth: 163,
-    family: 'koffing'
+    family: 'koffing',
   },
   {
     number: '110',
@@ -1130,7 +1130,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 174,
     baseDefense: 197,
     baseHealth: 163,
-    family: 'koffing'
+    family: 'koffing',
   },
   {
     number: '111',
@@ -1138,7 +1138,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 140,
     baseDefense: 127,
     baseHealth: 190,
-    family: 'rhyhorn'
+    family: 'rhyhorn',
   },
   {
     number: '112',
@@ -1146,7 +1146,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 222,
     baseDefense: 171,
     baseHealth: 233,
-    family: 'rhyhorn'
+    family: 'rhyhorn',
   },
   {
     number: '113',
@@ -1154,7 +1154,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 60,
     baseDefense: 128,
     baseHealth: 487,
-    family: 'chansey'
+    family: 'chansey',
   },
   {
     number: '114',
@@ -1162,7 +1162,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 183,
     baseDefense: 169,
     baseHealth: 163,
-    family: 'tangela'
+    family: 'tangela',
   },
   {
     number: '115',
@@ -1170,7 +1170,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 181,
     baseDefense: 165,
     baseHealth: 233,
-    family: 'kangaskhan'
+    family: 'kangaskhan',
   },
   {
     number: '116',
@@ -1178,7 +1178,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 129,
     baseDefense: 103,
     baseHealth: 102,
-    family: 'horsea'
+    family: 'horsea',
   },
   {
     number: '117',
@@ -1186,7 +1186,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 187,
     baseDefense: 156,
     baseHealth: 146,
-    family: 'horsea'
+    family: 'horsea',
   },
   {
     number: '118',
@@ -1194,7 +1194,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 123,
     baseDefense: 110,
     baseHealth: 128,
-    family: 'goldeen'
+    family: 'goldeen',
   },
   {
     number: '119',
@@ -1202,7 +1202,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 175,
     baseDefense: 147,
     baseHealth: 190,
-    family: 'goldeen'
+    family: 'goldeen',
   },
   {
     number: '120',
@@ -1210,7 +1210,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 112,
     baseHealth: 102,
-    family: 'staryu'
+    family: 'staryu',
   },
   {
     number: '121',
@@ -1218,7 +1218,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 184,
     baseHealth: 155,
-    family: 'staryu'
+    family: 'staryu',
   },
   {
     number: '122',
@@ -1226,7 +1226,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 205,
     baseHealth: 120,
-    family: 'mr_mime'
+    family: 'mr_mime',
   },
   {
     number: '122',
@@ -1234,7 +1234,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 183,
     baseDefense: 169,
     baseHealth: 137,
-    family: 'mr_mime'
+    family: 'mr_mime',
   },
   {
     number: '123',
@@ -1242,7 +1242,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 218,
     baseDefense: 170,
     baseHealth: 172,
-    family: 'scyther'
+    family: 'scyther',
   },
   {
     number: '124',
@@ -1250,7 +1250,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 151,
     baseHealth: 163,
-    family: 'jynx'
+    family: 'jynx',
   },
   {
     number: '125',
@@ -1258,7 +1258,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 158,
     baseHealth: 163,
-    family: 'electabuzz'
+    family: 'electabuzz',
   },
   {
     number: '126',
@@ -1266,7 +1266,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 206,
     baseDefense: 154,
     baseHealth: 163,
-    family: 'magmar'
+    family: 'magmar',
   },
   {
     number: '127',
@@ -1274,7 +1274,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 238,
     baseDefense: 182,
     baseHealth: 163,
-    family: 'pinsir'
+    family: 'pinsir',
   },
   {
     number: '128',
@@ -1282,7 +1282,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 183,
     baseHealth: 181,
-    family: 'tauros'
+    family: 'tauros',
   },
   {
     number: '129',
@@ -1290,7 +1290,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 29,
     baseDefense: 85,
     baseHealth: 85,
-    family: 'magikarp'
+    family: 'magikarp',
   },
   {
     number: '130',
@@ -1298,7 +1298,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 237,
     baseDefense: 186,
     baseHealth: 216,
-    family: 'magikarp'
+    family: 'magikarp',
   },
   {
     number: '131',
@@ -1306,7 +1306,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 165,
     baseDefense: 174,
     baseHealth: 277,
-    family: 'lapras'
+    family: 'lapras',
   },
   {
     number: '132',
@@ -1314,7 +1314,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 91,
     baseDefense: 91,
     baseHealth: 134,
-    family: 'ditto'
+    family: 'ditto',
   },
   {
     number: '133',
@@ -1322,7 +1322,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 104,
     baseDefense: 114,
     baseHealth: 146,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '134',
@@ -1330,7 +1330,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 205,
     baseDefense: 161,
     baseHealth: 277,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '135',
@@ -1338,7 +1338,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 232,
     baseDefense: 182,
     baseHealth: 163,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '136',
@@ -1346,7 +1346,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 246,
     baseDefense: 179,
     baseHealth: 163,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '137',
@@ -1354,7 +1354,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 136,
     baseHealth: 163,
-    family: 'porygon'
+    family: 'porygon',
   },
   {
     number: '138',
@@ -1362,7 +1362,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 155,
     baseDefense: 153,
     baseHealth: 111,
-    family: 'omanyte'
+    family: 'omanyte',
   },
   {
     number: '139',
@@ -1370,7 +1370,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 207,
     baseDefense: 201,
     baseHealth: 172,
-    family: 'omanyte'
+    family: 'omanyte',
   },
   {
     number: '140',
@@ -1378,7 +1378,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 140,
     baseHealth: 102,
-    family: 'kabuto'
+    family: 'kabuto',
   },
   {
     number: '141',
@@ -1386,7 +1386,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 220,
     baseDefense: 186,
     baseHealth: 155,
-    family: 'kabuto'
+    family: 'kabuto',
   },
   {
     number: '142',
@@ -1394,7 +1394,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 221,
     baseDefense: 159,
     baseHealth: 190,
-    family: 'aerodactyl'
+    family: 'aerodactyl',
   },
   {
     number: '143',
@@ -1402,7 +1402,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 190,
     baseDefense: 169,
     baseHealth: 330,
-    family: 'snorlax'
+    family: 'snorlax',
   },
   {
     number: '144',
@@ -1410,7 +1410,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 236,
     baseHealth: 207,
-    family: 'articuno'
+    family: 'articuno',
   },
   {
     number: '145',
@@ -1418,7 +1418,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 253,
     baseDefense: 185,
     baseHealth: 207,
-    family: 'zapdos'
+    family: 'zapdos',
   },
   {
     number: '146',
@@ -1426,7 +1426,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 251,
     baseDefense: 181,
     baseHealth: 207,
-    family: 'moltres'
+    family: 'moltres',
   },
   {
     number: '147',
@@ -1434,7 +1434,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 119,
     baseDefense: 91,
     baseHealth: 121,
-    family: 'dratini'
+    family: 'dratini',
   },
   {
     number: '148',
@@ -1442,7 +1442,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 163,
     baseDefense: 135,
     baseHealth: 156,
-    family: 'dratini'
+    family: 'dratini',
   },
   {
     number: '149',
@@ -1450,7 +1450,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 263,
     baseDefense: 198,
     baseHealth: 209,
-    family: 'dratini'
+    family: 'dratini',
   },
   {
     number: '150',
@@ -1458,7 +1458,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 300,
     baseDefense: 182,
     baseHealth: 214,
-    family: 'mewtwo'
+    family: 'mewtwo',
   },
   {
     number: '150',
@@ -1466,7 +1466,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 278,
     baseHealth: 214,
-    family: 'mewtwo'
+    family: 'mewtwo',
   },
   {
     number: '151',
@@ -1474,7 +1474,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 210,
     baseHealth: 225,
-    family: 'mew'
+    family: 'mew',
   },
   {
     number: '152',
@@ -1482,7 +1482,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 92,
     baseDefense: 122,
     baseHealth: 128,
-    family: 'chikorita'
+    family: 'chikorita',
   },
   {
     number: '153',
@@ -1490,7 +1490,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 122,
     baseDefense: 155,
     baseHealth: 155,
-    family: 'chikorita'
+    family: 'chikorita',
   },
   {
     number: '154',
@@ -1498,7 +1498,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 168,
     baseDefense: 202,
     baseHealth: 190,
-    family: 'chikorita'
+    family: 'chikorita',
   },
   {
     number: '155',
@@ -1506,7 +1506,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 93,
     baseHealth: 118,
-    family: 'cyndaquil'
+    family: 'cyndaquil',
   },
   {
     number: '156',
@@ -1514,7 +1514,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 126,
     baseHealth: 151,
-    family: 'cyndaquil'
+    family: 'cyndaquil',
   },
   {
     number: '157',
@@ -1522,7 +1522,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 173,
     baseHealth: 186,
-    family: 'cyndaquil'
+    family: 'cyndaquil',
   },
   {
     number: '158',
@@ -1530,7 +1530,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 109,
     baseHealth: 137,
-    family: 'totodile'
+    family: 'totodile',
   },
   {
     number: '159',
@@ -1538,7 +1538,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 150,
     baseDefense: 142,
     baseHealth: 163,
-    family: 'totodile'
+    family: 'totodile',
   },
   {
     number: '160',
@@ -1546,7 +1546,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 205,
     baseDefense: 188,
     baseHealth: 198,
-    family: 'totodile'
+    family: 'totodile',
   },
   {
     number: '161',
@@ -1554,7 +1554,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 79,
     baseDefense: 73,
     baseHealth: 111,
-    family: 'sentret'
+    family: 'sentret',
   },
   {
     number: '162',
@@ -1562,7 +1562,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 125,
     baseHealth: 198,
-    family: 'sentret'
+    family: 'sentret',
   },
   {
     number: '163',
@@ -1570,7 +1570,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 67,
     baseDefense: 88,
     baseHealth: 155,
-    family: 'hoothoot'
+    family: 'hoothoot',
   },
   {
     number: '164',
@@ -1578,7 +1578,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 145,
     baseDefense: 156,
     baseHealth: 225,
-    family: 'hoothoot'
+    family: 'hoothoot',
   },
   {
     number: '165',
@@ -1586,7 +1586,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 72,
     baseDefense: 118,
     baseHealth: 120,
-    family: 'ledyba'
+    family: 'ledyba',
   },
   {
     number: '166',
@@ -1594,7 +1594,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 107,
     baseDefense: 179,
     baseHealth: 146,
-    family: 'ledyba'
+    family: 'ledyba',
   },
   {
     number: '167',
@@ -1602,7 +1602,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 105,
     baseDefense: 73,
     baseHealth: 120,
-    family: 'spinarak'
+    family: 'spinarak',
   },
   {
     number: '168',
@@ -1610,7 +1610,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 124,
     baseHealth: 172,
-    family: 'spinarak'
+    family: 'spinarak',
   },
   {
     number: '169',
@@ -1618,7 +1618,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 194,
     baseDefense: 178,
     baseHealth: 198,
-    family: 'zubat'
+    family: 'zubat',
   },
   {
     number: '170',
@@ -1626,7 +1626,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 106,
     baseDefense: 97,
     baseHealth: 181,
-    family: 'chinchou'
+    family: 'chinchou',
   },
   {
     number: '171',
@@ -1634,7 +1634,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 146,
     baseDefense: 137,
     baseHealth: 268,
-    family: 'chinchou'
+    family: 'chinchou',
   },
   {
     number: '172',
@@ -1642,7 +1642,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 77,
     baseDefense: 53,
     baseHealth: 85,
-    family: 'pikachu'
+    family: 'pikachu',
   },
   {
     number: '173',
@@ -1650,7 +1650,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 75,
     baseDefense: 79,
     baseHealth: 137,
-    family: 'clefairy'
+    family: 'clefairy',
   },
   {
     number: '174',
@@ -1658,7 +1658,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 69,
     baseDefense: 32,
     baseHealth: 207,
-    family: 'jigglypuff'
+    family: 'jigglypuff',
   },
   {
     number: '175',
@@ -1666,7 +1666,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 67,
     baseDefense: 116,
     baseHealth: 111,
-    family: 'togepi'
+    family: 'togepi',
   },
   {
     number: '176',
@@ -1674,7 +1674,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 139,
     baseDefense: 181,
     baseHealth: 146,
-    family: 'togepi'
+    family: 'togepi',
   },
   {
     number: '177',
@@ -1682,7 +1682,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 89,
     baseHealth: 120,
-    family: 'natu'
+    family: 'natu',
   },
   {
     number: '178',
@@ -1690,7 +1690,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 146,
     baseHealth: 163,
-    family: 'natu'
+    family: 'natu',
   },
   {
     number: '179',
@@ -1698,7 +1698,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 114,
     baseDefense: 79,
     baseHealth: 146,
-    family: 'mareep'
+    family: 'mareep',
   },
   {
     number: '180',
@@ -1706,7 +1706,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 145,
     baseDefense: 109,
     baseHealth: 172,
-    family: 'mareep'
+    family: 'mareep',
   },
   {
     number: '181',
@@ -1714,7 +1714,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 169,
     baseHealth: 207,
-    family: 'mareep'
+    family: 'mareep',
   },
   {
     number: '182',
@@ -1722,7 +1722,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 169,
     baseDefense: 186,
     baseHealth: 181,
-    family: 'oddish'
+    family: 'oddish',
   },
   {
     number: '183',
@@ -1730,7 +1730,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 37,
     baseDefense: 93,
     baseHealth: 172,
-    family: 'marill'
+    family: 'marill',
   },
   {
     number: '184',
@@ -1738,7 +1738,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 112,
     baseDefense: 152,
     baseHealth: 225,
-    family: 'marill'
+    family: 'marill',
   },
   {
     number: '185',
@@ -1746,7 +1746,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 167,
     baseDefense: 176,
     baseHealth: 172,
-    family: 'sudowoodo'
+    family: 'sudowoodo',
   },
   {
     number: '186',
@@ -1754,7 +1754,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 174,
     baseDefense: 179,
     baseHealth: 207,
-    family: 'poliwag'
+    family: 'poliwag',
   },
   {
     number: '187',
@@ -1762,7 +1762,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 67,
     baseDefense: 94,
     baseHealth: 111,
-    family: 'hoppip'
+    family: 'hoppip',
   },
   {
     number: '188',
@@ -1770,7 +1770,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 91,
     baseDefense: 120,
     baseHealth: 146,
-    family: 'hoppip'
+    family: 'hoppip',
   },
   {
     number: '189',
@@ -1778,7 +1778,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 183,
     baseHealth: 181,
-    family: 'hoppip'
+    family: 'hoppip',
   },
   {
     number: '190',
@@ -1786,7 +1786,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 136,
     baseDefense: 112,
     baseHealth: 146,
-    family: 'aipom'
+    family: 'aipom',
   },
   {
     number: '191',
@@ -1794,7 +1794,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 55,
     baseDefense: 55,
     baseHealth: 102,
-    family: 'sunkern'
+    family: 'sunkern',
   },
   {
     number: '192',
@@ -1802,7 +1802,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 185,
     baseDefense: 135,
     baseHealth: 181,
-    family: 'sunkern'
+    family: 'sunkern',
   },
   {
     number: '193',
@@ -1810,7 +1810,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 154,
     baseDefense: 94,
     baseHealth: 163,
-    family: 'yanma'
+    family: 'yanma',
   },
   {
     number: '194',
@@ -1818,7 +1818,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 75,
     baseDefense: 66,
     baseHealth: 146,
-    family: 'wooper'
+    family: 'wooper',
   },
   {
     number: '195',
@@ -1826,7 +1826,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 152,
     baseDefense: 143,
     baseHealth: 216,
-    family: 'wooper'
+    family: 'wooper',
   },
   {
     number: '196',
@@ -1834,7 +1834,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 261,
     baseDefense: 175,
     baseHealth: 163,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '197',
@@ -1842,7 +1842,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 126,
     baseDefense: 240,
     baseHealth: 216,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '198',
@@ -1850,7 +1850,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 175,
     baseDefense: 87,
     baseHealth: 155,
-    family: 'murkrow'
+    family: 'murkrow',
   },
   {
     number: '199',
@@ -1858,7 +1858,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 177,
     baseDefense: 180,
     baseHealth: 216,
-    family: 'slowpoke'
+    family: 'slowpoke',
   },
   {
     number: '200',
@@ -1866,7 +1866,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 167,
     baseDefense: 154,
     baseHealth: 155,
-    family: 'misdreavus'
+    family: 'misdreavus',
   },
   {
     number: '201',
@@ -1874,7 +1874,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 136,
     baseDefense: 91,
     baseHealth: 134,
-    family: 'unown'
+    family: 'unown',
   },
   {
     number: '202',
@@ -1882,7 +1882,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 60,
     baseDefense: 106,
     baseHealth: 382,
-    family: 'wobbuffet'
+    family: 'wobbuffet',
   },
   {
     number: '203',
@@ -1890,7 +1890,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 133,
     baseHealth: 172,
-    family: 'girafarig'
+    family: 'girafarig',
   },
   {
     number: '204',
@@ -1898,7 +1898,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 122,
     baseHealth: 137,
-    family: 'pineco'
+    family: 'pineco',
   },
   {
     number: '205',
@@ -1906,7 +1906,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 205,
     baseHealth: 181,
-    family: 'pineco'
+    family: 'pineco',
   },
   {
     number: '206',
@@ -1914,7 +1914,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 131,
     baseDefense: 128,
     baseHealth: 225,
-    family: 'dunsparce'
+    family: 'dunsparce',
   },
   {
     number: '207',
@@ -1922,7 +1922,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 143,
     baseDefense: 184,
     baseHealth: 163,
-    family: 'gligar'
+    family: 'gligar',
   },
   {
     number: '208',
@@ -1930,7 +1930,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 272,
     baseHealth: 181,
-    family: 'onix'
+    family: 'onix',
   },
   {
     number: '209',
@@ -1938,7 +1938,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 85,
     baseHealth: 155,
-    family: 'snubbull'
+    family: 'snubbull',
   },
   {
     number: '210',
@@ -1946,7 +1946,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 212,
     baseDefense: 131,
     baseHealth: 207,
-    family: 'snubbull'
+    family: 'snubbull',
   },
   {
     number: '211',
@@ -1954,7 +1954,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 184,
     baseDefense: 138,
     baseHealth: 163,
-    family: 'qwilfish'
+    family: 'qwilfish',
   },
   {
     number: '212',
@@ -1962,7 +1962,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 236,
     baseDefense: 181,
     baseHealth: 172,
-    family: 'scyther'
+    family: 'scyther',
   },
   {
     number: '213',
@@ -1970,7 +1970,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 17,
     baseDefense: 396,
     baseHealth: 85,
-    family: 'shuckle'
+    family: 'shuckle',
   },
   {
     number: '214',
@@ -1978,7 +1978,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 234,
     baseDefense: 179,
     baseHealth: 190,
-    family: 'heracross'
+    family: 'heracross',
   },
   {
     number: '215',
@@ -1986,7 +1986,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 189,
     baseDefense: 146,
     baseHealth: 146,
-    family: 'sneasel'
+    family: 'sneasel',
   },
   {
     number: '216',
@@ -1994,7 +1994,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 142,
     baseDefense: 93,
     baseHealth: 155,
-    family: 'teddiursa'
+    family: 'teddiursa',
   },
   {
     number: '217',
@@ -2002,7 +2002,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 236,
     baseDefense: 144,
     baseHealth: 207,
-    family: 'teddiursa'
+    family: 'teddiursa',
   },
   {
     number: '218',
@@ -2010,7 +2010,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 71,
     baseHealth: 120,
-    family: 'slugma'
+    family: 'slugma',
   },
   {
     number: '219',
@@ -2018,7 +2018,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 139,
     baseDefense: 191,
     baseHealth: 137,
-    family: 'slugma'
+    family: 'slugma',
   },
   {
     number: '220',
@@ -2026,7 +2026,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 90,
     baseDefense: 69,
     baseHealth: 137,
-    family: 'swinub'
+    family: 'swinub',
   },
   {
     number: '221',
@@ -2034,7 +2034,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 181,
     baseDefense: 138,
     baseHealth: 225,
-    family: 'swinub'
+    family: 'swinub',
   },
   {
     number: '222',
@@ -2042,7 +2042,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 156,
     baseHealth: 146,
-    family: 'corsola'
+    family: 'corsola',
   },
   {
     number: '223',
@@ -2050,7 +2050,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 127,
     baseDefense: 69,
     baseHealth: 111,
-    family: 'remoraid'
+    family: 'remoraid',
   },
   {
     number: '224',
@@ -2058,7 +2058,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 197,
     baseDefense: 141,
     baseHealth: 181,
-    family: 'remoraid'
+    family: 'remoraid',
   },
   {
     number: '225',
@@ -2066,7 +2066,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 128,
     baseDefense: 90,
     baseHealth: 128,
-    family: 'delibird'
+    family: 'delibird',
   },
   {
     number: '226',
@@ -2074,7 +2074,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 226,
     baseHealth: 163,
-    family: 'mantine'
+    family: 'mantine',
   },
   {
     number: '227',
@@ -2082,7 +2082,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 226,
     baseHealth: 163,
-    family: 'skarmory'
+    family: 'skarmory',
   },
   {
     number: '228',
@@ -2090,7 +2090,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 152,
     baseDefense: 83,
     baseHealth: 128,
-    family: 'houndour'
+    family: 'houndour',
   },
   {
     number: '229',
@@ -2098,7 +2098,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 224,
     baseDefense: 144,
     baseHealth: 181,
-    family: 'houndour'
+    family: 'houndour',
   },
   {
     number: '229',
@@ -2106,7 +2106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 289,
     baseDefense: 194,
     baseHealth: 181,
-    family: 'houndour'
+    family: 'houndour',
   },
   {
     number: '230',
@@ -2114,7 +2114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 194,
     baseDefense: 194,
     baseHealth: 181,
-    family: 'horsea'
+    family: 'horsea',
   },
   {
     number: '231',
@@ -2122,7 +2122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 107,
     baseDefense: 98,
     baseHealth: 207,
-    family: 'phanpy'
+    family: 'phanpy',
   },
   {
     number: '232',
@@ -2130,7 +2130,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 214,
     baseDefense: 185,
     baseHealth: 207,
-    family: 'phanpy'
+    family: 'phanpy',
   },
   {
     number: '233',
@@ -2138,7 +2138,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 180,
     baseHealth: 198,
-    family: 'porygon'
+    family: 'porygon',
   },
   {
     number: '234',
@@ -2146,7 +2146,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 131,
     baseHealth: 177,
-    family: 'stantler'
+    family: 'stantler',
   },
   {
     number: '235',
@@ -2154,7 +2154,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 40,
     baseDefense: 83,
     baseHealth: 146,
-    family: 'smeargle'
+    family: 'smeargle',
   },
   {
     number: '236',
@@ -2162,7 +2162,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 64,
     baseDefense: 64,
     baseHealth: 111,
-    family: 'tyrogue'
+    family: 'tyrogue',
   },
   {
     number: '237',
@@ -2170,7 +2170,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 173,
     baseDefense: 207,
     baseHealth: 137,
-    family: 'tyrogue'
+    family: 'tyrogue',
   },
   {
     number: '238',
@@ -2178,7 +2178,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 91,
     baseHealth: 128,
-    family: 'jynx'
+    family: 'jynx',
   },
   {
     number: '239',
@@ -2186,7 +2186,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 135,
     baseDefense: 101,
     baseHealth: 128,
-    family: 'electabuzz'
+    family: 'electabuzz',
   },
   {
     number: '240',
@@ -2194,7 +2194,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 151,
     baseDefense: 99,
     baseHealth: 128,
-    family: 'magmar'
+    family: 'magmar',
   },
   {
     number: '241',
@@ -2202,7 +2202,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 157,
     baseDefense: 193,
     baseHealth: 216,
-    family: 'miltank'
+    family: 'miltank',
   },
   {
     number: '242',
@@ -2210,7 +2210,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 129,
     baseDefense: 169,
     baseHealth: 496,
-    family: 'chansey'
+    family: 'chansey',
   },
   {
     number: '243',
@@ -2218,7 +2218,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 241,
     baseDefense: 195,
     baseHealth: 207,
-    family: 'raikou'
+    family: 'raikou',
   },
   {
     number: '244',
@@ -2226,7 +2226,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 235,
     baseDefense: 171,
     baseHealth: 251,
-    family: 'entei'
+    family: 'entei',
   },
   {
     number: '245',
@@ -2234,7 +2234,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 235,
     baseHealth: 225,
-    family: 'suicune'
+    family: 'suicune',
   },
   {
     number: '246',
@@ -2242,7 +2242,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 93,
     baseHealth: 137,
-    family: 'larvitar'
+    family: 'larvitar',
   },
   {
     number: '247',
@@ -2250,7 +2250,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 155,
     baseDefense: 133,
     baseHealth: 172,
-    family: 'larvitar'
+    family: 'larvitar',
   },
   {
     number: '248',
@@ -2258,7 +2258,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 251,
     baseDefense: 207,
     baseHealth: 225,
-    family: 'larvitar'
+    family: 'larvitar',
   },
   {
     number: '249',
@@ -2266,7 +2266,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 193,
     baseDefense: 310,
     baseHealth: 235,
-    family: 'lugia'
+    family: 'lugia',
   },
   {
     number: '250',
@@ -2274,7 +2274,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 239,
     baseDefense: 244,
     baseHealth: 214,
-    family: 'ho_oh'
+    family: 'ho_oh',
   },
   {
     number: '251',
@@ -2282,7 +2282,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 210,
     baseHealth: 225,
-    family: 'celebi'
+    family: 'celebi',
   },
   {
     number: '252',
@@ -2290,7 +2290,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 94,
     baseHealth: 120,
-    family: 'treecko'
+    family: 'treecko',
   },
   {
     number: '253',
@@ -2298,7 +2298,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 172,
     baseDefense: 120,
     baseHealth: 137,
-    family: 'treecko'
+    family: 'treecko',
   },
   {
     number: '254',
@@ -2306,7 +2306,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 169,
     baseHealth: 172,
-    family: 'treecko'
+    family: 'treecko',
   },
   {
     number: '255',
@@ -2314,7 +2314,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 130,
     baseDefense: 87,
     baseHealth: 128,
-    family: 'torchic'
+    family: 'torchic',
   },
   {
     number: '256',
@@ -2322,7 +2322,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 163,
     baseDefense: 115,
     baseHealth: 155,
-    family: 'torchic'
+    family: 'torchic',
   },
   {
     number: '257',
@@ -2330,7 +2330,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 240,
     baseDefense: 141,
     baseHealth: 190,
-    family: 'torchic'
+    family: 'torchic',
   },
   {
     number: '258',
@@ -2338,7 +2338,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 126,
     baseDefense: 93,
     baseHealth: 137,
-    family: 'mudkip'
+    family: 'mudkip',
   },
   {
     number: '259',
@@ -2346,7 +2346,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 133,
     baseHealth: 172,
-    family: 'mudkip'
+    family: 'mudkip',
   },
   {
     number: '260',
@@ -2354,7 +2354,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 208,
     baseDefense: 175,
     baseHealth: 225,
-    family: 'mudkip'
+    family: 'mudkip',
   },
   {
     number: '261',
@@ -2362,7 +2362,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 61,
     baseHealth: 111,
-    family: 'poochyena'
+    family: 'poochyena',
   },
   {
     number: '262',
@@ -2370,7 +2370,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 171,
     baseDefense: 132,
     baseHealth: 172,
-    family: 'poochyena'
+    family: 'poochyena',
   },
   {
     number: '263',
@@ -2378,7 +2378,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 58,
     baseDefense: 80,
     baseHealth: 116,
-    family: 'zigzagoon'
+    family: 'zigzagoon',
   },
   {
     number: '263',
@@ -2386,7 +2386,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 58,
     baseDefense: 80,
     baseHealth: 116,
-    family: 'zigzagoon'
+    family: 'zigzagoon',
   },
   {
     number: '264',
@@ -2394,7 +2394,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 142,
     baseDefense: 128,
     baseHealth: 186,
-    family: 'zigzagoon'
+    family: 'zigzagoon',
   },
   {
     number: '264',
@@ -2402,7 +2402,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 142,
     baseDefense: 128,
     baseHealth: 186,
-    family: 'zigzagoon'
+    family: 'zigzagoon',
   },
   {
     number: '265',
@@ -2410,7 +2410,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 75,
     baseDefense: 59,
     baseHealth: 128,
-    family: 'wurmple'
+    family: 'wurmple',
   },
   {
     number: '266',
@@ -2418,7 +2418,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 60,
     baseDefense: 77,
     baseHealth: 137,
-    family: 'wurmple'
+    family: 'wurmple',
   },
   {
     number: '267',
@@ -2426,7 +2426,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 189,
     baseDefense: 98,
     baseHealth: 155,
-    family: 'wurmple'
+    family: 'wurmple',
   },
   {
     number: '268',
@@ -2434,7 +2434,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 60,
     baseDefense: 77,
     baseHealth: 137,
-    family: 'wurmple'
+    family: 'wurmple',
   },
   {
     number: '269',
@@ -2442,7 +2442,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 162,
     baseHealth: 155,
-    family: 'wurmple'
+    family: 'wurmple',
   },
   {
     number: '270',
@@ -2450,7 +2450,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 71,
     baseDefense: 77,
     baseHealth: 120,
-    family: 'lotad'
+    family: 'lotad',
   },
   {
     number: '271',
@@ -2458,7 +2458,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 112,
     baseDefense: 119,
     baseHealth: 155,
-    family: 'lotad'
+    family: 'lotad',
   },
   {
     number: '272',
@@ -2466,7 +2466,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 173,
     baseDefense: 176,
     baseHealth: 190,
-    family: 'lotad'
+    family: 'lotad',
   },
   {
     number: '273',
@@ -2474,7 +2474,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 71,
     baseDefense: 77,
     baseHealth: 120,
-    family: 'seedot'
+    family: 'seedot',
   },
   {
     number: '274',
@@ -2482,7 +2482,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 78,
     baseHealth: 172,
-    family: 'seedot'
+    family: 'seedot',
   },
   {
     number: '275',
@@ -2490,7 +2490,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 200,
     baseDefense: 121,
     baseHealth: 207,
-    family: 'seedot'
+    family: 'seedot',
   },
   {
     number: '276',
@@ -2498,7 +2498,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 106,
     baseDefense: 61,
     baseHealth: 120,
-    family: 'taillow'
+    family: 'taillow',
   },
   {
     number: '277',
@@ -2506,7 +2506,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 185,
     baseDefense: 124,
     baseHealth: 155,
-    family: 'taillow'
+    family: 'taillow',
   },
   {
     number: '278',
@@ -2514,7 +2514,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 106,
     baseDefense: 61,
     baseHealth: 120,
-    family: 'wingull'
+    family: 'wingull',
   },
   {
     number: '279',
@@ -2522,7 +2522,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 175,
     baseDefense: 174,
     baseHealth: 155,
-    family: 'wingull'
+    family: 'wingull',
   },
   {
     number: '280',
@@ -2530,7 +2530,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 79,
     baseDefense: 59,
     baseHealth: 99,
-    family: 'ralts'
+    family: 'ralts',
   },
   {
     number: '281',
@@ -2538,7 +2538,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 90,
     baseHealth: 116,
-    family: 'ralts'
+    family: 'ralts',
   },
   {
     number: '282',
@@ -2546,7 +2546,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 237,
     baseDefense: 195,
     baseHealth: 169,
-    family: 'ralts'
+    family: 'ralts',
   },
   {
     number: '283',
@@ -2554,7 +2554,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 93,
     baseDefense: 87,
     baseHealth: 120,
-    family: 'surskit'
+    family: 'surskit',
   },
   {
     number: '284',
@@ -2562,7 +2562,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 150,
     baseHealth: 172,
-    family: 'surskit'
+    family: 'surskit',
   },
   {
     number: '285',
@@ -2570,7 +2570,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 74,
     baseDefense: 110,
     baseHealth: 155,
-    family: 'shroomish'
+    family: 'shroomish',
   },
   {
     number: '286',
@@ -2578,7 +2578,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 241,
     baseDefense: 144,
     baseHealth: 155,
-    family: 'shroomish'
+    family: 'shroomish',
   },
   {
     number: '287',
@@ -2586,7 +2586,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 104,
     baseDefense: 92,
     baseHealth: 155,
-    family: 'slakoth'
+    family: 'slakoth',
   },
   {
     number: '288',
@@ -2594,7 +2594,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 159,
     baseDefense: 145,
     baseHealth: 190,
-    family: 'slakoth'
+    family: 'slakoth',
   },
   {
     number: '289',
@@ -2602,7 +2602,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 290,
     baseDefense: 166,
     baseHealth: 284,
-    family: 'slakoth'
+    family: 'slakoth',
   },
   {
     number: '290',
@@ -2610,7 +2610,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 80,
     baseDefense: 126,
     baseHealth: 104,
-    family: 'nincada'
+    family: 'nincada',
   },
   {
     number: '291',
@@ -2618,7 +2618,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 199,
     baseDefense: 112,
     baseHealth: 156,
-    family: 'nincada'
+    family: 'nincada',
   },
   {
     number: '292',
@@ -2626,7 +2626,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 73,
     baseHealth: 1,
-    family: 'nincada'
+    family: 'nincada',
   },
   {
     number: '293',
@@ -2634,7 +2634,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 92,
     baseDefense: 42,
     baseHealth: 162,
-    family: 'whismur'
+    family: 'whismur',
   },
   {
     number: '294',
@@ -2642,7 +2642,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 81,
     baseHealth: 197,
-    family: 'whismur'
+    family: 'whismur',
   },
   {
     number: '295',
@@ -2650,7 +2650,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 179,
     baseDefense: 137,
     baseHealth: 232,
-    family: 'whismur'
+    family: 'whismur',
   },
   {
     number: '296',
@@ -2658,7 +2658,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 99,
     baseDefense: 54,
     baseHealth: 176,
-    family: 'makuhita'
+    family: 'makuhita',
   },
   {
     number: '297',
@@ -2666,7 +2666,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 209,
     baseDefense: 114,
     baseHealth: 302,
-    family: 'makuhita'
+    family: 'makuhita',
   },
   {
     number: '298',
@@ -2674,7 +2674,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 36,
     baseDefense: 71,
     baseHealth: 137,
-    family: 'marill'
+    family: 'marill',
   },
   {
     number: '299',
@@ -2682,7 +2682,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 82,
     baseDefense: 215,
     baseHealth: 102,
-    family: 'nosepass'
+    family: 'nosepass',
   },
   {
     number: '300',
@@ -2690,7 +2690,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 84,
     baseDefense: 79,
     baseHealth: 137,
-    family: 'skitty'
+    family: 'skitty',
   },
   {
     number: '301',
@@ -2698,7 +2698,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 132,
     baseDefense: 127,
     baseHealth: 172,
-    family: 'skitty'
+    family: 'skitty',
   },
   {
     number: '302',
@@ -2706,7 +2706,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 141,
     baseDefense: 136,
     baseHealth: 137,
-    family: 'sableye'
+    family: 'sableye',
   },
   {
     number: '303',
@@ -2714,7 +2714,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 155,
     baseDefense: 141,
     baseHealth: 137,
-    family: 'mawile'
+    family: 'mawile',
   },
   {
     number: '304',
@@ -2722,7 +2722,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 121,
     baseDefense: 141,
     baseHealth: 137,
-    family: 'aron'
+    family: 'aron',
   },
   {
     number: '305',
@@ -2730,7 +2730,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 198,
     baseHealth: 155,
-    family: 'aron'
+    family: 'aron',
   },
   {
     number: '306',
@@ -2738,7 +2738,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 257,
     baseHealth: 172,
-    family: 'aron'
+    family: 'aron',
   },
   {
     number: '307',
@@ -2746,7 +2746,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 78,
     baseDefense: 107,
     baseHealth: 102,
-    family: 'meditite'
+    family: 'meditite',
   },
   {
     number: '308',
@@ -2754,7 +2754,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 121,
     baseDefense: 152,
     baseHealth: 155,
-    family: 'meditite'
+    family: 'meditite',
   },
   {
     number: '309',
@@ -2762,7 +2762,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 123,
     baseDefense: 78,
     baseHealth: 120,
-    family: 'electrike'
+    family: 'electrike',
   },
   {
     number: '310',
@@ -2770,7 +2770,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 215,
     baseDefense: 127,
     baseHealth: 172,
-    family: 'electrike'
+    family: 'electrike',
   },
   {
     number: '311',
@@ -2778,7 +2778,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 167,
     baseDefense: 129,
     baseHealth: 155,
-    family: 'plusle'
+    family: 'plusle',
   },
   {
     number: '312',
@@ -2786,7 +2786,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 147,
     baseDefense: 150,
     baseHealth: 155,
-    family: 'minun'
+    family: 'minun',
   },
   {
     number: '313',
@@ -2794,7 +2794,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 143,
     baseDefense: 166,
     baseHealth: 163,
-    family: 'volbeat'
+    family: 'volbeat',
   },
   {
     number: '314',
@@ -2802,7 +2802,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 143,
     baseDefense: 166,
     baseHealth: 163,
-    family: 'illumise'
+    family: 'illumise',
   },
   {
     number: '315',
@@ -2810,7 +2810,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 186,
     baseDefense: 131,
     baseHealth: 137,
-    family: 'roselia'
+    family: 'roselia',
   },
   {
     number: '316',
@@ -2818,7 +2818,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 80,
     baseDefense: 99,
     baseHealth: 172,
-    family: 'gulpin'
+    family: 'gulpin',
   },
   {
     number: '317',
@@ -2826,7 +2826,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 140,
     baseDefense: 159,
     baseHealth: 225,
-    family: 'gulpin'
+    family: 'gulpin',
   },
   {
     number: '318',
@@ -2834,7 +2834,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 171,
     baseDefense: 39,
     baseHealth: 128,
-    family: 'carvanha'
+    family: 'carvanha',
   },
   {
     number: '319',
@@ -2842,7 +2842,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 243,
     baseDefense: 83,
     baseHealth: 172,
-    family: 'carvanha'
+    family: 'carvanha',
   },
   {
     number: '320',
@@ -2850,7 +2850,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 136,
     baseDefense: 68,
     baseHealth: 277,
-    family: 'wailmer'
+    family: 'wailmer',
   },
   {
     number: '321',
@@ -2858,7 +2858,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 175,
     baseDefense: 87,
     baseHealth: 347,
-    family: 'wailmer'
+    family: 'wailmer',
   },
   {
     number: '322',
@@ -2866,7 +2866,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 119,
     baseDefense: 79,
     baseHealth: 155,
-    family: 'numel'
+    family: 'numel',
   },
   {
     number: '323',
@@ -2874,7 +2874,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 194,
     baseDefense: 136,
     baseHealth: 172,
-    family: 'numel'
+    family: 'numel',
   },
   {
     number: '324',
@@ -2882,7 +2882,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 151,
     baseDefense: 203,
     baseHealth: 172,
-    family: 'torkoal'
+    family: 'torkoal',
   },
   {
     number: '325',
@@ -2890,7 +2890,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 125,
     baseDefense: 122,
     baseHealth: 155,
-    family: 'spoink'
+    family: 'spoink',
   },
   {
     number: '326',
@@ -2898,7 +2898,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 171,
     baseDefense: 188,
     baseHealth: 190,
-    family: 'spoink'
+    family: 'spoink',
   },
   {
     number: '327',
@@ -2906,7 +2906,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 116,
     baseHealth: 155,
-    family: 'spinda'
+    family: 'spinda',
   },
   {
     number: '328',
@@ -2914,7 +2914,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 162,
     baseDefense: 78,
     baseHealth: 128,
-    family: 'trapinch'
+    family: 'trapinch',
   },
   {
     number: '329',
@@ -2922,7 +2922,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 99,
     baseHealth: 137,
-    family: 'trapinch'
+    family: 'trapinch',
   },
   {
     number: '330',
@@ -2930,7 +2930,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 205,
     baseDefense: 168,
     baseHealth: 190,
-    family: 'trapinch'
+    family: 'trapinch',
   },
   {
     number: '331',
@@ -2938,7 +2938,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 74,
     baseHealth: 137,
-    family: 'cacnea'
+    family: 'cacnea',
   },
   {
     number: '332',
@@ -2946,7 +2946,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 221,
     baseDefense: 115,
     baseHealth: 172,
-    family: 'cacnea'
+    family: 'cacnea',
   },
   {
     number: '333',
@@ -2954,7 +2954,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 76,
     baseDefense: 132,
     baseHealth: 128,
-    family: 'swablu'
+    family: 'swablu',
   },
   {
     number: '334',
@@ -2962,7 +2962,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 141,
     baseDefense: 201,
     baseHealth: 181,
-    family: 'swablu'
+    family: 'swablu',
   },
   {
     number: '335',
@@ -2970,7 +2970,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 222,
     baseDefense: 124,
     baseHealth: 177,
-    family: 'zangoose'
+    family: 'zangoose',
   },
   {
     number: '336',
@@ -2978,7 +2978,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 196,
     baseDefense: 118,
     baseHealth: 177,
-    family: 'seviper'
+    family: 'seviper',
   },
   {
     number: '337',
@@ -2986,7 +2986,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 178,
     baseDefense: 153,
     baseHealth: 207,
-    family: 'lunatone'
+    family: 'lunatone',
   },
   {
     number: '338',
@@ -2994,7 +2994,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 178,
     baseDefense: 153,
     baseHealth: 207,
-    family: 'solrock'
+    family: 'solrock',
   },
   {
     number: '339',
@@ -3002,7 +3002,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 93,
     baseDefense: 82,
     baseHealth: 137,
-    family: 'barboach'
+    family: 'barboach',
   },
   {
     number: '340',
@@ -3010,7 +3010,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 151,
     baseDefense: 141,
     baseHealth: 242,
-    family: 'barboach'
+    family: 'barboach',
   },
   {
     number: '341',
@@ -3018,7 +3018,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 141,
     baseDefense: 99,
     baseHealth: 125,
-    family: 'corphish'
+    family: 'corphish',
   },
   {
     number: '342',
@@ -3026,7 +3026,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 224,
     baseDefense: 142,
     baseHealth: 160,
-    family: 'corphish'
+    family: 'corphish',
   },
   {
     number: '343',
@@ -3034,7 +3034,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 77,
     baseDefense: 124,
     baseHealth: 120,
-    family: 'baltoy'
+    family: 'baltoy',
   },
   {
     number: '344',
@@ -3042,7 +3042,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 140,
     baseDefense: 229,
     baseHealth: 155,
-    family: 'baltoy'
+    family: 'baltoy',
   },
   {
     number: '345',
@@ -3050,7 +3050,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 105,
     baseDefense: 150,
     baseHealth: 165,
-    family: 'lileep'
+    family: 'lileep',
   },
   {
     number: '346',
@@ -3058,7 +3058,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 152,
     baseDefense: 194,
     baseHealth: 200,
-    family: 'lileep'
+    family: 'lileep',
   },
   {
     number: '347',
@@ -3066,7 +3066,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 176,
     baseDefense: 100,
     baseHealth: 128,
-    family: 'anorith'
+    family: 'anorith',
   },
   {
     number: '348',
@@ -3074,7 +3074,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 222,
     baseDefense: 174,
     baseHealth: 181,
-    family: 'anorith'
+    family: 'anorith',
   },
   {
     number: '349',
@@ -3082,7 +3082,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 29,
     baseDefense: 85,
     baseHealth: 85,
-    family: 'feebas'
+    family: 'feebas',
   },
   {
     number: '350',
@@ -3090,7 +3090,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 219,
     baseHealth: 216,
-    family: 'feebas'
+    family: 'feebas',
   },
   {
     number: '351',
@@ -3098,7 +3098,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 139,
     baseDefense: 139,
     baseHealth: 172,
-    family: 'castform'
+    family: 'castform',
   },
   {
     number: '352',
@@ -3106,7 +3106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 189,
     baseHealth: 155,
-    family: 'kecleon'
+    family: 'kecleon',
   },
   {
     number: '353',
@@ -3114,7 +3114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 138,
     baseDefense: 65,
     baseHealth: 127,
-    family: 'shuppet'
+    family: 'shuppet',
   },
   {
     number: '354',
@@ -3122,7 +3122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 218,
     baseDefense: 126,
     baseHealth: 162,
-    family: 'shuppet'
+    family: 'shuppet',
   },
   {
     number: '355',
@@ -3130,7 +3130,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 70,
     baseDefense: 162,
     baseHealth: 85,
-    family: 'duskull'
+    family: 'duskull',
   },
   {
     number: '356',
@@ -3138,7 +3138,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 234,
     baseHealth: 120,
-    family: 'duskull'
+    family: 'duskull',
   },
   {
     number: '357',
@@ -3146,7 +3146,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 136,
     baseDefense: 163,
     baseHealth: 223,
-    family: 'tropius'
+    family: 'tropius',
   },
   {
     number: '358',
@@ -3154,7 +3154,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 175,
     baseDefense: 170,
     baseHealth: 181,
-    family: 'chimecho'
+    family: 'chimecho',
   },
   {
     number: '359',
@@ -3162,7 +3162,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 246,
     baseDefense: 120,
     baseHealth: 163,
-    family: 'absol'
+    family: 'absol',
   },
   {
     number: '360',
@@ -3170,7 +3170,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 41,
     baseDefense: 86,
     baseHealth: 216,
-    family: 'wobbuffet'
+    family: 'wobbuffet',
   },
   {
     number: '361',
@@ -3178,7 +3178,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 95,
     baseDefense: 95,
     baseHealth: 137,
-    family: 'snorunt'
+    family: 'snorunt',
   },
   {
     number: '362',
@@ -3186,7 +3186,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 162,
     baseDefense: 162,
     baseHealth: 190,
-    family: 'snorunt'
+    family: 'snorunt',
   },
   {
     number: '363',
@@ -3194,7 +3194,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 95,
     baseDefense: 90,
     baseHealth: 172,
-    family: 'spheal'
+    family: 'spheal',
   },
   {
     number: '364',
@@ -3202,7 +3202,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 132,
     baseHealth: 207,
-    family: 'spheal'
+    family: 'spheal',
   },
   {
     number: '365',
@@ -3210,7 +3210,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 176,
     baseHealth: 242,
-    family: 'spheal'
+    family: 'spheal',
   },
   {
     number: '366',
@@ -3218,7 +3218,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 133,
     baseDefense: 135,
     baseHealth: 111,
-    family: 'clamperl'
+    family: 'clamperl',
   },
   {
     number: '367',
@@ -3226,7 +3226,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 197,
     baseDefense: 179,
     baseHealth: 146,
-    family: 'clamperl'
+    family: 'clamperl',
   },
   {
     number: '368',
@@ -3234,7 +3234,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 179,
     baseHealth: 146,
-    family: 'clamperl'
+    family: 'clamperl',
   },
   {
     number: '369',
@@ -3242,7 +3242,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 162,
     baseDefense: 203,
     baseHealth: 225,
-    family: 'relicanth'
+    family: 'relicanth',
   },
   {
     number: '370',
@@ -3250,7 +3250,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 81,
     baseDefense: 128,
     baseHealth: 125,
-    family: 'luvdisc'
+    family: 'luvdisc',
   },
   {
     number: '371',
@@ -3258,7 +3258,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 93,
     baseHealth: 128,
-    family: 'bagon'
+    family: 'bagon',
   },
   {
     number: '372',
@@ -3266,7 +3266,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 172,
     baseDefense: 155,
     baseHealth: 163,
-    family: 'bagon'
+    family: 'bagon',
   },
   {
     number: '373',
@@ -3274,7 +3274,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 277,
     baseDefense: 168,
     baseHealth: 216,
-    family: 'bagon'
+    family: 'bagon',
   },
   {
     number: '374',
@@ -3282,7 +3282,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 132,
     baseHealth: 120,
-    family: 'beldum'
+    family: 'beldum',
   },
   {
     number: '375',
@@ -3290,7 +3290,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 138,
     baseDefense: 176,
     baseHealth: 155,
-    family: 'beldum'
+    family: 'beldum',
   },
   {
     number: '376',
@@ -3298,7 +3298,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 257,
     baseDefense: 228,
     baseHealth: 190,
-    family: 'beldum'
+    family: 'beldum',
   },
   {
     number: '377',
@@ -3306,7 +3306,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 179,
     baseDefense: 309,
     baseHealth: 190,
-    family: 'regirock'
+    family: 'regirock',
   },
   {
     number: '378',
@@ -3314,7 +3314,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 179,
     baseDefense: 309,
     baseHealth: 190,
-    family: 'regice'
+    family: 'regice',
   },
   {
     number: '379',
@@ -3322,7 +3322,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 143,
     baseDefense: 285,
     baseHealth: 190,
-    family: 'registeel'
+    family: 'registeel',
   },
   {
     number: '380',
@@ -3330,7 +3330,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 228,
     baseDefense: 246,
     baseHealth: 190,
-    family: 'latias'
+    family: 'latias',
   },
   {
     number: '381',
@@ -3338,7 +3338,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 268,
     baseDefense: 212,
     baseHealth: 190,
-    family: 'latios'
+    family: 'latios',
   },
   {
     number: '382',
@@ -3346,7 +3346,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 270,
     baseDefense: 228,
     baseHealth: 205,
-    family: 'kyogre'
+    family: 'kyogre',
   },
   {
     number: '383',
@@ -3354,7 +3354,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 270,
     baseDefense: 228,
     baseHealth: 205,
-    family: 'groudon'
+    family: 'groudon',
   },
   {
     number: '384',
@@ -3362,7 +3362,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 284,
     baseDefense: 170,
     baseHealth: 213,
-    family: 'rayquaza'
+    family: 'rayquaza',
   },
   {
     number: '385',
@@ -3370,7 +3370,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 210,
     baseHealth: 225,
-    family: 'jirachi'
+    family: 'jirachi',
   },
   {
     number: '386',
@@ -3378,7 +3378,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 345,
     baseDefense: 115,
     baseHealth: 137,
-    family: 'deoxys'
+    family: 'deoxys',
   },
   {
     number: '386',
@@ -3386,7 +3386,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 414,
     baseDefense: 46,
     baseHealth: 137,
-    family: 'deoxys'
+    family: 'deoxys',
   },
   {
     number: '386',
@@ -3394,7 +3394,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 330,
     baseHealth: 137,
-    family: 'deoxys'
+    family: 'deoxys',
   },
   {
     number: '386',
@@ -3402,7 +3402,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 345,
     baseDefense: 115,
     baseHealth: 137,
-    family: 'deoxys'
+    family: 'deoxys',
   },
   {
     number: '386',
@@ -3410,7 +3410,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 230,
     baseDefense: 218,
     baseHealth: 137,
-    family: 'deoxys'
+    family: 'deoxys',
   },
   {
     number: '387',
@@ -3418,7 +3418,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 119,
     baseDefense: 110,
     baseHealth: 146,
-    family: 'turtwig'
+    family: 'turtwig',
   },
   {
     number: '388',
@@ -3426,7 +3426,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 157,
     baseDefense: 143,
     baseHealth: 181,
-    family: 'turtwig'
+    family: 'turtwig',
   },
   {
     number: '389',
@@ -3434,7 +3434,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 202,
     baseDefense: 188,
     baseHealth: 216,
-    family: 'turtwig'
+    family: 'turtwig',
   },
   {
     number: '390',
@@ -3442,7 +3442,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 113,
     baseDefense: 86,
     baseHealth: 127,
-    family: 'chimchar'
+    family: 'chimchar',
   },
   {
     number: '391',
@@ -3450,7 +3450,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 105,
     baseHealth: 162,
-    family: 'chimchar'
+    family: 'chimchar',
   },
   {
     number: '392',
@@ -3458,7 +3458,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 222,
     baseDefense: 151,
     baseHealth: 183,
-    family: 'chimchar'
+    family: 'chimchar',
   },
   {
     number: '393',
@@ -3466,7 +3466,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 112,
     baseDefense: 102,
     baseHealth: 142,
-    family: 'piplup'
+    family: 'piplup',
   },
   {
     number: '394',
@@ -3474,7 +3474,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 150,
     baseDefense: 139,
     baseHealth: 162,
-    family: 'piplup'
+    family: 'piplup',
   },
   {
     number: '395',
@@ -3482,7 +3482,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 186,
     baseHealth: 197,
-    family: 'piplup'
+    family: 'piplup',
   },
   {
     number: '396',
@@ -3490,7 +3490,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 101,
     baseDefense: 58,
     baseHealth: 120,
-    family: 'starly'
+    family: 'starly',
   },
   {
     number: '397',
@@ -3498,7 +3498,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 142,
     baseDefense: 94,
     baseHealth: 146,
-    family: 'starly'
+    family: 'starly',
   },
   {
     number: '398',
@@ -3506,7 +3506,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 234,
     baseDefense: 140,
     baseHealth: 198,
-    family: 'starly'
+    family: 'starly',
   },
   {
     number: '399',
@@ -3514,7 +3514,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 80,
     baseDefense: 73,
     baseHealth: 153,
-    family: 'bidoof'
+    family: 'bidoof',
   },
   {
     number: '400',
@@ -3522,7 +3522,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 162,
     baseDefense: 119,
     baseHealth: 188,
-    family: 'bidoof'
+    family: 'bidoof',
   },
   {
     number: '401',
@@ -3530,7 +3530,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 45,
     baseDefense: 74,
     baseHealth: 114,
-    family: 'kricketot'
+    family: 'kricketot',
   },
   {
     number: '402',
@@ -3538,7 +3538,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 160,
     baseDefense: 100,
     baseHealth: 184,
-    family: 'kricketot'
+    family: 'kricketot',
   },
   {
     number: '403',
@@ -3546,7 +3546,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 64,
     baseHealth: 128,
-    family: 'shinx'
+    family: 'shinx',
   },
   {
     number: '404',
@@ -3554,7 +3554,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 159,
     baseDefense: 95,
     baseHealth: 155,
-    family: 'shinx'
+    family: 'shinx',
   },
   {
     number: '405',
@@ -3562,7 +3562,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 232,
     baseDefense: 156,
     baseHealth: 190,
-    family: 'shinx'
+    family: 'shinx',
   },
   {
     number: '406',
@@ -3570,7 +3570,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 91,
     baseDefense: 109,
     baseHealth: 120,
-    family: 'roselia'
+    family: 'roselia',
   },
   {
     number: '407',
@@ -3578,7 +3578,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 243,
     baseDefense: 185,
     baseHealth: 155,
-    family: 'roselia'
+    family: 'roselia',
   },
   {
     number: '408',
@@ -3586,7 +3586,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 218,
     baseDefense: 71,
     baseHealth: 167,
-    family: 'cranidos'
+    family: 'cranidos',
   },
   {
     number: '409',
@@ -3594,7 +3594,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 295,
     baseDefense: 109,
     baseHealth: 219,
-    family: 'cranidos'
+    family: 'cranidos',
   },
   {
     number: '410',
@@ -3602,7 +3602,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 76,
     baseDefense: 195,
     baseHealth: 102,
-    family: 'shieldon'
+    family: 'shieldon',
   },
   {
     number: '411',
@@ -3610,7 +3610,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 94,
     baseDefense: 286,
     baseHealth: 155,
-    family: 'shieldon'
+    family: 'shieldon',
   },
   {
     number: '412',
@@ -3618,7 +3618,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 53,
     baseDefense: 83,
     baseHealth: 120,
-    family: 'burmy'
+    family: 'burmy',
   },
   {
     number: '413',
@@ -3626,7 +3626,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 141,
     baseDefense: 180,
     baseHealth: 155,
-    family: 'burmy'
+    family: 'burmy',
   },
   {
     number: '414',
@@ -3634,7 +3634,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 185,
     baseDefense: 98,
     baseHealth: 172,
-    family: 'burmy'
+    family: 'burmy',
   },
   {
     number: '415',
@@ -3642,7 +3642,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 59,
     baseDefense: 83,
     baseHealth: 102,
-    family: 'combee'
+    family: 'combee',
   },
   {
     number: '416',
@@ -3650,7 +3650,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 149,
     baseDefense: 190,
     baseHealth: 172,
-    family: 'combee'
+    family: 'combee',
   },
   {
     number: '417',
@@ -3658,7 +3658,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 94,
     baseDefense: 172,
     baseHealth: 155,
-    family: 'pachirisu'
+    family: 'pachirisu',
   },
   {
     number: '418',
@@ -3666,7 +3666,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 132,
     baseDefense: 67,
     baseHealth: 146,
-    family: 'buizel'
+    family: 'buizel',
   },
   {
     number: '419',
@@ -3674,7 +3674,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 221,
     baseDefense: 114,
     baseHealth: 198,
-    family: 'buizel'
+    family: 'buizel',
   },
   {
     number: '420',
@@ -3682,7 +3682,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 92,
     baseHealth: 128,
-    family: 'cherubi'
+    family: 'cherubi',
   },
   {
     number: '421',
@@ -3690,7 +3690,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 170,
     baseDefense: 153,
     baseHealth: 172,
-    family: 'cherubi'
+    family: 'cherubi',
   },
   {
     number: '422',
@@ -3698,7 +3698,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 103,
     baseDefense: 105,
     baseHealth: 183,
-    family: 'shellos'
+    family: 'shellos',
   },
   {
     number: '423',
@@ -3706,7 +3706,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 169,
     baseDefense: 143,
     baseHealth: 244,
-    family: 'shellos'
+    family: 'shellos',
   },
   {
     number: '424',
@@ -3714,7 +3714,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 205,
     baseDefense: 143,
     baseHealth: 181,
-    family: 'aipom'
+    family: 'aipom',
   },
   {
     number: '425',
@@ -3722,7 +3722,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 80,
     baseHealth: 207,
-    family: 'drifloon'
+    family: 'drifloon',
   },
   {
     number: '426',
@@ -3730,7 +3730,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 102,
     baseHealth: 312,
-    family: 'drifloon'
+    family: 'drifloon',
   },
   {
     number: '427',
@@ -3738,7 +3738,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 130,
     baseDefense: 105,
     baseHealth: 146,
-    family: 'buneary'
+    family: 'buneary',
   },
   {
     number: '428',
@@ -3746,7 +3746,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 194,
     baseHealth: 163,
-    family: 'buneary'
+    family: 'buneary',
   },
   {
     number: '429',
@@ -3754,7 +3754,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 187,
     baseHealth: 155,
-    family: 'misdreavus'
+    family: 'misdreavus',
   },
   {
     number: '430',
@@ -3762,7 +3762,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 243,
     baseDefense: 103,
     baseHealth: 225,
-    family: 'murkrow'
+    family: 'murkrow',
   },
   {
     number: '431',
@@ -3770,7 +3770,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 109,
     baseDefense: 82,
     baseHealth: 135,
-    family: 'glameow'
+    family: 'glameow',
   },
   {
     number: '432',
@@ -3778,7 +3778,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 172,
     baseDefense: 133,
     baseHealth: 174,
-    family: 'glameow'
+    family: 'glameow',
   },
   {
     number: '433',
@@ -3786,7 +3786,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 114,
     baseDefense: 94,
     baseHealth: 128,
-    family: 'chimecho'
+    family: 'chimecho',
   },
   {
     number: '434',
@@ -3794,7 +3794,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 121,
     baseDefense: 90,
     baseHealth: 160,
-    family: 'stunky'
+    family: 'stunky',
   },
   {
     number: '435',
@@ -3802,7 +3802,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 184,
     baseDefense: 132,
     baseHealth: 230,
-    family: 'stunky'
+    family: 'stunky',
   },
   {
     number: '436',
@@ -3810,7 +3810,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 43,
     baseDefense: 154,
     baseHealth: 149,
-    family: 'bronzor'
+    family: 'bronzor',
   },
   {
     number: '437',
@@ -3818,7 +3818,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 213,
     baseHealth: 167,
-    family: 'bronzor'
+    family: 'bronzor',
   },
   {
     number: '438',
@@ -3826,7 +3826,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 133,
     baseHealth: 137,
-    family: 'sudowoodo'
+    family: 'sudowoodo',
   },
   {
     number: '439',
@@ -3834,7 +3834,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 125,
     baseDefense: 142,
     baseHealth: 85,
-    family: 'mr_mime'
+    family: 'mr_mime',
   },
   {
     number: '440',
@@ -3842,7 +3842,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 25,
     baseDefense: 77,
     baseHealth: 225,
-    family: 'chansey'
+    family: 'chansey',
   },
   {
     number: '441',
@@ -3850,7 +3850,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 183,
     baseDefense: 91,
     baseHealth: 183,
-    family: 'chatot'
+    family: 'chatot',
   },
   {
     number: '442',
@@ -3858,7 +3858,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 169,
     baseDefense: 199,
     baseHealth: 137,
-    family: 'spiritomb'
+    family: 'spiritomb',
   },
   {
     number: '443',
@@ -3866,7 +3866,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 84,
     baseHealth: 151,
-    family: 'gible'
+    family: 'gible',
   },
   {
     number: '444',
@@ -3874,7 +3874,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 172,
     baseDefense: 125,
     baseHealth: 169,
-    family: 'gible'
+    family: 'gible',
   },
   {
     number: '445',
@@ -3882,7 +3882,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 261,
     baseDefense: 193,
     baseHealth: 239,
-    family: 'gible'
+    family: 'gible',
   },
   {
     number: '446',
@@ -3890,7 +3890,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 117,
     baseHealth: 286,
-    family: 'snorlax'
+    family: 'snorlax',
   },
   {
     number: '447',
@@ -3898,7 +3898,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 127,
     baseDefense: 78,
     baseHealth: 120,
-    family: 'lucario'
+    family: 'lucario',
   },
   {
     number: '448',
@@ -3906,7 +3906,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 236,
     baseDefense: 144,
     baseHealth: 172,
-    family: 'lucario'
+    family: 'lucario',
   },
   {
     number: '449',
@@ -3914,7 +3914,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 118,
     baseHealth: 169,
-    family: 'hippopotas'
+    family: 'hippopotas',
   },
   {
     number: '450',
@@ -3922,7 +3922,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 191,
     baseHealth: 239,
-    family: 'hippopotas'
+    family: 'hippopotas',
   },
   {
     number: '451',
@@ -3930,7 +3930,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 93,
     baseDefense: 151,
     baseHealth: 120,
-    family: 'skorupi'
+    family: 'skorupi',
   },
   {
     number: '452',
@@ -3938,7 +3938,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 202,
     baseHealth: 172,
-    family: 'skorupi'
+    family: 'skorupi',
   },
   {
     number: '453',
@@ -3946,7 +3946,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 76,
     baseHealth: 134,
-    family: 'croagunk'
+    family: 'croagunk',
   },
   {
     number: '454',
@@ -3954,7 +3954,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 133,
     baseHealth: 195,
-    family: 'croagunk'
+    family: 'croagunk',
   },
   {
     number: '455',
@@ -3962,7 +3962,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 187,
     baseDefense: 136,
     baseHealth: 179,
-    family: 'carnivine'
+    family: 'carnivine',
   },
   {
     number: '456',
@@ -3970,7 +3970,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 116,
     baseHealth: 135,
-    family: 'finneon'
+    family: 'finneon',
   },
   {
     number: '457',
@@ -3978,7 +3978,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 142,
     baseDefense: 170,
     baseHealth: 170,
-    family: 'finneon'
+    family: 'finneon',
   },
   {
     number: '458',
@@ -3986,7 +3986,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 105,
     baseDefense: 179,
     baseHealth: 128,
-    family: 'mantine'
+    family: 'mantine',
   },
   {
     number: '459',
@@ -3994,7 +3994,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 105,
     baseHealth: 155,
-    family: 'snover'
+    family: 'snover',
   },
   {
     number: '460',
@@ -4002,7 +4002,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 178,
     baseDefense: 158,
     baseHealth: 207,
-    family: 'snover'
+    family: 'snover',
   },
   {
     number: '460',
@@ -4010,7 +4010,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 240,
     baseDefense: 191,
     baseHealth: 207,
-    family: 'snover'
+    family: 'snover',
   },
   {
     number: '461',
@@ -4018,7 +4018,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 243,
     baseDefense: 171,
     baseHealth: 172,
-    family: 'sneasel'
+    family: 'sneasel',
   },
   {
     number: '462',
@@ -4026,7 +4026,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 238,
     baseDefense: 205,
     baseHealth: 172,
-    family: 'magnemite'
+    family: 'magnemite',
   },
   {
     number: '463',
@@ -4034,7 +4034,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 181,
     baseHealth: 242,
-    family: 'lickitung'
+    family: 'lickitung',
   },
   {
     number: '464',
@@ -4042,7 +4042,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 241,
     baseDefense: 190,
     baseHealth: 251,
-    family: 'rhyhorn'
+    family: 'rhyhorn',
   },
   {
     number: '465',
@@ -4050,7 +4050,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 207,
     baseDefense: 184,
     baseHealth: 225,
-    family: 'tangela'
+    family: 'tangela',
   },
   {
     number: '466',
@@ -4058,7 +4058,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 249,
     baseDefense: 163,
     baseHealth: 181,
-    family: 'electabuzz'
+    family: 'electabuzz',
   },
   {
     number: '467',
@@ -4066,7 +4066,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 247,
     baseDefense: 172,
     baseHealth: 181,
-    family: 'magmar'
+    family: 'magmar',
   },
   {
     number: '468',
@@ -4074,7 +4074,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 225,
     baseDefense: 217,
     baseHealth: 198,
-    family: 'togepi'
+    family: 'togepi',
   },
   {
     number: '469',
@@ -4082,7 +4082,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 231,
     baseDefense: 156,
     baseHealth: 200,
-    family: 'yanma'
+    family: 'yanma',
   },
   {
     number: '470',
@@ -4090,7 +4090,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 216,
     baseDefense: 219,
     baseHealth: 163,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '471',
@@ -4098,7 +4098,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 238,
     baseDefense: 205,
     baseHealth: 163,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '472',
@@ -4106,7 +4106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 185,
     baseDefense: 222,
     baseHealth: 181,
-    family: 'gligar'
+    family: 'gligar',
   },
   {
     number: '473',
@@ -4114,7 +4114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 247,
     baseDefense: 146,
     baseHealth: 242,
-    family: 'swinub'
+    family: 'swinub',
   },
   {
     number: '474',
@@ -4122,7 +4122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 264,
     baseDefense: 150,
     baseHealth: 198,
-    family: 'porygon'
+    family: 'porygon',
   },
   {
     number: '475',
@@ -4130,7 +4130,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 237,
     baseDefense: 195,
     baseHealth: 169,
-    family: 'ralts'
+    family: 'ralts',
   },
   {
     number: '476',
@@ -4138,7 +4138,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 135,
     baseDefense: 275,
     baseHealth: 155,
-    family: 'nosepass'
+    family: 'nosepass',
   },
   {
     number: '477',
@@ -4146,7 +4146,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 254,
     baseHealth: 128,
-    family: 'duskull'
+    family: 'duskull',
   },
   {
     number: '478',
@@ -4154,7 +4154,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 171,
     baseDefense: 150,
     baseHealth: 172,
-    family: 'snorunt'
+    family: 'snorunt',
   },
   {
     number: '479',
@@ -4162,7 +4162,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 185,
     baseDefense: 159,
     baseHealth: 137,
-    family: 'rotom'
+    family: 'rotom',
   },
   {
     number: '480',
@@ -4170,7 +4170,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 270,
     baseHealth: 181,
-    family: 'uxie'
+    family: 'uxie',
   },
   {
     number: '481',
@@ -4178,7 +4178,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 212,
     baseDefense: 212,
     baseHealth: 190,
-    family: 'mesprit'
+    family: 'mesprit',
   },
   {
     number: '482',
@@ -4186,7 +4186,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 270,
     baseDefense: 151,
     baseHealth: 181,
-    family: 'azelf'
+    family: 'azelf',
   },
   {
     number: '483',
@@ -4194,7 +4194,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 275,
     baseDefense: 211,
     baseHealth: 205,
-    family: 'dialga'
+    family: 'dialga',
   },
   {
     number: '484',
@@ -4202,7 +4202,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 280,
     baseDefense: 215,
     baseHealth: 189,
-    family: 'palkia'
+    family: 'palkia',
   },
   {
     number: '485',
@@ -4210,7 +4210,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 251,
     baseDefense: 213,
     baseHealth: 209,
-    family: 'heatran'
+    family: 'heatran',
   },
   {
     number: '486',
@@ -4218,7 +4218,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 287,
     baseDefense: 210,
     baseHealth: 221,
-    family: 'regigigas'
+    family: 'regigigas',
   },
   {
     number: '487',
@@ -4226,7 +4226,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 187,
     baseDefense: 225,
     baseHealth: 284,
-    family: 'giratina'
+    family: 'giratina',
   },
   {
     number: '487',
@@ -4234,7 +4234,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 225,
     baseDefense: 187,
     baseHealth: 284,
-    family: 'giratina'
+    family: 'giratina',
   },
   {
     number: '488',
@@ -4242,7 +4242,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 152,
     baseDefense: 258,
     baseHealth: 260,
-    family: 'cresselia'
+    family: 'cresselia',
   },
   {
     number: '489',
@@ -4250,7 +4250,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 162,
     baseDefense: 162,
     baseHealth: 190,
-    family: 'phione'
+    family: 'phione',
   },
   {
     number: '490',
@@ -4258,7 +4258,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 210,
     baseHealth: 225,
-    family: 'manaphy'
+    family: 'manaphy',
   },
   {
     number: '491',
@@ -4266,7 +4266,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 285,
     baseDefense: 198,
     baseHealth: 172,
-    family: 'darkrai'
+    family: 'darkrai',
   },
   {
     number: '492',
@@ -4274,7 +4274,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 210,
     baseHealth: 225,
-    family: 'shaymin'
+    family: 'shaymin',
   },
   {
     number: '493',
@@ -4282,7 +4282,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 238,
     baseDefense: 238,
     baseHealth: 237,
-    family: 'arceus'
+    family: 'arceus',
   },
   {
     number: '494',
@@ -4290,7 +4290,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 210,
     baseDefense: 210,
     baseHealth: 225,
-    family: 'victini'
+    family: 'victini',
   },
   {
     number: '495',
@@ -4298,7 +4298,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 88,
     baseDefense: 107,
     baseHealth: 128,
-    family: 'snivy'
+    family: 'snivy',
   },
   {
     number: '496',
@@ -4306,7 +4306,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 122,
     baseDefense: 152,
     baseHealth: 155,
-    family: 'snivy'
+    family: 'snivy',
   },
   {
     number: '497',
@@ -4314,7 +4314,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 204,
     baseHealth: 181,
-    family: 'snivy'
+    family: 'snivy',
   },
   {
     number: '498',
@@ -4322,7 +4322,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 85,
     baseHealth: 163,
-    family: 'tepig'
+    family: 'tepig',
   },
   {
     number: '499',
@@ -4330,7 +4330,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 173,
     baseDefense: 106,
     baseHealth: 207,
-    family: 'tepig'
+    family: 'tepig',
   },
   {
     number: '500',
@@ -4338,7 +4338,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 235,
     baseDefense: 127,
     baseHealth: 242,
-    family: 'tepig'
+    family: 'tepig',
   },
   {
     number: '501',
@@ -4346,7 +4346,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 85,
     baseHealth: 146,
-    family: 'oshawott'
+    family: 'oshawott',
   },
   {
     number: '502',
@@ -4354,7 +4354,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 159,
     baseDefense: 116,
     baseHealth: 181,
-    family: 'oshawott'
+    family: 'oshawott',
   },
   {
     number: '503',
@@ -4362,7 +4362,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 212,
     baseDefense: 157,
     baseHealth: 216,
-    family: 'oshawott'
+    family: 'oshawott',
   },
   {
     number: '504',
@@ -4370,7 +4370,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 73,
     baseHealth: 128,
-    family: 'patrat'
+    family: 'patrat',
   },
   {
     number: '505',
@@ -4378,7 +4378,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 165,
     baseDefense: 139,
     baseHealth: 155,
-    family: 'patrat'
+    family: 'patrat',
   },
   {
     number: '506',
@@ -4386,7 +4386,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 107,
     baseDefense: 86,
     baseHealth: 128,
-    family: 'lillipup'
+    family: 'lillipup',
   },
   {
     number: '507',
@@ -4394,7 +4394,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 145,
     baseDefense: 126,
     baseHealth: 163,
-    family: 'lillipup'
+    family: 'lillipup',
   },
   {
     number: '508',
@@ -4402,7 +4402,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 206,
     baseDefense: 182,
     baseHealth: 198,
-    family: 'lillipup'
+    family: 'lillipup',
   },
   {
     number: '509',
@@ -4410,7 +4410,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 73,
     baseHealth: 121,
-    family: 'purrloin'
+    family: 'purrloin',
   },
   {
     number: '510',
@@ -4418,7 +4418,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 187,
     baseDefense: 106,
     baseHealth: 162,
-    family: 'purrloin'
+    family: 'purrloin',
   },
   {
     number: '511',
@@ -4426,7 +4426,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 104,
     baseDefense: 94,
     baseHealth: 137,
-    family: 'pansage'
+    family: 'pansage',
   },
   {
     number: '512',
@@ -4434,7 +4434,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 206,
     baseDefense: 133,
     baseHealth: 181,
-    family: 'pansage'
+    family: 'pansage',
   },
   {
     number: '513',
@@ -4442,7 +4442,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 104,
     baseDefense: 94,
     baseHealth: 137,
-    family: 'pansear'
+    family: 'pansear',
   },
   {
     number: '514',
@@ -4450,7 +4450,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 206,
     baseDefense: 133,
     baseHealth: 181,
-    family: 'pansear'
+    family: 'pansear',
   },
   {
     number: '515',
@@ -4458,7 +4458,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 104,
     baseDefense: 94,
     baseHealth: 137,
-    family: 'panpour'
+    family: 'panpour',
   },
   {
     number: '516',
@@ -4466,7 +4466,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 206,
     baseDefense: 133,
     baseHealth: 181,
-    family: 'panpour'
+    family: 'panpour',
   },
   {
     number: '517',
@@ -4474,7 +4474,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 111,
     baseDefense: 92,
     baseHealth: 183,
-    family: 'munna'
+    family: 'munna',
   },
   {
     number: '518',
@@ -4482,7 +4482,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 183,
     baseDefense: 166,
     baseHealth: 253,
-    family: 'munna'
+    family: 'munna',
   },
   {
     number: '519',
@@ -4490,7 +4490,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 80,
     baseHealth: 137,
-    family: 'pidove'
+    family: 'pidove',
   },
   {
     number: '520',
@@ -4498,7 +4498,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 107,
     baseHealth: 158,
-    family: 'pidove'
+    family: 'pidove',
   },
   {
     number: '521',
@@ -4506,7 +4506,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 226,
     baseDefense: 146,
     baseHealth: 190,
-    family: 'pidove'
+    family: 'pidove',
   },
   {
     number: '522',
@@ -4514,7 +4514,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 64,
     baseHealth: 128,
-    family: 'blitzle'
+    family: 'blitzle',
   },
   {
     number: '523',
@@ -4522,7 +4522,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 211,
     baseDefense: 136,
     baseHealth: 181,
-    family: 'blitzle'
+    family: 'blitzle',
   },
   {
     number: '524',
@@ -4530,7 +4530,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 121,
     baseDefense: 110,
     baseHealth: 146,
-    family: 'roggenrola'
+    family: 'roggenrola',
   },
   {
     number: '525',
@@ -4538,7 +4538,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 174,
     baseDefense: 143,
     baseHealth: 172,
-    family: 'roggenrola'
+    family: 'roggenrola',
   },
   {
     number: '526',
@@ -4546,7 +4546,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 226,
     baseDefense: 201,
     baseHealth: 198,
-    family: 'roggenrola'
+    family: 'roggenrola',
   },
   {
     number: '527',
@@ -4554,7 +4554,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 107,
     baseDefense: 85,
     baseHealth: 163,
-    family: 'woobat'
+    family: 'woobat',
   },
   {
     number: '528',
@@ -4562,7 +4562,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 161,
     baseDefense: 119,
     baseHealth: 167,
-    family: 'woobat'
+    family: 'woobat',
   },
   {
     number: '529',
@@ -4570,7 +4570,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 154,
     baseDefense: 85,
     baseHealth: 155,
-    family: 'drilbur'
+    family: 'drilbur',
   },
   {
     number: '530',
@@ -4578,7 +4578,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 255,
     baseDefense: 129,
     baseHealth: 242,
-    family: 'drilbur'
+    family: 'drilbur',
   },
   {
     number: '531',
@@ -4586,7 +4586,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 114,
     baseDefense: 163,
     baseHealth: 230,
-    family: 'audino'
+    family: 'audino',
   },
   {
     number: '532',
@@ -4594,7 +4594,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 87,
     baseHealth: 181,
-    family: 'timburr'
+    family: 'timburr',
   },
   {
     number: '533',
@@ -4602,7 +4602,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 134,
     baseHealth: 198,
-    family: 'timburr'
+    family: 'timburr',
   },
   {
     number: '534',
@@ -4610,7 +4610,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 243,
     baseDefense: 158,
     baseHealth: 233,
-    family: 'timburr'
+    family: 'timburr',
   },
   {
     number: '535',
@@ -4618,7 +4618,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 78,
     baseHealth: 137,
-    family: 'tympole'
+    family: 'tympole',
   },
   {
     number: '536',
@@ -4626,7 +4626,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 128,
     baseDefense: 109,
     baseHealth: 181,
-    family: 'tympole'
+    family: 'tympole',
   },
   {
     number: '537',
@@ -4634,7 +4634,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 188,
     baseDefense: 150,
     baseHealth: 233,
-    family: 'tympole'
+    family: 'tympole',
   },
   {
     number: '538',
@@ -4642,7 +4642,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 172,
     baseDefense: 160,
     baseHealth: 260,
-    family: 'throh'
+    family: 'throh',
   },
   {
     number: '539',
@@ -4650,7 +4650,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 231,
     baseDefense: 153,
     baseHealth: 181,
-    family: 'sawk'
+    family: 'sawk',
   },
   {
     number: '540',
@@ -4658,7 +4658,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 124,
     baseHealth: 128,
-    family: 'sewaddle'
+    family: 'sewaddle',
   },
   {
     number: '541',
@@ -4666,7 +4666,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 162,
     baseHealth: 146,
-    family: 'sewaddle'
+    family: 'sewaddle',
   },
   {
     number: '542',
@@ -4674,7 +4674,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 205,
     baseDefense: 165,
     baseHealth: 181,
-    family: 'sewaddle'
+    family: 'sewaddle',
   },
   {
     number: '543',
@@ -4682,7 +4682,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 83,
     baseDefense: 99,
     baseHealth: 102,
-    family: 'venipede'
+    family: 'venipede',
   },
   {
     number: '544',
@@ -4690,7 +4690,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 100,
     baseDefense: 173,
     baseHealth: 120,
-    family: 'venipede'
+    family: 'venipede',
   },
   {
     number: '545',
@@ -4698,7 +4698,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 203,
     baseDefense: 175,
     baseHealth: 155,
-    family: 'venipede'
+    family: 'venipede',
   },
   {
     number: '546',
@@ -4706,7 +4706,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 71,
     baseDefense: 111,
     baseHealth: 120,
-    family: 'cottonee'
+    family: 'cottonee',
   },
   {
     number: '547',
@@ -4714,7 +4714,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 164,
     baseDefense: 176,
     baseHealth: 155,
-    family: 'cottonee'
+    family: 'cottonee',
   },
   {
     number: '548',
@@ -4722,7 +4722,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 119,
     baseDefense: 91,
     baseHealth: 128,
-    family: 'petilil'
+    family: 'petilil',
   },
   {
     number: '549',
@@ -4730,7 +4730,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 214,
     baseDefense: 155,
     baseHealth: 172,
-    family: 'petilil'
+    family: 'petilil',
   },
   {
     number: '550',
@@ -4738,7 +4738,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 189,
     baseDefense: 129,
     baseHealth: 172,
-    family: 'basculin'
+    family: 'basculin',
   },
   {
     number: '551',
@@ -4746,7 +4746,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 132,
     baseDefense: 69,
     baseHealth: 137,
-    family: 'sandile'
+    family: 'sandile',
   },
   {
     number: '552',
@@ -4754,7 +4754,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 155,
     baseDefense: 90,
     baseHealth: 155,
-    family: 'sandile'
+    family: 'sandile',
   },
   {
     number: '553',
@@ -4762,7 +4762,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 229,
     baseDefense: 158,
     baseHealth: 216,
-    family: 'sandile'
+    family: 'sandile',
   },
   {
     number: '554',
@@ -4770,7 +4770,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 86,
     baseHealth: 172,
-    family: 'darumaka'
+    family: 'darumaka',
   },
   {
     number: '554',
@@ -4778,7 +4778,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 86,
     baseHealth: 172,
-    family: 'darumaka'
+    family: 'darumaka',
   },
   {
     number: '555',
@@ -4786,7 +4786,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 263,
     baseDefense: 114,
     baseHealth: 233,
-    family: 'darumaka'
+    family: 'darumaka',
   },
   {
     number: '555',
@@ -4794,7 +4794,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 263,
     baseDefense: 114,
     baseHealth: 233,
-    family: 'darumaka'
+    family: 'darumaka',
   },
   {
     number: '555',
@@ -4802,7 +4802,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 323,
     baseDefense: 123,
     baseHealth: 233,
-    family: 'darumaka'
+    family: 'darumaka',
   },
   {
     number: '556',
@@ -4810,7 +4810,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 130,
     baseHealth: 181,
-    family: 'maractus'
+    family: 'maractus',
   },
   {
     number: '557',
@@ -4818,7 +4818,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 128,
     baseHealth: 137,
-    family: 'dwebble'
+    family: 'dwebble',
   },
   {
     number: '558',
@@ -4826,7 +4826,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 188,
     baseDefense: 200,
     baseHealth: 172,
-    family: 'dwebble'
+    family: 'dwebble',
   },
   {
     number: '559',
@@ -4834,7 +4834,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 132,
     baseDefense: 132,
     baseHealth: 137,
-    family: 'scraggy'
+    family: 'scraggy',
   },
   {
     number: '560',
@@ -4842,7 +4842,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 163,
     baseDefense: 222,
     baseHealth: 163,
-    family: 'scraggy'
+    family: 'scraggy',
   },
   {
     number: '561',
@@ -4850,7 +4850,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 204,
     baseDefense: 167,
     baseHealth: 176,
-    family: 'sigilyph'
+    family: 'sigilyph',
   },
   {
     number: '562',
@@ -4858,7 +4858,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 95,
     baseDefense: 141,
     baseHealth: 116,
-    family: 'yamask'
+    family: 'yamask',
   },
   {
     number: '562',
@@ -4866,7 +4866,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 95,
     baseDefense: 141,
     baseHealth: 116,
-    family: 'yamask'
+    family: 'yamask',
   },
   {
     number: '563',
@@ -4874,7 +4874,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 163,
     baseDefense: 237,
     baseHealth: 151,
-    family: 'yamask'
+    family: 'yamask',
   },
   {
     number: '564',
@@ -4882,7 +4882,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 134,
     baseDefense: 146,
     baseHealth: 144,
-    family: 'tirtouga'
+    family: 'tirtouga',
   },
   {
     number: '565',
@@ -4890,7 +4890,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 197,
     baseHealth: 179,
-    family: 'tirtouga'
+    family: 'tirtouga',
   },
   {
     number: '566',
@@ -4898,7 +4898,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 213,
     baseDefense: 89,
     baseHealth: 146,
-    family: 'archen'
+    family: 'archen',
   },
   {
     number: '567',
@@ -4906,7 +4906,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 292,
     baseDefense: 139,
     baseHealth: 181,
-    family: 'archen'
+    family: 'archen',
   },
   {
     number: '568',
@@ -4914,7 +4914,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 122,
     baseHealth: 137,
-    family: 'trubbish'
+    family: 'trubbish',
   },
   {
     number: '569',
@@ -4922,7 +4922,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 181,
     baseDefense: 164,
     baseHealth: 190,
-    family: 'trubbish'
+    family: 'trubbish',
   },
   {
     number: '570',
@@ -4930,7 +4930,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 153,
     baseDefense: 78,
     baseHealth: 120,
-    family: 'zorua'
+    family: 'zorua',
   },
   {
     number: '571',
@@ -4938,7 +4938,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 250,
     baseDefense: 127,
     baseHealth: 155,
-    family: 'zorua'
+    family: 'zorua',
   },
   {
     number: '572',
@@ -4946,7 +4946,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 80,
     baseHealth: 146,
-    family: 'minccino'
+    family: 'minccino',
   },
   {
     number: '573',
@@ -4954,7 +4954,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 130,
     baseHealth: 181,
-    family: 'minccino'
+    family: 'minccino',
   },
   {
     number: '574',
@@ -4962,7 +4962,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 112,
     baseHealth: 128,
-    family: 'gothita'
+    family: 'gothita',
   },
   {
     number: '575',
@@ -4970,7 +4970,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 153,
     baseHealth: 155,
-    family: 'gothita'
+    family: 'gothita',
   },
   {
     number: '576',
@@ -4978,7 +4978,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 176,
     baseDefense: 205,
     baseHealth: 172,
-    family: 'gothita'
+    family: 'gothita',
   },
   {
     number: '577',
@@ -4986,7 +4986,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 170,
     baseDefense: 83,
     baseHealth: 128,
-    family: 'solosis'
+    family: 'solosis',
   },
   {
     number: '578',
@@ -4994,7 +4994,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 208,
     baseDefense: 103,
     baseHealth: 163,
-    family: 'solosis'
+    family: 'solosis',
   },
   {
     number: '579',
@@ -5002,7 +5002,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 214,
     baseDefense: 148,
     baseHealth: 242,
-    family: 'solosis'
+    family: 'solosis',
   },
   {
     number: '580',
@@ -5010,7 +5010,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 84,
     baseDefense: 96,
     baseHealth: 158,
-    family: 'ducklett'
+    family: 'ducklett',
   },
   {
     number: '581',
@@ -5018,7 +5018,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 182,
     baseDefense: 132,
     baseHealth: 181,
-    family: 'ducklett'
+    family: 'ducklett',
   },
   {
     number: '582',
@@ -5026,7 +5026,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 106,
     baseHealth: 113,
-    family: 'vanillite'
+    family: 'vanillite',
   },
   {
     number: '583',
@@ -5034,7 +5034,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 151,
     baseDefense: 138,
     baseHealth: 139,
-    family: 'vanillite'
+    family: 'vanillite',
   },
   {
     number: '584',
@@ -5042,7 +5042,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 218,
     baseDefense: 184,
     baseHealth: 174,
-    family: 'vanillite'
+    family: 'vanillite',
   },
   {
     number: '585',
@@ -5050,7 +5050,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 100,
     baseHealth: 155,
-    family: 'deerling'
+    family: 'deerling',
   },
   {
     number: '586',
@@ -5058,7 +5058,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 198,
     baseDefense: 146,
     baseHealth: 190,
-    family: 'deerling'
+    family: 'deerling',
   },
   {
     number: '587',
@@ -5066,7 +5066,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 127,
     baseHealth: 146,
-    family: 'emolga'
+    family: 'emolga',
   },
   {
     number: '588',
@@ -5074,7 +5074,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 137,
     baseDefense: 87,
     baseHealth: 137,
-    family: 'karrablast'
+    family: 'karrablast',
   },
   {
     number: '589',
@@ -5082,7 +5082,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 187,
     baseHealth: 172,
-    family: 'karrablast'
+    family: 'karrablast',
   },
   {
     number: '590',
@@ -5090,7 +5090,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 97,
     baseDefense: 91,
     baseHealth: 170,
-    family: 'foongus'
+    family: 'foongus',
   },
   {
     number: '591',
@@ -5098,7 +5098,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 155,
     baseDefense: 139,
     baseHealth: 249,
-    family: 'foongus'
+    family: 'foongus',
   },
   {
     number: '592',
@@ -5106,7 +5106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 134,
     baseHealth: 146,
-    family: 'frillish'
+    family: 'frillish',
   },
   {
     number: '593',
@@ -5114,7 +5114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 159,
     baseDefense: 178,
     baseHealth: 225,
-    family: 'frillish'
+    family: 'frillish',
   },
   {
     number: '594',
@@ -5122,7 +5122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 138,
     baseDefense: 131,
     baseHealth: 338,
-    family: 'alomomola'
+    family: 'alomomola',
   },
   {
     number: '595',
@@ -5130,7 +5130,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 110,
     baseDefense: 98,
     baseHealth: 137,
-    family: 'joltik'
+    family: 'joltik',
   },
   {
     number: '596',
@@ -5138,7 +5138,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 128,
     baseHealth: 172,
-    family: 'joltik'
+    family: 'joltik',
   },
   {
     number: '597',
@@ -5146,7 +5146,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 82,
     baseDefense: 155,
     baseHealth: 127,
-    family: 'ferroseed'
+    family: 'ferroseed',
   },
   {
     number: '598',
@@ -5154,7 +5154,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 223,
     baseHealth: 179,
-    family: 'ferroseed'
+    family: 'ferroseed',
   },
   {
     number: '599',
@@ -5162,7 +5162,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 121,
     baseHealth: 120,
-    family: 'klink'
+    family: 'klink',
   },
   {
     number: '600',
@@ -5170,7 +5170,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 150,
     baseDefense: 174,
     baseHealth: 155,
-    family: 'klink'
+    family: 'klink',
   },
   {
     number: '601',
@@ -5178,7 +5178,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 199,
     baseDefense: 214,
     baseHealth: 155,
-    family: 'klink'
+    family: 'klink',
   },
   {
     number: '602',
@@ -5186,7 +5186,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 105,
     baseDefense: 78,
     baseHealth: 111,
-    family: 'tynamo'
+    family: 'tynamo',
   },
   {
     number: '603',
@@ -5194,7 +5194,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 130,
     baseHealth: 163,
-    family: 'tynamo'
+    family: 'tynamo',
   },
   {
     number: '604',
@@ -5202,7 +5202,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 217,
     baseDefense: 152,
     baseHealth: 198,
-    family: 'tynamo'
+    family: 'tynamo',
   },
   {
     number: '605',
@@ -5210,7 +5210,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 148,
     baseDefense: 100,
     baseHealth: 146,
-    family: 'elgyem'
+    family: 'elgyem',
   },
   {
     number: '606',
@@ -5218,7 +5218,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 221,
     baseDefense: 163,
     baseHealth: 181,
-    family: 'elgyem'
+    family: 'elgyem',
   },
   {
     number: '607',
@@ -5226,7 +5226,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 98,
     baseHealth: 137,
-    family: 'litwick'
+    family: 'litwick',
   },
   {
     number: '608',
@@ -5234,7 +5234,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 169,
     baseDefense: 115,
     baseHealth: 155,
-    family: 'litwick'
+    family: 'litwick',
   },
   {
     number: '609',
@@ -5242,7 +5242,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 271,
     baseDefense: 182,
     baseHealth: 155,
-    family: 'litwick'
+    family: 'litwick',
   },
   {
     number: '610',
@@ -5250,7 +5250,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 154,
     baseDefense: 101,
     baseHealth: 130,
-    family: 'axew'
+    family: 'axew',
   },
   {
     number: '611',
@@ -5258,7 +5258,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 212,
     baseDefense: 123,
     baseHealth: 165,
-    family: 'axew'
+    family: 'axew',
   },
   {
     number: '612',
@@ -5266,7 +5266,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 284,
     baseDefense: 172,
     baseHealth: 183,
-    family: 'axew'
+    family: 'axew',
   },
   {
     number: '613',
@@ -5274,7 +5274,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 128,
     baseDefense: 74,
     baseHealth: 146,
-    family: 'cubchoo'
+    family: 'cubchoo',
   },
   {
     number: '614',
@@ -5282,7 +5282,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 233,
     baseDefense: 152,
     baseHealth: 216,
-    family: 'cubchoo'
+    family: 'cubchoo',
   },
   {
     number: '615',
@@ -5290,7 +5290,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 190,
     baseDefense: 218,
     baseHealth: 190,
-    family: 'cryogonal'
+    family: 'cryogonal',
   },
   {
     number: '616',
@@ -5298,7 +5298,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 72,
     baseDefense: 140,
     baseHealth: 137,
-    family: 'shelmet'
+    family: 'shelmet',
   },
   {
     number: '617',
@@ -5306,7 +5306,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 220,
     baseDefense: 120,
     baseHealth: 190,
-    family: 'shelmet'
+    family: 'shelmet',
   },
   {
     number: '618',
@@ -5314,7 +5314,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 171,
     baseHealth: 240,
-    family: 'stunfisk'
+    family: 'stunfisk',
   },
   {
     number: '618',
@@ -5322,7 +5322,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 144,
     baseDefense: 171,
     baseHealth: 240,
-    family: 'stunfisk'
+    family: 'stunfisk',
   },
   {
     number: '619',
@@ -5330,7 +5330,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 160,
     baseDefense: 98,
     baseHealth: 128,
-    family: 'mienfoo'
+    family: 'mienfoo',
   },
   {
     number: '620',
@@ -5338,7 +5338,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 258,
     baseDefense: 127,
     baseHealth: 163,
-    family: 'mienfoo'
+    family: 'mienfoo',
   },
   {
     number: '621',
@@ -5346,7 +5346,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 213,
     baseDefense: 170,
     baseHealth: 184,
-    family: 'druddigon'
+    family: 'druddigon',
   },
   {
     number: '622',
@@ -5354,7 +5354,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 127,
     baseDefense: 92,
     baseHealth: 153,
-    family: 'golett'
+    family: 'golett',
   },
   {
     number: '623',
@@ -5362,7 +5362,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 222,
     baseDefense: 154,
     baseHealth: 205,
-    family: 'golett'
+    family: 'golett',
   },
   {
     number: '624',
@@ -5370,7 +5370,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 154,
     baseDefense: 114,
     baseHealth: 128,
-    family: 'pawniard'
+    family: 'pawniard',
   },
   {
     number: '625',
@@ -5378,7 +5378,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 232,
     baseDefense: 176,
     baseHealth: 163,
-    family: 'pawniard'
+    family: 'pawniard',
   },
   {
     number: '626',
@@ -5386,7 +5386,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 195,
     baseDefense: 182,
     baseHealth: 216,
-    family: 'bouffalant'
+    family: 'bouffalant',
   },
   {
     number: '627',
@@ -5394,7 +5394,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 150,
     baseDefense: 97,
     baseHealth: 172,
-    family: 'rufflet'
+    family: 'rufflet',
   },
   {
     number: '628',
@@ -5402,7 +5402,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 232,
     baseDefense: 152,
     baseHealth: 225,
-    family: 'rufflet'
+    family: 'rufflet',
   },
   {
     number: '629',
@@ -5410,7 +5410,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 105,
     baseDefense: 139,
     baseHealth: 172,
-    family: 'vullaby'
+    family: 'vullaby',
   },
   {
     number: '630',
@@ -5418,7 +5418,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 129,
     baseDefense: 205,
     baseHealth: 242,
-    family: 'vullaby'
+    family: 'vullaby',
   },
   {
     number: '631',
@@ -5426,7 +5426,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 204,
     baseDefense: 129,
     baseHealth: 198,
-    family: 'heatmor'
+    family: 'heatmor',
   },
   {
     number: '632',
@@ -5434,7 +5434,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 217,
     baseDefense: 188,
     baseHealth: 151,
-    family: 'durant'
+    family: 'durant',
   },
   {
     number: '633',
@@ -5442,7 +5442,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 93,
     baseHealth: 141,
-    family: 'deino'
+    family: 'deino',
   },
   {
     number: '634',
@@ -5450,7 +5450,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 159,
     baseDefense: 135,
     baseHealth: 176,
-    family: 'deino'
+    family: 'deino',
   },
   {
     number: '635',
@@ -5458,7 +5458,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 256,
     baseDefense: 188,
     baseHealth: 211,
-    family: 'deino'
+    family: 'deino',
   },
   {
     number: '636',
@@ -5466,7 +5466,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 156,
     baseDefense: 107,
     baseHealth: 146,
-    family: 'larvesta'
+    family: 'larvesta',
   },
   {
     number: '637',
@@ -5474,7 +5474,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 264,
     baseDefense: 189,
     baseHealth: 198,
-    family: 'larvesta'
+    family: 'larvesta',
   },
   {
     number: '638',
@@ -5482,7 +5482,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 229,
     baseHealth: 209,
-    family: 'cobalion'
+    family: 'cobalion',
   },
   {
     number: '639',
@@ -5490,7 +5490,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 260,
     baseDefense: 192,
     baseHealth: 209,
-    family: 'terrakion'
+    family: 'terrakion',
   },
   {
     number: '640',
@@ -5498,7 +5498,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 192,
     baseDefense: 229,
     baseHealth: 209,
-    family: 'virizion'
+    family: 'virizion',
   },
   {
     number: '641',
@@ -5506,7 +5506,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 266,
     baseDefense: 164,
     baseHealth: 188,
-    family: 'tornadus'
+    family: 'tornadus',
   },
   {
     number: '642',
@@ -5514,7 +5514,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 266,
     baseDefense: 164,
     baseHealth: 188,
-    family: 'thundurus'
+    family: 'thundurus',
   },
   {
     number: '643',
@@ -5522,7 +5522,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 275,
     baseDefense: 211,
     baseHealth: 205,
-    family: 'reshiram'
+    family: 'reshiram',
   },
   {
     number: '644',
@@ -5530,7 +5530,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 275,
     baseDefense: 211,
     baseHealth: 205,
-    family: 'zekrom'
+    family: 'zekrom',
   },
   {
     number: '645',
@@ -5538,7 +5538,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 261,
     baseDefense: 182,
     baseHealth: 205,
-    family: 'landorus'
+    family: 'landorus',
   },
   {
     number: '646',
@@ -5546,7 +5546,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 246,
     baseDefense: 170,
     baseHealth: 245,
-    family: 'kyurem'
+    family: 'kyurem',
   },
   {
     number: '647',
@@ -5554,7 +5554,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 260,
     baseDefense: 192,
     baseHealth: 209,
-    family: 'keldeo'
+    family: 'keldeo',
   },
   {
     number: '648',
@@ -5562,7 +5562,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 250,
     baseDefense: 225,
     baseHealth: 225,
-    family: 'meloetta'
+    family: 'meloetta',
   },
   {
     number: '649',
@@ -5570,7 +5570,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 252,
     baseDefense: 199,
     baseHealth: 174,
-    family: 'genesect'
+    family: 'genesect',
   },
   {
     number: '650',
@@ -5578,7 +5578,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 110,
     baseDefense: 106,
     baseHealth: 148,
-    family: 'chespin'
+    family: 'chespin',
   },
   {
     number: '651',
@@ -5586,7 +5586,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 146,
     baseDefense: 156,
     baseHealth: 156,
-    family: 'chespin'
+    family: 'chespin',
   },
   {
     number: '652',
@@ -5594,7 +5594,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 204,
     baseHealth: 204,
-    family: 'chespin'
+    family: 'chespin',
   },
   {
     number: '653',
@@ -5602,7 +5602,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 116,
     baseDefense: 102,
     baseHealth: 120,
-    family: 'fennekin'
+    family: 'fennekin',
   },
   {
     number: '654',
@@ -5610,7 +5610,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 171,
     baseDefense: 130,
     baseHealth: 153,
-    family: 'fennekin'
+    family: 'fennekin',
   },
   {
     number: '655',
@@ -5618,7 +5618,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 230,
     baseDefense: 189,
     baseHealth: 181,
-    family: 'fennekin'
+    family: 'fennekin',
   },
   {
     number: '656',
@@ -5626,7 +5626,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 122,
     baseDefense: 84,
     baseHealth: 121,
-    family: 'froakie'
+    family: 'froakie',
   },
   {
     number: '657',
@@ -5634,7 +5634,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 168,
     baseDefense: 114,
     baseHealth: 144,
-    family: 'froakie'
+    family: 'froakie',
   },
   {
     number: '658',
@@ -5642,7 +5642,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 223,
     baseDefense: 152,
     baseHealth: 176,
-    family: 'froakie'
+    family: 'froakie',
   },
   {
     number: '659',
@@ -5650,7 +5650,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 68,
     baseDefense: 72,
     baseHealth: 116,
-    family: 'bunnelby'
+    family: 'bunnelby',
   },
   {
     number: '660',
@@ -5658,7 +5658,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 112,
     baseDefense: 155,
     baseHealth: 198,
-    family: 'bunnelby'
+    family: 'bunnelby',
   },
   {
     number: '661',
@@ -5666,7 +5666,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 95,
     baseDefense: 80,
     baseHealth: 128,
-    family: 'fletchling'
+    family: 'fletchling',
   },
   {
     number: '662',
@@ -5674,7 +5674,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 145,
     baseDefense: 110,
     baseHealth: 158,
-    family: 'fletchling'
+    family: 'fletchling',
   },
   {
     number: '663',
@@ -5682,7 +5682,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 176,
     baseDefense: 155,
     baseHealth: 186,
-    family: 'fletchling'
+    family: 'fletchling',
   },
   {
     number: '664',
@@ -5690,7 +5690,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 63,
     baseDefense: 63,
     baseHealth: 116,
-    family: 'scatterbug'
+    family: 'scatterbug',
   },
   {
     number: '665',
@@ -5698,7 +5698,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 48,
     baseDefense: 89,
     baseHealth: 128,
-    family: 'scatterbug'
+    family: 'scatterbug',
   },
   {
     number: '666',
@@ -5706,7 +5706,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 176,
     baseDefense: 103,
     baseHealth: 190,
-    family: 'scatterbug'
+    family: 'scatterbug',
   },
   {
     number: '667',
@@ -5714,7 +5714,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 139,
     baseDefense: 112,
     baseHealth: 158,
-    family: 'litleo'
+    family: 'litleo',
   },
   {
     number: '668',
@@ -5722,7 +5722,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 221,
     baseDefense: 149,
     baseHealth: 200,
-    family: 'litleo'
+    family: 'litleo',
   },
   {
     number: '669',
@@ -5730,7 +5730,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 120,
     baseHealth: 127,
-    family: 'flabebe'
+    family: 'flabebe',
   },
   {
     number: '670',
@@ -5738,7 +5738,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 136,
     baseDefense: 151,
     baseHealth: 144,
-    family: 'flabebe'
+    family: 'flabebe',
   },
   {
     number: '671',
@@ -5746,7 +5746,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 212,
     baseDefense: 244,
     baseHealth: 186,
-    family: 'flabebe'
+    family: 'flabebe',
   },
   {
     number: '672',
@@ -5754,7 +5754,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 123,
     baseDefense: 102,
     baseHealth: 165,
-    family: 'skiddo'
+    family: 'skiddo',
   },
   {
     number: '673',
@@ -5762,7 +5762,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 196,
     baseDefense: 146,
     baseHealth: 265,
-    family: 'skiddo'
+    family: 'skiddo',
   },
   {
     number: '674',
@@ -5770,7 +5770,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 145,
     baseDefense: 107,
     baseHealth: 167,
-    family: 'pancham'
+    family: 'pancham',
   },
   {
     number: '675',
@@ -5778,7 +5778,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 226,
     baseDefense: 146,
     baseHealth: 216,
-    family: 'pancham'
+    family: 'pancham',
   },
   {
     number: '676',
@@ -5786,7 +5786,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 164,
     baseDefense: 167,
     baseHealth: 181,
-    family: 'furfrou'
+    family: 'furfrou',
   },
   {
     number: '677',
@@ -5794,7 +5794,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 120,
     baseDefense: 114,
     baseHealth: 158,
-    family: 'espurr'
+    family: 'espurr',
   },
   {
     number: '678',
@@ -5802,7 +5802,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 166,
     baseDefense: 167,
     baseHealth: 179,
-    family: 'espurr'
+    family: 'espurr',
   },
   {
     number: '682',
@@ -5810,7 +5810,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 110,
     baseDefense: 113,
     baseHealth: 186,
-    family: 'spritzee'
+    family: 'spritzee',
   },
   {
     number: '683',
@@ -5818,7 +5818,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 173,
     baseDefense: 150,
     baseHealth: 226,
-    family: 'spritzee'
+    family: 'spritzee',
   },
   {
     number: '684',
@@ -5826,7 +5826,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 109,
     baseDefense: 119,
     baseHealth: 158,
-    family: 'swirlix'
+    family: 'swirlix',
   },
   {
     number: '685',
@@ -5834,7 +5834,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 168,
     baseDefense: 163,
     baseHealth: 193,
-    family: 'swirlix'
+    family: 'swirlix',
   },
   {
     number: '686',
@@ -5842,7 +5842,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 98,
     baseDefense: 95,
     baseHealth: 142,
-    family: 'inkay'
+    family: 'inkay',
   },
   {
     number: '687',
@@ -5850,7 +5850,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 177,
     baseDefense: 165,
     baseHealth: 200,
-    family: 'inkay'
+    family: 'inkay',
   },
   {
     number: '688',
@@ -5858,7 +5858,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 96,
     baseDefense: 120,
     baseHealth: 123,
-    family: 'binacle'
+    family: 'binacle',
   },
   {
     number: '689',
@@ -5866,7 +5866,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 194,
     baseDefense: 205,
     baseHealth: 176,
-    family: 'binacle'
+    family: 'binacle',
   },
   {
     number: '690',
@@ -5874,7 +5874,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 109,
     baseDefense: 109,
     baseHealth: 137,
-    family: 'skrelp'
+    family: 'skrelp',
   },
   {
     number: '691',
@@ -5882,7 +5882,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 177,
     baseDefense: 207,
     baseHealth: 163,
-    family: 'skrelp'
+    family: 'skrelp',
   },
   {
     number: '692',
@@ -5890,7 +5890,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 108,
     baseDefense: 117,
     baseHealth: 137,
-    family: 'clauncher'
+    family: 'clauncher',
   },
   {
     number: '693',
@@ -5898,7 +5898,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 221,
     baseDefense: 171,
     baseHealth: 174,
-    family: 'clauncher'
+    family: 'clauncher',
   },
   {
     number: '694',
@@ -5906,7 +5906,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 115,
     baseDefense: 78,
     baseHealth: 127,
-    family: 'helioptile'
+    family: 'helioptile',
   },
   {
     number: '695',
@@ -5914,7 +5914,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 219,
     baseDefense: 168,
     baseHealth: 158,
-    family: 'helioptile'
+    family: 'helioptile',
   },
   {
     number: '696',
@@ -5922,7 +5922,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 158,
     baseDefense: 123,
     baseHealth: 151,
-    family: 'tyrunt'
+    family: 'tyrunt',
   },
   {
     number: '697',
@@ -5930,7 +5930,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 227,
     baseDefense: 191,
     baseHealth: 193,
-    family: 'tyrunt'
+    family: 'tyrunt',
   },
   {
     number: '698',
@@ -5938,7 +5938,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 124,
     baseDefense: 109,
     baseHealth: 184,
-    family: 'amaura'
+    family: 'amaura',
   },
   {
     number: '699',
@@ -5946,7 +5946,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 186,
     baseDefense: 163,
     baseHealth: 265,
-    family: 'amaura'
+    family: 'amaura',
   },
   {
     number: '700',
@@ -5954,7 +5954,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 203,
     baseDefense: 205,
     baseHealth: 216,
-    family: 'eevee'
+    family: 'eevee',
   },
   {
     number: '701',
@@ -5962,7 +5962,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 195,
     baseDefense: 153,
     baseHealth: 186,
-    family: 'hawlucha'
+    family: 'hawlucha',
   },
   {
     number: '702',
@@ -5970,7 +5970,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 164,
     baseDefense: 134,
     baseHealth: 167,
-    family: 'dedenne'
+    family: 'dedenne',
   },
   {
     number: '703',
@@ -5978,7 +5978,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 95,
     baseDefense: 285,
     baseHealth: 137,
-    family: 'carbink'
+    family: 'carbink',
   },
   {
     number: '704',
@@ -5986,7 +5986,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 101,
     baseDefense: 112,
     baseHealth: 128,
-    family: 'goomy'
+    family: 'goomy',
   },
   {
     number: '705',
@@ -5994,7 +5994,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 159,
     baseDefense: 176,
     baseHealth: 169,
-    family: 'goomy'
+    family: 'goomy',
   },
   {
     number: '706',
@@ -6002,7 +6002,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 220,
     baseDefense: 242,
     baseHealth: 207,
-    family: 'goomy'
+    family: 'goomy',
   },
   {
     number: '707',
@@ -6010,7 +6010,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 160,
     baseDefense: 179,
     baseHealth: 149,
-    family: 'klefki'
+    family: 'klefki',
   },
   {
     number: '708',
@@ -6018,7 +6018,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 125,
     baseDefense: 103,
     baseHealth: 125,
-    family: 'phantump'
+    family: 'phantump',
   },
   {
     number: '709',
@@ -6026,7 +6026,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 201,
     baseDefense: 154,
     baseHealth: 198,
-    family: 'phantump'
+    family: 'phantump',
   },
   {
     number: '712',
@@ -6034,7 +6034,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 117,
     baseDefense: 120,
     baseHealth: 146,
-    family: 'bergmite'
+    family: 'bergmite',
   },
   {
     number: '713',
@@ -6042,7 +6042,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 196,
     baseDefense: 240,
     baseHealth: 216,
-    family: 'bergmite'
+    family: 'bergmite',
   },
   {
     number: '714',
@@ -6050,7 +6050,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 83,
     baseDefense: 73,
     baseHealth: 120,
-    family: 'noibat'
+    family: 'noibat',
   },
   {
     number: '715',
@@ -6058,7 +6058,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 205,
     baseDefense: 175,
     baseHealth: 198,
-    family: 'noibat'
+    family: 'noibat',
   },
   {
     number: '716',
@@ -6066,7 +6066,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 275,
     baseDefense: 203,
     baseHealth: 270,
-    family: 'xerneas'
+    family: 'xerneas',
   },
   {
     number: '717',
@@ -6074,7 +6074,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 275,
     baseDefense: 203,
     baseHealth: 270,
-    family: 'yveltal'
+    family: 'yveltal',
   },
   {
     number: '808',
@@ -6082,7 +6082,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 118,
     baseDefense: 99,
     baseHealth: 130,
-    family: 'meltan'
+    family: 'meltan',
   },
   {
     number: '809',
@@ -6090,7 +6090,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 226,
     baseDefense: 190,
     baseHealth: 264,
-    family: 'meltan'
+    family: 'meltan',
   },
   {
     number: '862',
@@ -6098,7 +6098,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 180,
     baseDefense: 194,
     baseHealth: 212,
-    family: 'zigzagoon'
+    family: 'zigzagoon',
   },
   {
     number: '863',
@@ -6106,7 +6106,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 195,
     baseDefense: 162,
     baseHealth: 172,
-    family: 'meowth'
+    family: 'meowth',
   },
   {
     number: '865',
@@ -6114,7 +6114,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 248,
     baseDefense: 176,
     baseHealth: 158,
-    family: 'farfetchd'
+    family: 'farfetchd',
   },
   {
     number: '866',
@@ -6122,7 +6122,7 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 212,
     baseDefense: 179,
     baseHealth: 190,
-    family: 'mr_mime'
+    family: 'mr_mime',
   },
   {
     number: '867',
@@ -6130,8 +6130,8 @@ const pokedex: PokedexEntry[] = [
     baseAttack: 163,
     baseDefense: 237,
     baseHealth: 151,
-    family: 'yamask'
-  }
+    family: 'yamask',
+  },
 ];
 
 export function getByName({ name }: PokedexSearchRequest): PokedexEntry {
@@ -6142,6 +6142,7 @@ export function getByName({ name }: PokedexSearchRequest): PokedexEntry {
   return entry;
 }
 
-export const getByFamily = ({ name }: PokedexSearchRequest): PokedexEntry[] => pokedex.filter(pokemon => pokemon.name === name);
+export const getByFamily = ({ name }: PokedexSearchRequest): PokedexEntry[] =>
+  pokedex.filter(pokemon => pokemon.name === name);
 
 export default pokedex;
