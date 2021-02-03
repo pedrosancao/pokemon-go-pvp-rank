@@ -10,9 +10,9 @@
     "url": "https://github.com/pedrosancao/pokemon-go-pvp-rank.git"
   },
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
-    "prepublish": "tsc",
+    "prepare": "tsc",
     "build": "tsc",
     "start": "ts-node-dev --respawn src/index.ts",
     "test": "jest"
