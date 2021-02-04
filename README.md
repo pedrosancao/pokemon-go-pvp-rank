@@ -36,7 +36,7 @@ import { calculateRank, getByName } from 'pokemon-go-pvp-rank';
 const { calculateRank, getByName } = require('pokemon-go-pvp-rank');
 ```
 
-All function user objects as named parameters.
+All function use objects as named parameters.
 
 ```javascript
 const pokedexEntry = getByName({ name: 'Machamp' });
