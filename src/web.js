@@ -1,4 +1,4 @@
-import { pokedex, getByName, getByFamily, calculateRank } from './main.js';
+import { pokedex, getByName, getByFamily, calculateRank } from '../dist/esm/index.js';
 
 const pokemonName = 'Machamp'
 const pokedexEntry = getByName({ name: pokemonName });

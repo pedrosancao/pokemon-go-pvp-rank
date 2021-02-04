@@ -1,5 +1,8 @@
-import levelConstants, { indexToLevel, levelToIndex } from './level-constants';
-import { PokedexEntry } from './pokedex';
+import levelConstants, {
+  indexToLevel,
+  levelToIndex,
+} from './level-constants.js';
+import { PokedexEntry } from './pokedex.js';
 
 export interface StatProducts {
   attackProduct: number;
