@@ -2,7 +2,9 @@
   "name": "pokemon-go-pvp-rank",
   "version": "0.2.0",
   "description": "Pokémon Go PVP ranking calculator",
-  "keywords": ["pokemon-go"],
+  "keywords": [
+    "pokemon-go"
+  ],
   "author": "Pedro Sanção <pedrosancao@users.noreply.github.com>",
   "license": "MIT",
   "repository": {
@@ -54,6 +56,11 @@
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "coverage",
+    "moduleNameMapper": {
+      "^\\./(level-constants)\\.js$": "<rootDir>/src/$1",
+      "^\\./(pokedex)\\.js$": "<rootDir>/src/$1",
+      "^\\./(rank-calculator)\\.js$": "<rootDir>/src/$1"
+    },
     "transform": {
       "^.+\\.ts$": "babel-jest"
     }
