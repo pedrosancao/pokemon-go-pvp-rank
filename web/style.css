@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  width: 40rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+[class^=form-group] {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+[class^=form-group] > * + * {
+  margin-left: 0.5rem;
+}
+.form-group__range label {
+  width: 6rem;
+}
+.form-group__range input[type=number] {
+  width: 4rem;
+}
+.form-group__range input[type=range] {
+  flex-grow: 1;
+}

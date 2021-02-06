@@ -5,8 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Pokémon Go PVP Ranking</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="web/style.css">
 </head>
 <body>
+  <main>
+    <form>
+      <div class="form-group">
+        <label for="pokemon">Pokémon</label>
+        <input type="text" name="pokemon" id="pokemon" list="pokedex">
+        <datalist id="pokedex"></datalist>
+      </div>
+      <div class="form-group__range">
+        <label for="attack">Attack</label>
+        <input type="number" name="attack" id="attack" min="0" max="15" step="1" value="0" data-sync="#attack-range">
+        <input type="range" id="attack-range" min="0" max="15" step="1" value="0" data-sync="#attack">
+      </div>
+      <div class="form-group__range">
+        <label for="defense">Defense</label>
+        <input type="number" name="defense" id="defense" min="0" max="15" step="1" value="0" data-sync="#defense-range">
+        <input type="range" id="defense-range" min="0" max="15" step="1" value="0" data-sync="#defense">
+      </div>
+      <div class="form-group__range">
+        <label for="health">HP</label>
+        <input type="number" name="health" id="health" min="0" max="15" step="1" value="0" data-sync="#health-range">
+        <input type="range" id="health-range" min="0" max="15" step="1" value="0" data-sync="#health">
+      </div>
+      <button type="button" id="calculate">Calculate</button>
+    </form>
+  </main>
   <script type="module" src="web/main.js"></script>
 </body>
 </html>
