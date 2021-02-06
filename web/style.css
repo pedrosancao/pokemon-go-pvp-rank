@@ -1,11 +1,46 @@
+* {
+  box-sizing: border-box;
+}
 body {
   text-align: center;
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.message {
+  margin: 0 auto 1rem;
+  padding: 0 0.5rem 0.25rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.message span {
+  margin-top: 0.25rem;
+}
+.message button {
+  margin: 0;
+  margin-left: 0.5rem;
+  border: 0;
+  padding: 0 0.25rem;
+  background: none;
+  font-size: 2rem;
+  line-height: normal;
+  cursor: pointer;
+}
+.message.error {
+  background-color: #ab3434;
+}
+.message.error span,
+.message.error button {
+  color: #e9e4e4;
+}
+.hidden {
+  display: none;
+}
 main {
   width: 40rem;
   max-width: 100%;
+  min-width: 20rem;
   margin: 0 auto;
   padding: 1rem;
   border-radius: 1rem;
@@ -21,7 +56,7 @@ main {
   margin-left: 0.5rem;
 }
 .form-group__range label {
-  width: 6rem;
+  width: 5rem;
 }
 .form-group__range input[type=number] {
   width: 4rem;
