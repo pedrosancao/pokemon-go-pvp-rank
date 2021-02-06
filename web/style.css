@@ -64,3 +64,12 @@ main {
 .form-group__range input[type=range] {
   flex-grow: 1;
 }
+table {
+  width: 100%;
+  max-width: 60rem;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}

@@ -8,6 +8,7 @@ import { hideMessage, showMessage } from './message.js'
 
 const datalist = document.getElementById('pokedex');
 const submit = document.getElementById('calculate');
+const result = document.getElementById('result');
 
 pokedex.forEach(({ name }) => {
   datalist.append(new Option(name, name));
@@ -42,6 +43,26 @@ function makeRank(pokemon, { attack, defense, health }) {
   })
 }
 
+function renderTable(rows, quantity) {
+  result.innerHTML = '';
+  rows.slice(0, quantity || rows.length).forEach(row => {
+    const tr = result.appendChild(document.createElement('tr'));
+    if (row.color) {
+      tr.style.backgroundColor = row.color;
+    }
+    const cells = [
+      row.rank,
+      row.attackStat,
+      row.defenseStat,
+      row.healthStat,
+      row.level,
+      row.cp,
+      row.percentual,
+    ];
+    tr.innerHTML = `<td>${cells.join('</td><td>')}</td>`;
+  });
+}
+
 submit.addEventListener('click', () => {
   const formData = {};
   hideMessage();
@@ -53,7 +74,20 @@ submit.addEventListener('click', () => {
     defense: parseInt(formData.defense, 10),
     health: parseInt(formData.health, 10),
   }).then(({ occurence, rank }) => {
-    console.log(occurence);
+    const maxProduct = rank[0].product;
+    const minProduct = rank[rank.length - 1].product;
+    const productRange = maxProduct - minProduct;
+    const result = rank.map(({ product, ...props }) => {
+      const percentual = (product / maxProduct * 100).toFixed(2) + '%';
+      return { ...props, product, percentual }
+    })
+    const colorHue = parseInt((occurence.product - minProduct) / productRange * 100);
+    result.unshift({
+      ...occurence,
+      percentual: (occurence.product / maxProduct * 100).toFixed(2) + '%',
+      color: `hsl(${colorHue}, 100%, 50%)`,
+    });
+    renderTable(result, 50);
   }, error => {
     console.log(error.message);
     showMessage('Could not find Pokémon data.');
