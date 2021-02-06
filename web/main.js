@@ -93,3 +93,22 @@ submit.addEventListener('click', () => {
     showMessage('Could not find Pokémon data.');
   });
 });
+
+const rangeScaleBeforeRule = Array.prototype.find.call(document.styleSheets[0].rules, rule => {
+  return rule.selectorText === '.range-scale::before';
+})
+
+function placeRangeScale() {
+  const range = document.querySelector('.range-scale [type=range]');
+  const { width, height } = range.getBoundingClientRect();
+  const offset = height / 2;
+  const distance = (width - height) / (range.max || 1);
+  const [, sizeY] = rangeScaleBeforeRule.style.backgroundSize.split(' ');
+  const [, positionY] = rangeScaleBeforeRule.style.backgroundPosition.split(' ');
+  rangeScaleBeforeRule.style.backgroundSize = `${distance}px ${sizeY}`;
+  rangeScaleBeforeRule.style.backgroundPosition = `${offset}px ${positionY}`;
+}
+window.addEventListener('resize', () => {
+  requestAnimationFrame(placeRangeScale);
+});
+placeRangeScale();
