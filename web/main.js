@@ -4,7 +4,7 @@ import {
   getByFamily,
   calculateRank,
 } from '../dist/index.js';
-import { hideMessage, showMessage } from './message.js'
+import { hideMessage, showMessage } from './message.js';
 
 const datalist = document.getElementById('pokedex');
 const submit = document.getElementById('calculate');
@@ -40,7 +40,7 @@ function makeRank(pokemon, { attack, defense, health }) {
     } catch (error) {
       reject(error);
     }
-  })
+  });
 }
 
 function renderTable(rows, quantity) {
@@ -73,42 +73,25 @@ submit.addEventListener('click', () => {
     attack: parseInt(formData.attack, 10),
     defense: parseInt(formData.defense, 10),
     health: parseInt(formData.health, 10),
-  }).then(({ occurence, rank }) => {
-    const maxProduct = rank[0].product;
-    const minProduct = rank[rank.length - 1].product;
-    const productRange = maxProduct - minProduct;
-    const result = rank.map(({ product, ...props }) => {
-      const percentual = (product / maxProduct * 100).toFixed(2) + '%';
-      return { ...props, product, percentual }
+  })
+    .then(({ occurence, rank }) => {
+      const max = rank[0].product;
+      const min = rank[rank.length - 1].product;
+      const range = max - min;
+      const table = rank.map(({ product, ...props }) => {
+        const percentual = `${((product / max) * 100).toFixed(2)}%`;
+        return { ...props, product, percentual };
+      });
+      const colorHue = parseInt(((occurence.product - min) / range) * 100, 10);
+      table.unshift({
+        ...occurence,
+        percentual: `${((occurence.product / max) * 100).toFixed(2)}%`,
+        color: `hsl(${colorHue}, 100%, 50%)`,
+      });
+      renderTable(table, 50);
     })
-    const colorHue = parseInt((occurence.product - minProduct) / productRange * 100);
-    result.unshift({
-      ...occurence,
-      percentual: (occurence.product / maxProduct * 100).toFixed(2) + '%',
-      color: `hsl(${colorHue}, 100%, 50%)`,
+    .catch(error => {
+      console.log(error.message);
+      showMessage('Could not find Pokémon data.');
     });
-    renderTable(result, 50);
-  }, error => {
-    console.log(error.message);
-    showMessage('Could not find Pokémon data.');
-  });
 });
-
-const rangeScaleBeforeRule = Array.prototype.find.call(document.styleSheets[0].rules, rule => {
-  return rule.selectorText === '.range-scale::before';
-})
-
-function placeRangeScale() {
-  const range = document.querySelector('.range-scale [type=range]');
-  const { width, height } = range.getBoundingClientRect();
-  const offset = height / 2;
-  const distance = (width - height) / (range.max || 1);
-  const [, sizeY] = rangeScaleBeforeRule.style.backgroundSize.split(' ');
-  const [, positionY] = rangeScaleBeforeRule.style.backgroundPosition.split(' ');
-  rangeScaleBeforeRule.style.backgroundSize = `${distance}px ${sizeY}`;
-  rangeScaleBeforeRule.style.backgroundPosition = `${offset}px ${positionY}`;
-}
-window.addEventListener('resize', () => {
-  requestAnimationFrame(placeRangeScale);
-});
-placeRangeScale();
