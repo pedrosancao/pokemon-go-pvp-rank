@@ -69,6 +69,7 @@ function renderTable(rows, quantity) {
 document.forms[0].addEventListener('submit', event => {
   event.preventDefault();
   const formData = new FormData(event.target);
+  hideMessage();
   makeRank(formData.get('pokemon'), {
     attack: parseInt(formData.get('attack'), 10),
     defense: parseInt(formData.get('defense'), 10),
