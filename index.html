@@ -37,7 +37,53 @@
           <input type="range" id="health-range" min="0" max="15" step="1" value="0" tabindex="-1" data-sync="#health">
         </div>
       </div>
-      <button type="button" id="calculate">Calculate</button>
+      <div class="form-group">
+        <label for="max-level">Max. level</label>
+        <input type="number" name="max-level" id="max-level" value="40" min="1" max="55" step="1">
+      </div>
+      <div class="form-group">
+        <label for="min-stat">Min. IV</label>
+        <select name="min-stat" id="min-stat">
+          <option value="0">0 (Wild Catches)</option>
+          <option value="1">1 (Good Friends)</option>
+          <option value="2">2 (Great Friends)</option>
+          <option value="3">3 (Ultra Friends)</option>
+          <option value="4">4 (Weather Boosted)</option>
+          <option value="5">5 (Best Friends)</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10 (Research/Raid/Egg)</option>
+          <option value="11">11</option>
+          <option value="12">12 (Lucky)</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+        </select>
+      </div>
+      <div class="form-group__radio">
+        <label>League</label>
+        <div>
+          <label>
+            <input type="radio" name="max-cp" value="1500" accesskey="g" checked>
+            Great (1500)
+          </label>
+          <label>
+            <input type="radio" name="max-cp" value="2500" accesskey="u">
+            Ultra (2500)
+          </label>
+          <label>
+            <input type="radio" name="max-cp" value="9999" accesskey="m">
+            Master (no limit)
+          </label>
+          <label>
+            <input type="radio" name="max-cp" value="500" accesskey="l">
+            Little Cup (500)
+          </label>
+        </div>
+      </div>
+      <button type="submit" id="calculate">Calculate</button>
     </form>
   </main>
   <table>

@@ -41,7 +41,7 @@ body {
   display: none;
 }
 main {
-  width: 40rem;
+  width: 30rem;
   max-width: 100%;
   min-width: 20rem;
   margin: 0 auto;
@@ -52,12 +52,12 @@ main {
 button,
 input[type=text],
 input[type=number] {
-  padding: 0.5rem 0.25rem;
+  padding: 0.25rem;
   border: 1px #ccc solid;
   border-radius: 0.25rem;
 }
 button {
-  padding: 0.5rem 0.5rem;
+  padding: 0.25rem 0.5rem;
 }
 [class^=form-group] {
   margin-bottom: 1rem;
@@ -67,6 +67,16 @@ button {
 }
 [class^=form-group] > * + * {
   margin-left: 0.5rem;
+}
+.form-group label {
+  width: 6rem;
+}
+.form-group label + * {
+  flex-grow: 1;
+}
+.form-group input,
+.form-group select {
+  min-width: 2rem;
 }
 .form-group__range label {
   width: 3rem;
@@ -79,6 +89,11 @@ button {
 }
 .form-group__range .range-scale input[type=range] {
   width: 100%;
+}
+.form-group__radio div label {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
 }
 table {
   width: 100%;

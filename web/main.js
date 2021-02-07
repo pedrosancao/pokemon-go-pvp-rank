@@ -8,7 +8,6 @@ import {
 import { hideMessage, showMessage } from './message.js';
 
 const datalist = document.getElementById('pokedex');
-const submit = document.getElementById('calculate');
 const result = document.getElementById('result');
 
 pokedex.forEach(({ name }) => {
@@ -24,7 +23,10 @@ document.querySelectorAll('[data-sync]').forEach(el => {
   });
 });
 
-function makeRank(pokemon, { attack, defense, health }) {
+function makeRank(
+  pokemon,
+  { attack, defense, health, maxCP, maxLevel, minimumStatValue },
+) {
   return new Promise((resolve, reject) => {
     try {
       const pokedexEntry = getByName({ name: pokemon });
@@ -33,9 +35,9 @@ function makeRank(pokemon, { attack, defense, health }) {
         refAttackStat: attack,
         refDefenseStat: defense,
         refHealthStat: health,
-        maxCP: 1500,
-        maxLevel: 40,
-        minimumStatValue: 0,
+        maxCP,
+        maxLevel,
+        minimumStatValue,
       });
       resolve({ occurence, rank });
     } catch (error) {
@@ -64,16 +66,16 @@ function renderTable(rows, quantity) {
   });
 }
 
-submit.addEventListener('click', () => {
-  const formData = {};
-  hideMessage();
-  document.querySelectorAll('input[name]').forEach(({ name, value }) => {
-    formData[name] = value;
-  });
-  makeRank(formData.pokemon, {
-    attack: parseInt(formData.attack, 10),
-    defense: parseInt(formData.defense, 10),
-    health: parseInt(formData.health, 10),
+document.forms[0].addEventListener('submit', event => {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+  makeRank(formData.get('pokemon'), {
+    attack: parseInt(formData.get('attack'), 10),
+    defense: parseInt(formData.get('defense'), 10),
+    health: parseInt(formData.get('health'), 10),
+    maxCP: parseInt(formData.get('max-cp'), 10),
+    maxLevel: parseInt(formData.get('max-level'), 10),
+    minimumStatValue: parseInt(formData.get('min-stat'), 10),
   })
     .then(({ occurence, rank }) => {
       const max = rank[0].product;
