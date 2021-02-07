@@ -80,18 +80,6 @@ button {
 .form-group__range .range-scale input[type=range] {
   width: 100%;
 }
-.range-scale {
-  position: relative;
-}
-.range-scale::before {
-  content: '';
-  position: absolute;
-  inset: auto 0 0;
-  height: 0.3rem;
-  background-image: linear-gradient(90deg, var(--scale-color), var(--scale-color) 1px, transparent 1.01px);
-  background-size: 100% 0.3rem;
-  background-position: 10px 0;
-}
 table {
   width: 100%;
   max-width: 60rem;

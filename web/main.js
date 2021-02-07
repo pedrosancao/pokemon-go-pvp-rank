@@ -1,3 +1,4 @@
+import './input-range/index.js';
 import {
   pokedex,
   getByName,
