@@ -16,24 +16,24 @@
         <datalist id="pokedex"></datalist>
       </div>
       <div class="form-group__range">
-        <label for="attack">Attack</label>
-        <input type="number" name="attack" id="attack" min="0" max="15" step="1" value="0" data-sync="#attack-range">
+        <label for="attack">Att.</label>
+        <input type="number" name="attack" id="attack" min="0" max="15" step="1" value="0" accesskey="a" data-sync="#attack-range">
         <div class="range-scale">
-          <input type="range" id="attack-range" min="0" max="15" step="1" value="0" data-sync="#attack">
+          <input type="range" id="attack-range" min="0" max="15" step="1" value="0" tabindex="-1" data-sync="#attack">
         </div>
       </div>
       <div class="form-group__range">
-        <label for="defense">Defense</label>
-        <input type="number" name="defense" id="defense" min="0" max="15" step="1" value="0" data-sync="#defense-range">
+        <label for="defense">Def.</label>
+        <input type="number" name="defense" id="defense" min="0" max="15" step="1" value="0" accesskey="d" data-sync="#defense-range">
         <div class="range-scale">
-          <input type="range" id="defense-range" min="0" max="15" step="1" value="0" data-sync="#defense">
+          <input type="range" id="defense-range" min="0" max="15" step="1" value="0" tabindex="-1" data-sync="#defense">
         </div>
       </div>
       <div class="form-group__range">
         <label for="health">HP</label>
-        <input type="number" name="health" id="health" min="0" max="15" step="1" value="0" data-sync="#health-range">
+        <input type="number" name="health" id="health" min="0" max="15" step="1" value="0" accesskey="h" data-sync="#health-range">
         <div class="range-scale">
-          <input type="range" id="health-range" min="0" max="15" step="1" value="0" data-sync="#health">
+          <input type="range" id="health-range" min="0" max="15" step="1" value="0" tabindex="-1" data-sync="#health">
         </div>
       </div>
       <button type="button" id="calculate">Calculate</button>
@@ -43,12 +43,12 @@
     <thead>
       <tr>
         <th>#</th>
-        <th>Attack</th>
-        <th>Defense</th>
+        <th>Att.</th>
+        <th>Def.</th>
         <th>HP</th>
         <th>Level</th>
         <th>CP</th>
-        <th>% to #1</th>
+        <th>%</th>
       </tr>
     </thead>
     <tbody id="result"></tbody>
