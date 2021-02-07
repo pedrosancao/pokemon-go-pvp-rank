@@ -19,8 +19,8 @@ const beforeRule = sheet.cssRules[1];
 function placeRangeScale() {
   const range = document.querySelector('.range-scale [type=range]');
   const { width, height } = range.getBoundingClientRect();
-  const offset = height / 2;
-  const distance = (width - height) / (range.max || 1);
+  const offset = height / 2 - 1;
+  const distance = (width - height + 1) / (range.max || 1);
   const [, sizeY] = beforeRule.style.backgroundSize.split(' ');
   const [, positionY] = beforeRule.style.backgroundPosition.split(' ');
   beforeRule.style.backgroundSize = `${distance}px ${sizeY}`;
