@@ -55,9 +55,7 @@ function renderTable(rows, quantity) {
     }
     const cells = [
       row.rank,
-      row.attackStat,
-      row.defenseStat,
-      row.healthStat,
+      `${row.attackStat}/${row.defenseStat}/${row.healthStat}`,
       row.level,
       row.cp,
       row.percentual,
