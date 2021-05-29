@@ -6143,6 +6143,6 @@ export function getByName({ name }: PokedexSearchRequest): PokedexEntry {
 }
 
 export const getByFamily = ({ name }: PokedexSearchRequest): PokedexEntry[] =>
-  pokedex.filter(pokemon => pokemon.name === name);
+  pokedex.filter(pokemon => pokemon.family === name);
 
 export default pokedex;
