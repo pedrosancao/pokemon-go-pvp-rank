@@ -1,4 +1,4 @@
-import { getByName, calculateRank } from '../index';
+import { getByName, calculateRank, getByFamily } from '../index';
 
 describe('general-test', () => {
   it('should generate ranking', () => {
@@ -65,5 +65,14 @@ describe('general-test', () => {
         },
       ]),
     );
+  });
+
+  it('should return family', () => {
+    const pokedexEntry = getByName({ name: 'Machamp' });
+    const pokemonFamily = getByFamily({ name: pokedexEntry.family });
+    expect(pokemonFamily).toHaveLength(3);
+    expect(pokemonFamily[0].name).toEqual('Machop');
+    expect(pokemonFamily[1].name).toEqual('Machoke');
+    expect(pokemonFamily[2].name).toEqual('Machamp');
   });
 });
