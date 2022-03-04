@@ -14,7 +14,7 @@
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "prepare": "tsc",
+    "prepublishOnly": "tsc",
     "build": "tsc",
     "build:esm": "tsc -p tsconfig.esm.json",
     "start": "ts-node-dev --respawn src/index.ts",
