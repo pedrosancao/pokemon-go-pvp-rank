@@ -65,7 +65,7 @@ export default function calculateRank({ pokedexEntry, refAttackStat, refDefenseS
             el.healthStat === refHealthStat);
     });
     if (!occurence) {
-        throw new Error('Could not find a rank occurence');
+        throw new Error('Could not find a rank occurence.');
     }
     return { occurence, rank };
 }

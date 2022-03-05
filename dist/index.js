@@ -1,3 +1,3 @@
-import pokedex, { getByName, getByFamily } from './pokedex.js';
-import calculateRank from './rank-calculator.js';
+import pokedex, { getByName, getByFamily } from './pokedex';
+import calculateRank from './rank-calculator';
 export { pokedex, getByName, getByFamily, calculateRank };
