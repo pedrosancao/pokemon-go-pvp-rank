@@ -153,7 +153,7 @@ export default function calculateRank({
     );
   });
   if (!occurence) {
-    throw new Error('Could not find a rank occurence');
+    throw new Error('Could not find a rank occurence.');
   }
   return { occurence, rank };
 }
